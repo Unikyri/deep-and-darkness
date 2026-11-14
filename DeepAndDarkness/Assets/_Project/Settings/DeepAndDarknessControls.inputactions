@@ -1,0 +1,36 @@
+{
+    "version": 1,
+    "name": "DeepAndDarknessControls",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "88d7db5d-862f-4195-91a1-aabae7447baf",
+            "actions": [
+                {
+                    "name": "Lift",
+                    "type": "Button",
+                    "id": "15c2ef08-d184-42f2-998b-f63ef5c9c0cd",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f48f28ce-58d9-4d91-a724-84252ff46c02",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lift",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
