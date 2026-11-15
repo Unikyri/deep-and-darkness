@@ -1,64 +1,50 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class MenuManager : MonoBehaviour
 {
     // UI Elements
     [Header("Main Menu Panels")]
-    public GameObject mainMenuPanel;
-    public GameObject storyPanel;
-    public GameObject controlsPanel;
-    public GameObject soundPanel;
-    public GameObject creditsPanel;
+    [SerializeField] private GameObject mainMenuPanel;
+    [SerializeField] private GameObject storyPanel;
+    [SerializeField] private GameObject controlsPanel;
+    [SerializeField] private GameObject soundPanel;
+    [SerializeField] private GameObject creditsPanel;
+
+    [SerializeField] private float fadeDuration = 0.2f; // Duration for fade in/out animations
+
     private void Start()
     {
         ShowMainMenu();
     }
 
-    public void ShowMainMenu()
-    {
-        mainMenuPanel.SetActive(true);
-        storyPanel.SetActive(false);
-        controlsPanel.SetActive(false);
-        soundPanel.SetActive(false);
-        creditsPanel.SetActive(false);
-    }
+    // Methods to show different panels
+    public void ShowMainMenu() => StartCoroutine(ShowPanelWithFade(mainMenuPanel));
+    public void ShowStoryPanel() => StartCoroutine(ShowPanelWithFade(storyPanel));
+    public void ShowControlsPanel() => StartCoroutine(ShowPanelWithFade(controlsPanel));
+    public void ShowSoundPanel() => StartCoroutine(ShowPanelWithFade(soundPanel));
+    public void ShowCreditsPanel() => StartCoroutine(ShowPanelWithFade(creditsPanel));
 
-    public void ShowStoryPanel()
+    private IEnumerator ShowPanelWithFade(GameObject panelToShow)
     {
-        mainMenuPanel.SetActive(false);
-        storyPanel.SetActive(true);
-        controlsPanel.SetActive(false);
-        soundPanel.SetActive(false);
-        creditsPanel.SetActive(false);
-    }
+        GameObject[] panels = {mainMenuPanel, storyPanel, controlsPanel, soundPanel, creditsPanel };
 
-    public void ShowControlsPanel()
-    {
-        mainMenuPanel.SetActive(false);
-        storyPanel.SetActive(false);
-        controlsPanel.SetActive(true);
-        soundPanel.SetActive(false);
-        creditsPanel.SetActive(false);
-    }
+        foreach (GameObject panel in panels)
+            panel.SetActive(panel == panelToShow);
+        CanvasGroup group = panelToShow.GetComponent<CanvasGroup>();
+        group.alpha = 0f;
 
-    public void ShowSoundPanel()
-    {
-        mainMenuPanel.SetActive(false);
-        storyPanel.SetActive(false);
-        controlsPanel.SetActive(false);
-        soundPanel.SetActive(true);
-        creditsPanel.SetActive(false);
-    }
 
-    public void ShowCreditsPanel()
-    {
-        mainMenuPanel.SetActive(false);
-        storyPanel.SetActive(false);
-        controlsPanel.SetActive(false);
-        soundPanel.SetActive(false);
-        creditsPanel.SetActive(true);
+        float elapsedTime = 0f;
+        while (elapsedTime < fadeDuration)
+        {
+            elapsedTime += Time.unscaledDeltaTime;
+            group.alpha = Mathf.Clamp01(elapsedTime / fadeDuration);
+            yield return null;
+        }
+
+        group.alpha = 1f; // Ensure the panel is fully visible at the end of the fade
     }
 
     public void StartGame()

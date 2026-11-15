@@ -267,6 +267,7 @@ GameObject:
   - component: {fileID: 58554112}
   - component: {fileID: 58554114}
   - component: {fileID: 58554113}
+  - component: {fileID: 58554115}
   m_Layer: 0
   m_Name: MainMenuPanel
   m_TagString: Untagged
@@ -332,6 +333,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 58554111}
   m_CullTransparentMesh: 1
+--- !u!225 &58554115
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58554111}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &70967638
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,6 +970,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 210142965}
   m_CullTransparentMesh: 1
+--- !u!1 &247310633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 247310634}
+  - component: {fileID: 247310636}
+  - component: {fileID: 247310635}
+  m_Layer: 0
+  m_Name: PlayIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &247310634
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247310633}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 404939133}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 121, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &247310635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247310633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 579d4d85c74d0a945b85cfecfb010e1b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &247310636
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247310633}
+  m_CullTransparentMesh: 1
 --- !u!1 &252798114
 GameObject:
   m_ObjectHideFlags: 0
@@ -1466,6 +1554,7 @@ GameObject:
   - component: {fileID: 331289642}
   - component: {fileID: 331289644}
   - component: {fileID: 331289643}
+  - component: {fileID: 331289645}
   m_Layer: 0
   m_Name: CredictsPanel
   m_TagString: Untagged
@@ -1531,6 +1620,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 331289641}
   m_CullTransparentMesh: 1
+--- !u!225 &331289645
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331289641}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &335910944
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,6 +1800,7 @@ GameObject:
   - component: {fileID: 404939136}
   - component: {fileID: 404939135}
   - component: {fileID: 404939134}
+  - component: {fileID: 404939137}
   m_Layer: 0
   m_Name: Play
   m_TagString: Untagged
@@ -1718,6 +1820,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 247310634}
   - {fileID: 1983016668}
   m_Father: {fileID: 793548692}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1745,7 +1848,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 0.78431374, g: 0.75686276, b: 0.7254902, a: 1}
     m_HighlightedColor: {r: 0.33333334, g: 0.7882353, b: 0.78039217, a: 1}
@@ -1820,6 +1923,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 404939132}
   m_CullTransparentMesh: 1
+--- !u!95 &404939137
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404939132}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 287d7a0a3dcc1054f8d9c9171192e4e5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &417042536
 GameObject:
   m_ObjectHideFlags: 0
@@ -2192,6 +2317,7 @@ MonoBehaviour:
   controlsPanel: {fileID: 652173139}
   soundPanel: {fileID: 965238651}
   creditsPanel: {fileID: 331289641}
+  fadeDuration: 0.2
 --- !u!1 &567102056
 GameObject:
   m_ObjectHideFlags: 0
@@ -2341,6 +2467,7 @@ GameObject:
   - component: {fileID: 652173140}
   - component: {fileID: 652173142}
   - component: {fileID: 652173141}
+  - component: {fileID: 652173143}
   m_Layer: 0
   m_Name: ControlsPanel
   m_TagString: Untagged
@@ -2406,6 +2533,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652173139}
   m_CullTransparentMesh: 1
+--- !u!225 &652173143
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652173139}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &709009579
 GameObject:
   m_ObjectHideFlags: 0
@@ -3596,6 +3735,7 @@ GameObject:
   - component: {fileID: 965238652}
   - component: {fileID: 965238654}
   - component: {fileID: 965238653}
+  - component: {fileID: 965238655}
   m_Layer: 0
   m_Name: SoundPanel
   m_TagString: Untagged
@@ -3661,6 +3801,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965238651}
   m_CullTransparentMesh: 1
+--- !u!225 &965238655
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965238651}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1005577076
 GameObject:
   m_ObjectHideFlags: 0
@@ -6093,6 +6245,7 @@ GameObject:
   - component: {fileID: 1751980741}
   - component: {fileID: 1751980743}
   - component: {fileID: 1751980742}
+  - component: {fileID: 1751980744}
   m_Layer: 0
   m_Name: StoryPanel
   m_TagString: Untagged
@@ -6158,6 +6311,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1751980740}
   m_CullTransparentMesh: 1
+--- !u!225 &1751980744
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751980740}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1778857817
 GameObject:
   m_ObjectHideFlags: 0
@@ -6539,7 +6704,7 @@ GameObject:
   - component: {fileID: 1983016670}
   - component: {fileID: 1983016669}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: PlayText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
