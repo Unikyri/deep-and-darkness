@@ -8,10 +8,15 @@ public class PauseMenuUI : MonoBehaviour
 
     // UI Elements
     [Header("Pause Menu Panels")]
+    [Tooltip("Panel principal del menú de pausa; se muestra al pausar y se oculta al reanudar.")]
     [SerializeField] private GameObject pauseMenuPanel;
+    [Tooltip("Panel que muestra los controles del juego desde el menú de pausa.")]
     [SerializeField] private GameObject controlsPanel;
+    [Tooltip("Panel con las opciones de sonido que se abre desde el menú de pausa.")]
     [SerializeField] private GameObject soundPanel;
+    [Tooltip("Panel de confirmación que aparece antes de reiniciar la partida.")]
     [SerializeField] private GameObject confirmRestart;
+    [Tooltip("Panel de confirmación que aparece antes de salir de la partida.")]
     [SerializeField] private GameObject confirmQuit;
 
     private bool isPaused = false;
