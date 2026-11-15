@@ -19,26 +19,63 @@ public class PauseMenuUI : MonoBehaviour
     [Tooltip("Panel de confirmación que aparece antes de salir de la partida.")]
     [SerializeField] private GameObject confirmQuit;
 
-    private bool isPaused = false;
+    [Header("Gameplay HUD")]
+    [Tooltip("Texto que muestra las vidas de ambos personajes y el progreso de los objetos de misión.")]
+    [SerializeField] private TMPro.TMP_Text gameplayStatusText;
+    [Tooltip("Texto que comunica el resultado final de la partida.")]
+    [SerializeField] private TMPro.TMP_Text gameResultText;
+
+    private GameSessionManager gameSession;
+    private CharacterLives[] characters;
+    private bool isPaused;
+    private bool isGameEnded;
+    private int collectedCollectibles;
+    private int requiredCollectibles;
 
     private void Start()
     {
-        //Game starts unpaused, so we ensure the pause menu is hidden
         pauseMenuPanel.SetActive(false);
         controlsPanel.SetActive(false);
         soundPanel.SetActive(false);
         confirmRestart.SetActive(false);
         confirmQuit.SetActive(false);
+        if (gameResultText != null) { gameResultText.gameObject.SetActive(false); }
 
-        // Ensure the game is not paused at the start
-        Time.timeScale = 1f;
-        isPaused = false;
+        gameSession = FindFirstObjectByType<GameSessionManager>();
+        if (gameSession != null)
+        {
+            gameSession.CollectiblesChanged += HandleCollectiblesChanged;
+            gameSession.GameOverTriggered += HandleGameOver;
+            gameSession.VictoryTriggered += HandleVictory;
+            HandleCollectiblesChanged(gameSession.CollectedCollectibles, gameSession.RequiredCollectibles);
+        }
+
+        characters = FindObjectsByType<CharacterLives>(FindObjectsSortMode.None);
+        foreach (CharacterLives character in characters) { character.LivesChanged += HandleLivesChanged; }
+        UpdateGameplayStatus();
+    }
+
+    private void OnDestroy()
+    {
+        if (gameSession != null)
+        {
+            gameSession.CollectiblesChanged -= HandleCollectiblesChanged;
+            gameSession.GameOverTriggered -= HandleGameOver;
+            gameSession.VictoryTriggered -= HandleVictory;
+        }
+
+        if (characters == null) { return; }
+        foreach (CharacterLives character in characters)
+        {
+            if (character != null) { character.LivesChanged -= HandleLivesChanged; }
+        }
     }
 
     // Panels navigation methods
     // Controls Panel
     public void ShowControls()
     {
+        if (isGameEnded) { return; }
         pauseMenuPanel.SetActive(false);
         controlsPanel.SetActive(true);
     }
@@ -46,6 +83,7 @@ public class PauseMenuUI : MonoBehaviour
     // Go back to Pause Menu from Controls Panel
     public void BackToPauseFromControls()
     {
+        if (isGameEnded) { return; }
         controlsPanel.SetActive(false);
         pauseMenuPanel.SetActive(true);
     }
@@ -53,6 +91,7 @@ public class PauseMenuUI : MonoBehaviour
     // Sound Panel
     public void ShowSound()
     {
+        if (isGameEnded) { return; }
         pauseMenuPanel.SetActive(false);
         soundPanel.SetActive(true);
     }
@@ -60,12 +99,14 @@ public class PauseMenuUI : MonoBehaviour
     // Go back to Pause Menu from Sound Panel
     public void BackToPauseFromSound()
     {
+        if (isGameEnded) { return; }
         soundPanel.SetActive(false);
         pauseMenuPanel.SetActive(true);
     }
     // Confirm Restart Panel
     public void ShowConfirmRestart()
     {
+        if (gameResultText != null) { gameResultText.gameObject.SetActive(false); }
         pauseMenuPanel.SetActive(false);
         confirmRestart.SetActive(true);
     }
@@ -75,11 +116,13 @@ public class PauseMenuUI : MonoBehaviour
     {
         confirmRestart.SetActive(false);
         pauseMenuPanel.SetActive(true);
+        if (isGameEnded && gameResultText != null) { gameResultText.gameObject.SetActive(true); }
     }
 
     // Confirm Quit Panel
     public void ShowConfirmQuit()
     {
+        if (gameResultText != null) { gameResultText.gameObject.SetActive(false); }
         pauseMenuPanel.SetActive(false);
         confirmQuit.SetActive(true);
     }
@@ -89,69 +132,126 @@ public class PauseMenuUI : MonoBehaviour
     {
         confirmQuit.SetActive(false);
         pauseMenuPanel.SetActive(true);
+        if (isGameEnded && gameResultText != null) { gameResultText.gameObject.SetActive(true); }
     }
 
 
     // Restart the game
     public void RestartGame()
     {
-        // Implementation for restarting the game
-        // Ensure the game is unpaused before restarting
         Time.timeScale = 1f;
-        // Load game scene
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Gameplay");
     }
 
     // Return to Main Menu
     public void ReturnToMainMenu()
     {
-        // Implementation for returning to the main menu
-        // unpause the game
         Time.timeScale = 1f;
-        //Load main menu scene
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("MainMenu");
     }
 
     // Pause the game
     public void PauseGame()
     {
+        if (isGameEnded) { return; }
         isPaused = true;
-        Time.timeScale = 0f; // Pause the game
+        Time.timeScale = 0f;
         pauseMenuPanel.SetActive(true);
     }
 
     // Resume the game
     public void ResumeGame()
     {
+        if (isGameEnded) { return; }
         isPaused = false;
-        Time.timeScale = 1f; // Resume the game
+        Time.timeScale = 1f;
         pauseMenuPanel.SetActive(false);
     }
 
     private void Update()
     {
-        // Ensure Keyboard is not null
-        if (Keyboard.current == null) 
-            return;
+        if (isGameEnded || Keyboard.current == null || !Keyboard.current.escapeKey.wasPressedThisFrame) { return; }
+        if (controlsPanel.activeSelf || soundPanel.activeSelf || confirmRestart.activeSelf || confirmQuit.activeSelf) { return; }
 
-        // Check for the Escape key press to toggle pause
-        if (!Keyboard.current.escapeKey.wasPressedThisFrame)
-            return;
+        if (isPaused) { ResumeGame(); }
+        else { PauseGame(); }
+    }
 
-        // Ensure the other panels are not active before toggling pause
-        // Ensure ESC is not pressed while in other panels
-        if (controlsPanel.activeSelf || soundPanel.activeSelf || confirmRestart.activeSelf || confirmQuit.activeSelf)
-            return;
+    private void HandleCollectiblesChanged(int collected, int required)
+    {
+        collectedCollectibles = collected;
+        requiredCollectibles = required;
+        UpdateGameplayStatus();
+    }
+
+    private void HandleLivesChanged(int currentLives, int startingLives)
+    {
+        UpdateGameplayStatus();
+    }
+
+    private void UpdateGameplayStatus()
+    {
+        if (gameplayStatusText == null) { return; }
+
+        string vampireStatus = GetCharacterStatus("Vampiro");
+        string mermaidStatus = GetCharacterStatus("Sirena");
+        gameplayStatusText.text = $"{vampireStatus}     {mermaidStatus}     Objetos: {collectedCollectibles}/{requiredCollectibles}";
+    }
+
+    private string GetCharacterStatus(string characterName)
+    {
+        if (characters != null)
         {
-            // Toggle pause state
-            if (isPaused)
+            foreach (CharacterLives character in characters)
             {
-                ResumeGame();
-            }
-            else
-            {
-                PauseGame();
+                if (character != null && character.CharacterName == characterName)
+                {
+                    return $"{characterName}: {character.CurrentLives}/{character.StartingLives}";
+                }
             }
         }
+
+        return $"{characterName}: --";
+    }
+
+    private void HandleGameOver(string defeatedCharacterName)
+    {
+        ShowGameResult($"DERROTA\n{defeatedCharacterName} se quedó sin vidas");
+    }
+
+    private void HandleVictory()
+    {
+        ShowGameResult("¡VICTORIA!\nEncontraron los objetos mágicos");
+    }
+
+    private void ShowGameResult(string message)
+    {
+        isGameEnded = true;
+        isPaused = true;
+        controlsPanel.SetActive(false);
+        soundPanel.SetActive(false);
+        confirmRestart.SetActive(false);
+        confirmQuit.SetActive(false);
+        HidePauseOptionsAfterGameEnd();
+        pauseMenuPanel.SetActive(true);
+
+        if (gameResultText != null)
+        {
+            gameResultText.text = message;
+            gameResultText.gameObject.SetActive(true);
+        }
+    }
+
+    private void HidePauseOptionsAfterGameEnd()
+    {
+        Transform pauseBackground = pauseMenuPanel.transform.Find("PauseBackground");
+        if (pauseBackground == null) { return; }
+
+        Transform continueButton = pauseBackground.Find("Continue");
+        Transform controlsButton = pauseBackground.Find("Controls");
+        Transform soundButton = pauseBackground.Find("Sound");
+        if (continueButton != null) { continueButton.gameObject.SetActive(false); }
+        if (controlsButton != null) { controlsButton.gameObject.SetActive(false); }
+        if (soundButton != null) { soundButton.gameObject.SetActive(false); }
     }
 }

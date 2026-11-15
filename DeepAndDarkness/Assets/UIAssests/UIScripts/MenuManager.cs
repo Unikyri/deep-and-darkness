@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -63,7 +62,6 @@ public class MenuManager : MonoBehaviour
 
     public void StartGame()
     {
-        // Load the next scene (assuming the next scene is at index 1)
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Gameplay");
     }
 }

@@ -29,6 +29,11 @@ public class CharacterLives : MonoBehaviour
         get { return startingLives; }
     }
 
+    public string CharacterName
+    {
+        get { return characterName; }
+    }
+
     public bool IsInvulnerable
     {
         get { return isInvulnerable; }
