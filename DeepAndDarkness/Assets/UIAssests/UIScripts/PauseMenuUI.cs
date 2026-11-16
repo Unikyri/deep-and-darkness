@@ -1,12 +1,10 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class PauseMenuUI : MonoBehaviour
 {
-    // Pause Menu Panels management
-
-    // UI Elements
     [Header("Pause Menu Panels")]
     [Tooltip("Panel principal del menú de pausa; se muestra al pausar y se oculta al reanudar.")]
     [SerializeField] private GameObject pauseMenuPanel;
@@ -19,6 +17,12 @@ public class PauseMenuUI : MonoBehaviour
     [Tooltip("Panel de confirmación que aparece antes de salir de la partida.")]
     [SerializeField] private GameObject confirmQuit;
 
+    [Header("Transition")]
+    [Tooltip("Duración en segundos de la transición de entrada de cada panel.")]
+    [SerializeField, Min(0f)] private float fadeDuration = 0.2f;
+    [Tooltip("Pausa breve antes de cambiar de panel para respetar la animación del botón.")]
+    [SerializeField, Min(0f)] private float clickDelay = 0.12f;
+
     [Header("Gameplay HUD")]
     [Tooltip("Texto que muestra las vidas de ambos personajes y el progreso de los objetos de misión.")]
     [SerializeField] private TMPro.TMP_Text gameplayStatusText;
@@ -27,18 +31,21 @@ public class PauseMenuUI : MonoBehaviour
 
     private GameSessionManager gameSession;
     private CharacterLives[] characters;
+    private GameObject[] panels;
+    private Coroutine panelTransition;
     private bool isPaused;
     private bool isGameEnded;
     private int collectedCollectibles;
     private int requiredCollectibles;
 
+    private void Awake()
+    {
+        panels = new[] { pauseMenuPanel, controlsPanel, soundPanel, confirmRestart, confirmQuit };
+    }
+
     private void Start()
     {
-        pauseMenuPanel.SetActive(false);
-        controlsPanel.SetActive(false);
-        soundPanel.SetActive(false);
-        confirmRestart.SetActive(false);
-        confirmQuit.SetActive(false);
+        SetAllPanelsInactive();
         if (gameResultText != null) { gameResultText.gameObject.SetActive(false); }
 
         gameSession = FindFirstObjectByType<GameSessionManager>();
@@ -51,7 +58,10 @@ public class PauseMenuUI : MonoBehaviour
         }
 
         characters = FindObjectsByType<CharacterLives>(FindObjectsSortMode.None);
-        foreach (CharacterLives character in characters) { character.LivesChanged += HandleLivesChanged; }
+        foreach (CharacterLives character in characters)
+        {
+            if (character != null) { character.LivesChanged += HandleLivesChanged; }
+        }
         UpdateGameplayStatus();
     }
 
@@ -71,110 +81,145 @@ public class PauseMenuUI : MonoBehaviour
         }
     }
 
-    // Panels navigation methods
-    // Controls Panel
     public void ShowControls()
     {
         if (isGameEnded) { return; }
-        pauseMenuPanel.SetActive(false);
-        controlsPanel.SetActive(true);
+        ShowPanel(controlsPanel);
     }
 
-    // Go back to Pause Menu from Controls Panel
     public void BackToPauseFromControls()
     {
         if (isGameEnded) { return; }
-        controlsPanel.SetActive(false);
-        pauseMenuPanel.SetActive(true);
+        ShowPanel(pauseMenuPanel);
     }
 
-    // Sound Panel
     public void ShowSound()
     {
         if (isGameEnded) { return; }
-        pauseMenuPanel.SetActive(false);
-        soundPanel.SetActive(true);
+        ShowPanel(soundPanel);
     }
 
-    // Go back to Pause Menu from Sound Panel
     public void BackToPauseFromSound()
     {
         if (isGameEnded) { return; }
-        soundPanel.SetActive(false);
-        pauseMenuPanel.SetActive(true);
+        ShowPanel(pauseMenuPanel);
     }
-    // Confirm Restart Panel
+
     public void ShowConfirmRestart()
     {
         if (gameResultText != null) { gameResultText.gameObject.SetActive(false); }
-        pauseMenuPanel.SetActive(false);
-        confirmRestart.SetActive(true);
+        ShowPanel(confirmRestart);
     }
 
-    // Go back to Pause Menu from Confirm Restart Panel
     public void CancelRestart()
     {
-        confirmRestart.SetActive(false);
-        pauseMenuPanel.SetActive(true);
+        ShowPanel(pauseMenuPanel);
         if (isGameEnded && gameResultText != null) { gameResultText.gameObject.SetActive(true); }
     }
 
-    // Confirm Quit Panel
     public void ShowConfirmQuit()
     {
         if (gameResultText != null) { gameResultText.gameObject.SetActive(false); }
-        pauseMenuPanel.SetActive(false);
-        confirmQuit.SetActive(true);
+        ShowPanel(confirmQuit);
     }
 
-    // Go back to Pause Menu from Confirm Quit Panel
     public void CancelQuit()
     {
-        confirmQuit.SetActive(false);
-        pauseMenuPanel.SetActive(true);
+        ShowPanel(pauseMenuPanel);
         if (isGameEnded && gameResultText != null) { gameResultText.gameObject.SetActive(true); }
     }
 
-
-    // Restart the game
     public void RestartGame()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("Gameplay");
     }
 
-    // Return to Main Menu
     public void ReturnToMainMenu()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
     }
 
-    // Pause the game
     public void PauseGame()
     {
-        if (isGameEnded) { return; }
+        if (isGameEnded || isPaused) { return; }
         isPaused = true;
         Time.timeScale = 0f;
-        pauseMenuPanel.SetActive(true);
+        ShowPanel(pauseMenuPanel);
     }
 
-    // Resume the game
     public void ResumeGame()
     {
-        if (isGameEnded) { return; }
-        isPaused = false;
-        Time.timeScale = 1f;
-        pauseMenuPanel.SetActive(false);
+        if (isGameEnded || !isPaused) { return; }
+        StopPanelTransition();
+        panelTransition = StartCoroutine(ResumeAfterDelay());
     }
 
     private void Update()
     {
         if (isGameEnded || Keyboard.current == null || !Keyboard.current.escapeKey.wasPressedThisFrame) { return; }
-        if (controlsPanel.activeSelf || soundPanel.activeSelf || confirmRestart.activeSelf || confirmQuit.activeSelf) { return; }
+        if (panelTransition != null || controlsPanel.activeSelf || soundPanel.activeSelf || confirmRestart.activeSelf || confirmQuit.activeSelf) { return; }
 
         if (isPaused) { ResumeGame(); }
         else { PauseGame(); }
+    }
+
+    private void ShowPanel(GameObject panelToShow)
+    {
+        if (panelToShow == null) { return; }
+        StopPanelTransition();
+        panelTransition = StartCoroutine(ShowPanelWithFade(panelToShow));
+    }
+
+    private IEnumerator ShowPanelWithFade(GameObject panelToShow)
+    {
+        yield return new WaitForSecondsRealtime(clickDelay);
+        foreach (GameObject panel in panels)
+        {
+            if (panel != null) { panel.SetActive(panel == panelToShow); }
+        }
+
+        CanvasGroup group = panelToShow.GetComponent<CanvasGroup>();
+        if (group != null)
+        {
+            group.alpha = 0f;
+            float elapsedTime = 0f;
+            while (elapsedTime < fadeDuration)
+            {
+                elapsedTime += Time.unscaledDeltaTime;
+                group.alpha = Mathf.Clamp01(elapsedTime / fadeDuration);
+                yield return null;
+            }
+            group.alpha = 1f;
+        }
+
+        panelTransition = null;
+    }
+
+    private IEnumerator ResumeAfterDelay()
+    {
+        yield return new WaitForSecondsRealtime(clickDelay);
+        SetAllPanelsInactive();
+        Time.timeScale = 1f;
+        isPaused = false;
+        panelTransition = null;
+    }
+
+    private void StopPanelTransition()
+    {
+        if (panelTransition == null) { return; }
+        StopCoroutine(panelTransition);
+        panelTransition = null;
+    }
+
+    private void SetAllPanelsInactive()
+    {
+        if (panels == null) { return; }
+        foreach (GameObject panel in panels)
+        {
+            if (panel != null) { panel.SetActive(false); }
+        }
     }
 
     private void HandleCollectiblesChanged(int collected, int required)
@@ -226,14 +271,21 @@ public class PauseMenuUI : MonoBehaviour
 
     private void ShowGameResult(string message)
     {
+        StopPanelTransition();
+        Time.timeScale = 0f;
         isGameEnded = true;
         isPaused = true;
-        controlsPanel.SetActive(false);
-        soundPanel.SetActive(false);
-        confirmRestart.SetActive(false);
-        confirmQuit.SetActive(false);
+        if (controlsPanel != null) { controlsPanel.SetActive(false); }
+        if (soundPanel != null) { soundPanel.SetActive(false); }
+        if (confirmRestart != null) { confirmRestart.SetActive(false); }
+        if (confirmQuit != null) { confirmQuit.SetActive(false); }
         HidePauseOptionsAfterGameEnd();
-        pauseMenuPanel.SetActive(true);
+        if (pauseMenuPanel != null)
+        {
+            CanvasGroup group = pauseMenuPanel.GetComponent<CanvasGroup>();
+            if (group != null) { group.alpha = 1f; }
+            pauseMenuPanel.SetActive(true);
+        }
 
         if (gameResultText != null)
         {
@@ -244,6 +296,7 @@ public class PauseMenuUI : MonoBehaviour
 
     private void HidePauseOptionsAfterGameEnd()
     {
+        if (pauseMenuPanel == null) { return; }
         Transform pauseBackground = pauseMenuPanel.transform.Find("PauseBackground");
         if (pauseBackground == null) { return; }
 
