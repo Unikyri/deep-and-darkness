@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using UnityEngine;
 
 public class CharacterLives : MonoBehaviour
@@ -12,12 +11,7 @@ public class CharacterLives : MonoBehaviour
     [Tooltip("Sesión que recibe el aviso si este personaje se queda sin vidas.")]
     [SerializeField] private GameSessionManager gameSession;
 
-    [Header("Invulnerabilidad")]
-    [Tooltip("Duración en segundos de la invulnerabilidad después de recibir daño; durante ese tiempo no recibe daño ni recoge coleccionables.")]
-    [SerializeField, Min(0f)] private float invulnerabilityDuration = 5f;
-
     private int currentLives;
-    private bool isInvulnerable;
 
     public int CurrentLives
     {
@@ -34,9 +28,9 @@ public class CharacterLives : MonoBehaviour
         get { return characterName; }
     }
 
-    public bool IsInvulnerable
+    public bool IsIntangible
     {
-        get { return isInvulnerable; }
+        get { return gameSession != null && gameSession.CharactersIntangible; }
     }
 
     public event Action<int, int> LivesChanged;
@@ -49,7 +43,7 @@ public class CharacterLives : MonoBehaviour
 
     public bool TakeDamage()
     {
-        if (gameSession == null || gameSession.IsGameOver || currentLives <= 0 || isInvulnerable) { return false; }
+        if (gameSession == null || currentLives <= 0 || !gameSession.TryActivateIntangibility()) { return false; }
 
         currentLives = Mathf.Max(0, currentLives - 1);
 
@@ -63,17 +57,6 @@ public class CharacterLives : MonoBehaviour
             return true;
         }
 
-        isInvulnerable = true;
-        StartCoroutine(EndInvulnerabilityAfterDelay());
-        Debug.Log($"{characterName} es invulnerable durante {invulnerabilityDuration} segundos.", this);
-
         return true;
-    }
-
-    private IEnumerator EndInvulnerabilityAfterDelay()
-    {
-        yield return new WaitForSeconds(invulnerabilityDuration);
-        isInvulnerable = false;
-        Debug.Log($"{characterName} volvió a ser vulnerable.", this);
     }
 }

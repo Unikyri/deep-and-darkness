@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class GameplayUIBootstrap : MonoBehaviour
 {
-    [Tooltip("Nombre de la escena que contiene la interfaz de pausa y el HUD.")]
+    [Tooltip("Nombre de la escena que contiene la interfaz de pausa y el HUD")]
     [SerializeField] private string uiSceneName = "PausaScene";
 
     private void Start()

@@ -1373,7 +1373,6 @@ MonoBehaviour:
   startingLives: 3
   characterName: Vampiro
   gameSession: {fileID: 1230694988}
-  invulnerabilityDuration: 5
 --- !u!1 &1162232814
 GameObject:
   m_ObjectHideFlags: 0
@@ -1496,6 +1495,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameSessionManager
   requiredCollectibles: 3
+  nextSceneName: GameplayLevel2
+  intangibilityDuration: 5
 --- !u!4 &1230694989
 Transform:
   m_ObjectHideFlags: 0
@@ -1532,6 +1533,11 @@ MonoBehaviour:
   spawnMargin: 0.75
   trailingOffset: 2
   spawnDelayAfterPattern: 2
+  minimumAttackCollectibleGap: 1.5
+  collectibleTrajectorySpeed: 5
+  collectibleTrajectoryPeriod: 4
+  collectibleSpiralRadius: 3.5
+  collectibleSpiralExpansionTime: 2
 --- !u!1 &1265654341
 GameObject:
   m_ObjectHideFlags: 0
@@ -1565,8 +1571,8 @@ MonoBehaviour:
   mermaiRb: {fileID: 1845503012}
   liftReference: {fileID: 960972504217077162, guid: 2b11562f892109a47892069a394c1333, type: 3}
   gameplayBounds: {fileID: 759400727}
-  liftForce: 15
-  maxVerticalSpeed: 8
+  liftForce: 20
+  maxVerticalSpeed: 13
 --- !u!4 &1265654343
 Transform:
   m_ObjectHideFlags: 0
@@ -1818,10 +1824,20 @@ MonoBehaviour:
   mainCamera: {fileID: 314989027}
   gameplayBounds: {fileID: 759400727}
   gameSession: {fileID: 1230694988}
+  independentWorldPatterns: 0
+  doublePatternChance: 0.5
+  upperCharacter: {fileID: 0}
+  lowerCharacter: {fileID: 0}
+  minimumAttackVisualGap: 0.1
+  characterSafetyMargin: 0.05
+  minimumSafeRouteWidth: 0.25
   patternOneLaneRatio: 0.315
   outerLaneRatio: 0.726
   innerLaneRatio: 0.178
   spawnInterval: 5
+  fastWorldInterval: 5
+  slowWorldExtraInterval: 2
+  minimumWorldSpawnGap: 2
   patternFourSubwaveDelay: 2
   spawnMargin: 0.75
   normalSpeed: 5
@@ -1951,7 +1967,6 @@ MonoBehaviour:
   startingLives: 3
   characterName: Sirena
   gameSession: {fileID: 1230694988}
-  invulnerabilityDuration: 5
 --- !u!1 &1923023598
 GameObject:
   m_ObjectHideFlags: 0

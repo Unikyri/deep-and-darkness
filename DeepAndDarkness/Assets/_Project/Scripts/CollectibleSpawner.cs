@@ -24,6 +24,18 @@ public class CollectibleSpawner : MonoBehaviour
     [SerializeField, Min(0f)] private float trailingOffset = 2f;
     [Tooltip("Tiempo en segundos que se espera después del patrón indicado antes de crear el coleccionable.")]
     [SerializeField, Min(0f)] private float spawnDelayAfterPattern = 2f;
+    [Tooltip("Separación visible mínima entre el coleccionable y los ataques ya presentes en el nivel 2")]
+    [SerializeField, Min(0f)] private float minimumAttackCollectibleGap = 1.5f;
+
+    [Header("Trayectorias de coleccionables del nivel 2")]
+    [Tooltip("Velocidad horizontal de los coleccionables mientras recorren ambos mundos")]
+    [SerializeField, Min(0.1f)] private float collectibleTrajectorySpeed = 5f;
+    [Tooltip("Segundos que tarda el coleccionable en completar un ciclo de su trayectoria")]
+    [SerializeField, Min(0.5f)] private float collectibleTrajectoryPeriod = 4f;
+    [Tooltip("Radio horizontal máximo de la trayectoria en espiral")]
+    [SerializeField, Min(0f)] private float collectibleSpiralRadius = 3.5f;
+    [Tooltip("Tiempo que tarda la espiral en alcanzar su radio máximo")]
+    [SerializeField, Min(0.1f)] private float collectibleSpiralExpansionTime = 2f;
 
     private GameObject activeCollectible;
     private Coroutine pendingSpawn;
@@ -60,6 +72,8 @@ public class CollectibleSpawner : MonoBehaviour
 
     private bool IsCollectibleMilestone(int patternNumber)
     {
+        if (attackSpawner.IndependentWorldPatterns) { return patternNumber > 0 && patternNumber % 2 == 0; }
+
         if (patternNumber == 3 || patternNumber == 7 || patternNumber == 10) { return true; }
 
         return patternNumber > 10 && (patternNumber - 10) % 3 == 0;
@@ -83,6 +97,12 @@ public class CollectibleSpawner : MonoBehaviour
         float spawnY = spawnInUpperWorld ? gameplayBounds.GetBatLaneY(collectibleLaneRatio) : gameplayBounds.GetMermaidLaneY(collectibleLaneRatio);
         Vector3 cameraRightEdge = mainCamera.ViewportToWorldPoint(new Vector3(1f, 0.5f, Mathf.Abs(mainCamera.transform.position.z - transform.position.z)));
         float spawnX = cameraRightEdge.x + spawnMargin + trailingOffset;
+
+        if (attackSpawner.IndependentWorldPatterns)
+        {
+            spawnX = GetSeparatedSpawnX(spawnX);
+        }
+
         Vector3 spawnPosition = new Vector3(spawnX, spawnY, transform.position.z);
 
         activeCollectible = Instantiate(collectiblePrefab, spawnPosition, Quaternion.identity);
@@ -99,7 +119,47 @@ public class CollectibleSpawner : MonoBehaviour
 
         pickup.Initialize(gameSession, nextCollectibleNumber);
 
+        if (attackSpawner.IndependentWorldPatterns)
+        {
+            HazardMovement straightMovement = activeCollectible.GetComponent<HazardMovement>();
+            if (straightMovement != null) { straightMovement.enabled = false; }
+
+            CollectibleTrajectory trajectory = activeCollectible.AddComponent<CollectibleTrajectory>();
+
+            if (!trajectory.Initialize(gameplayBounds, mainCamera, nextCollectibleNumber, collectibleTrajectorySpeed, collectibleTrajectoryPeriod, collectibleSpiralRadius, collectibleSpiralExpansionTime))
+            {
+                Debug.LogError("No se pudo configurar la trayectoria del coleccionable", activeCollectible);
+                Destroy(activeCollectible);
+                activeCollectible = null;
+                return;
+            }
+
+            Debug.Log($"Apareció el coleccionable {nextCollectibleNumber} con trayectoria de {trajectory.PathName}.");
+            return;
+        }
+
         string worldName = spawnInUpperWorld ? "superior" : "inferior";
         Debug.Log($"Apareció el coleccionable {nextCollectibleNumber} en el mundo {worldName}.");
+    }
+
+    private float GetSeparatedSpawnX(float spawnX)
+    {
+        if (!VisibleBounds2D.TryGetBounds(collectiblePrefab, out Bounds collectibleBounds))
+        {
+            Debug.LogWarning("No se pudo medir el tamaño del coleccionable para separarlo de los ataques", this);
+            return spawnX;
+        }
+
+        float collectibleLeft = Mathf.Max(0f, collectiblePrefab.transform.position.x - collectibleBounds.min.x);
+        // El coleccionable cruzará ambos mundos, así que miramos todos los ataques presentes
+        foreach (HazardDamage hazard in FindObjectsByType<HazardDamage>(FindObjectsSortMode.None))
+        {
+            if (!VisibleBounds2D.TryGetBounds(hazard.gameObject, out Bounds hazardBounds)) { continue; }
+
+            float separatedX = hazardBounds.max.x + collectibleLeft + Mathf.Max(0f, minimumAttackCollectibleGap);
+            spawnX = Mathf.Max(spawnX, separatedX);
+        }
+
+        return spawnX;
     }
 }
