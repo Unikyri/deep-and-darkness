@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -14,16 +15,25 @@ public class PauseMenuUI : MonoBehaviour
     [SerializeField] private GameObject confirmRestart;
     [SerializeField] private GameObject confirmQuit;
 
-    private bool isPaused = false;
+    [Header("Transition")]
+    [SerializeField] private float fadeDuration = 0.2f;
+    [SerializeField] private float clickDelay = 0.12f;
+
+    private bool isPaused;
+    private Coroutine panelTransition;
+    private GameObject[] panels;
+
+    private void Awake()
+    {
+        // Initialize the panels array for easy management
+        panels = new GameObject[] { pauseMenuPanel, controlsPanel, soundPanel, confirmRestart, confirmQuit };
+    }
 
     private void Start()
     {
-        //Game starts unpaused, so we ensure the pause menu is hidden
-        pauseMenuPanel.SetActive(false);
-        controlsPanel.SetActive(false);
-        soundPanel.SetActive(false);
-        confirmRestart.SetActive(false);
-        confirmQuit.SetActive(false);
+        // Ensure the pause menu is hidden at the start
+        foreach (GameObject panel in panels)
+            panel.SetActive(false);
 
         // Ensure the game is not paused at the start
         Time.timeScale = 1f;
@@ -31,61 +41,88 @@ public class PauseMenuUI : MonoBehaviour
     }
 
     // Panels navigation methods
-    // Controls Panel
-    public void ShowControls()
+    public void ShowControls() => ShowPanel(controlsPanel);
+    public void ShowSound() => ShowPanel(soundPanel);
+    public void ShowConfirmRestart() => ShowPanel(confirmRestart);
+    public void ShowConfirmQuit() => ShowPanel(confirmQuit);
+
+    public void BackToPauseFromControls() => ShowPanel(pauseMenuPanel);
+    public void BackToPauseFromSound() => ShowPanel(pauseMenuPanel);
+    public void CancelRestart() => ShowPanel(pauseMenuPanel);
+    public void CancelQuit() => ShowPanel(pauseMenuPanel);
+
+
+    private void ShowPanel(GameObject panelToShow)
     {
-        pauseMenuPanel.SetActive(false);
-        controlsPanel.SetActive(true);
+        if (panelTransition != null)
+            StopCoroutine(panelTransition);
+
+        panelTransition = StartCoroutine(ShowPanelWithFade(panelToShow));
+    }
+    
+    private IEnumerator ShowPanelWithFade(GameObject panelToShow)
+    {
+        // Wait for a short delay
+        yield return new WaitForSecondsRealtime(clickDelay);
+        // Activates the target panel and deactivates others
+        foreach (GameObject panel in panels)
+            panel.SetActive(panel == panelToShow);
+        
+        // Get the CanvasGroup component for fade effect
+        CanvasGroup group = panelToShow.GetComponent<CanvasGroup>();
+
+        if (group != null)
+        {
+            // Start with the panel fully transparent
+            group.alpha = 0f;
+            // Fade in the panel over the specified duration
+            float elapsedTime = 0f;
+
+            while (elapsedTime < fadeDuration)
+            {
+                // Use unscaled time for UI transitions
+                elapsedTime += Time.unscaledDeltaTime;
+                group.alpha = Mathf.Clamp01(elapsedTime / fadeDuration);
+                yield return null;
+            }
+
+            // Ensure the panel is fully visible at the end of the fade
+            group.alpha = 1f;
+        }
+
+        panelTransition = null;
     }
 
-    // Go back to Pause Menu from Controls Panel
-    public void BackToPauseFromControls()
+
+    // Pause the game
+    public void PauseGame()
     {
-        controlsPanel.SetActive(false);
-        pauseMenuPanel.SetActive(true);
+        isPaused = true;
+        Time.timeScale = 0f; // Pause the game
+        ShowPanel(pauseMenuPanel);
     }
 
-    // Sound Panel
-    public void ShowSound()
+    // Resume the game
+    public void ResumeGame()
     {
-        pauseMenuPanel.SetActive(false);
-        soundPanel.SetActive(true);
+        if (panelTransition != null)
+            StopCoroutine(panelTransition);
+
+        panelTransition = StartCoroutine(ResumeAfterDelay());
     }
 
-    // Go back to Pause Menu from Sound Panel
-    public void BackToPauseFromSound()
+    private IEnumerator ResumeAfterDelay()
     {
-        soundPanel.SetActive(false);
-        pauseMenuPanel.SetActive(true);
-    }
-    // Confirm Restart Panel
-    public void ShowConfirmRestart()
-    {
-        pauseMenuPanel.SetActive(false);
-        confirmRestart.SetActive(true);
-    }
+        // Wait for a short delay before resuming the game
+        yield return new WaitForSecondsRealtime(clickDelay);
 
-    // Go back to Pause Menu from Confirm Restart Panel
-    public void CancelRestart()
-    {
-        confirmRestart.SetActive(false);
-        pauseMenuPanel.SetActive(true);
-    }
+        foreach (GameObject panel in panels)
+            panel.SetActive(false);
 
-    // Confirm Quit Panel
-    public void ShowConfirmQuit()
-    {
-        pauseMenuPanel.SetActive(false);
-        confirmQuit.SetActive(true);
+        Time.timeScale = 1f; // Resume the game
+        isPaused = false;
+        panelTransition = null;
     }
-
-    // Go back to Pause Menu from Confirm Quit Panel
-    public void CancelQuit()
-    {
-        confirmQuit.SetActive(false);
-        pauseMenuPanel.SetActive(true);
-    }
-
 
     // Restart the game
     public void RestartGame()
@@ -107,22 +144,6 @@ public class PauseMenuUI : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    // Pause the game
-    public void PauseGame()
-    {
-        isPaused = true;
-        Time.timeScale = 0f; // Pause the game
-        pauseMenuPanel.SetActive(true);
-    }
-
-    // Resume the game
-    public void ResumeGame()
-    {
-        isPaused = false;
-        Time.timeScale = 1f; // Resume the game
-        pauseMenuPanel.SetActive(false);
-    }
-
     private void Update()
     {
         // Ensure Keyboard is not null
@@ -131,6 +152,10 @@ public class PauseMenuUI : MonoBehaviour
 
         // Check for the Escape key press to toggle pause
         if (!Keyboard.current.escapeKey.wasPressedThisFrame)
+            return;
+
+        // Avoid changing state while a panel transition is in progress
+        if (panelTransition != null)
             return;
 
         // Ensure the other panels are not active before toggling pause
