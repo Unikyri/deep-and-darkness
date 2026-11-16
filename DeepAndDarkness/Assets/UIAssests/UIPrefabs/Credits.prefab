@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6521601758084033565}
   - component: {fileID: 8598992440962592070}
   m_Layer: 0
-  m_Name: Credicts
+  m_Name: Credits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
