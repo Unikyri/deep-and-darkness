@@ -767,8 +767,8 @@ Transform:
   m_GameObject: {fileID: 678019507}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.7473, y: 1.279, z: 0}
-  m_LocalScale: {x: 0.9877, y: 0.9877, z: 0.9877}
+  m_LocalPosition: {x: 2.75296, y: 1.279, z: 0}
+  m_LocalScale: {x: 0.98833215, y: 0.9877, z: 0.9877}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1923023599}
@@ -1927,7 +1927,7 @@ MonoBehaviour:
   upperWorldRenderer: {fileID: 678019509}
   lowerWorldRenderer: {fileID: 382271544}
   mainCamera: {fileID: 314989027}
-  scrollSpeed: 1.5
+  scrollSpeed: 1.2
   mirrorAlternateTiles: 1
 --- !u!1 &2067707495
 GameObject:
@@ -2012,7 +2012,7 @@ MonoBehaviour:
   upperWorldRenderer: {fileID: 466629570}
   lowerWorldRenderer: {fileID: 1162232816}
   mainCamera: {fileID: 314989027}
-  scrollSpeed: 0.1
+  scrollSpeed: 0.05
   mirrorAlternateTiles: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
