@@ -343,6 +343,7 @@ GameObject:
   - component: {fileID: 58554114}
   - component: {fileID: 58554113}
   - component: {fileID: 58554115}
+  - component: {fileID: 58554116}
   m_Layer: 0
   m_Name: MainMenuPanel
   m_TagString: Untagged
@@ -420,6 +421,51 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &58554116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58554111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10812aede703fa24bad523b763f00755, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuParallaxAnimation
+  layers:
+  - layer: {fileID: 1057745000}
+    amplitude: 8
+    speed: 0.7
+    startPosition: {x: 0, y: 0}
+  - layer: {fileID: 1703942538}
+    amplitude: 4
+    speed: 0.4
+    startPosition: {x: 0, y: 0}
+  - layer: {fileID: 124080361}
+    amplitude: 3
+    speed: 0.4
+    startPosition: {x: 0, y: 0}
+  - layer: {fileID: 1621257683}
+    amplitude: 1
+    speed: 0.2
+    startPosition: {x: 0, y: 0}
+  - layer: {fileID: 1336061041}
+    amplitude: 5
+    speed: 0.5
+    startPosition: {x: 0, y: 0}
+  - layer: {fileID: 1814152916}
+    amplitude: 4
+    speed: 0.7
+    startPosition: {x: 0, y: 0}
+  - layer: {fileID: 1598885897}
+    amplitude: 4
+    speed: 0.5
+    startPosition: {x: 0, y: 0}
+  - layer: {fileID: 1006535396}
+    amplitude: 4
+    speed: 0.5
+    startPosition: {x: 0, y: 0}
 --- !u!1 &124080360
 GameObject:
   m_ObjectHideFlags: 0
