@@ -5125,8 +5125,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Use the space bar to impulse upwards and avoid obstacles, gravity will
-    make fall.
+  m_text: Use the space bar to impulse upwards, avoid obstacles and collect the magical
+    objects, gravity will make fall.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 34b03fd02456b7240a9e6508906c23e0, type: 2}
   m_sharedMaterial: {fileID: -4501063379466369027, guid: 34b03fd02456b7240a9e6508906c23e0, type: 2}
@@ -6085,8 +6085,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "El vampiro se enamor\xF3 de la sirena al ver su reflejo en el agua, sin
-    embargo ninguno de los dos puede vivir en el mundo del otro...."
+  m_text: The vampire fell in love with the mermaid after seeing her reflection in
+    the water. However, neither of them could survive in the other's world...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 34b03fd02456b7240a9e6508906c23e0, type: 2}
   m_sharedMaterial: {fileID: -4501063379466369027, guid: 34b03fd02456b7240a9e6508906c23e0, type: 2}
@@ -7383,8 +7383,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "para solucionar esto el vampiro controla a la sirena con su magia y trata
-    de obtener objetos m\xE1gicos con el poder de juntar ambos mundos."
+  m_text: to overcome this obstacle, the vampire uses his magic to control the mermaid
+    and collect magical artifacts with the power to unite their two worlds.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 34b03fd02456b7240a9e6508906c23e0, type: 2}
   m_sharedMaterial: {fileID: -4501063379466369027, guid: 34b03fd02456b7240a9e6508906c23e0, type: 2}
