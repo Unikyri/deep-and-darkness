@@ -1,0 +1,19 @@
+{
+  "status": "review_candidate_with_known_defects",
+  "source_asset_record_id": "dbu038sregj0e45vm3ig",
+  "selected_fal_asset_record_id": "dbu0i1kregj1v560c7n0",
+  "endpoint": "fal-ai/bytedance/seedance/v1/pro/image-to-video",
+  "output_path": "/video/url",
+  "file": "main-menu-seedance-refined-original.mp4",
+  "sha256": "ceaf506b056920a4c5cdd4ea9d0b24f9d256fcc68b941687b0cceef0690a9d5a",
+  "decoder": {"container": "mp4", "codec": "h264", "width": 1920, "height": 1088, "duration_seconds": 6.041667, "frames": 145, "fps": 24, "audio_stream": false},
+  "inspection": [
+    {"requirement": "bubbles rise and bats fly", "status": "passed", "evidence": "24 sampled frames at 4fps show a bat moving and bubbles at multiple vertical positions."},
+    {"requirement": "logo stays fully visible and bats remain small", "status": "failed", "evidence": "A large foreground bat covers parts of the logo in several sampled frames."},
+    {"requirement": "exact 16:9", "status": "failed", "evidence": "Decoded video is 1920 x 1088, not 1920 x 1080."},
+    {"requirement": "seamless loop", "status": "unverified", "evidence": "First and last frames are not pixel-identical; playback across the join was not inspected."}
+  ],
+  "sampling_limits": "Visual inspection of 24 downscaled sampled frames; not all-frame or playback inspection.",
+  "repairs_used": 1,
+  "unity_scene_assignment": "not_performed"
+}

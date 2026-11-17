@@ -1,0 +1,17 @@
+{
+  "status": "rejected_for_targeted_repair",
+  "source_asset_record_id": "dbu038sregj0e45vm3ig",
+  "endpoint": "fal-ai/bytedance/seedance/v1/pro/image-to-video",
+  "fal_asset_record_id": "dbu0gj4regj22uu09uc0",
+  "file": "main-menu-seedance-original.mp4",
+  "sha256": "a27d8f97670c832b3fb6c68b5cfc3b1a734db66f3759bd63c6f624c72dddf42c",
+  "decoder": {"codec": "h264", "width": 1920, "height": 1088, "duration_seconds": 6.041667, "fps": 24, "audio_stream": false},
+  "inspection": [
+    {"requirement": "bubbles and bats move", "status": "passed", "evidence": "Six sampled frames show bubbles and bats at different locations."},
+    {"requirement": "logo stays visible and bats remain small", "status": "failed", "evidence": "Large foreground bats occlude a substantial portion of the logo in multiple sampled frames."},
+    {"requirement": "exact 16:9", "status": "failed", "evidence": "Decoded frame is 1920x1088 rather than 1920x1080."},
+    {"requirement": "seamless loop", "status": "unverified", "evidence": "First and end anchors were supplied, but continuity was not assessed in playback."}
+  ],
+  "sampling_limits": "Visual inspection of six 640px-wide frames, not full-motion inspection.",
+  "repairs_used": 0
+}

@@ -1,0 +1,863 @@
+{
+  "date": "2026-11-17",
+  "image_count": 23,
+  "auxiliary_file_count": 9,
+  "images": [
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Collectible.png",
+      "graphics_relative_path": "Collectible.png",
+      "bytes": 687644,
+      "sha256": "215e3cbe2ec93e7854ed408da973ef09b402d7bac4f313d3fca59f1e6233337f",
+      "id": "collectible-legacy",
+      "family": "characters-props",
+      "category": "prop",
+      "description": "Four violet crystal rotation poses; existing visual reference, redesign candidate.",
+      "width": 2172,
+      "height": 724,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bounds": [
+        23,
+        12,
+        2128,
+        708
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "User-supplied team asset; individual authorship not independently verified",
+      "license": "Not supplied in this folder",
+      "cloud_reference_status": "prepared",
+      "fal_reference": {
+        "path": "docs/art/audit-2026-11-17/references/collectible-legacy.png",
+        "width": 1024,
+        "height": 341,
+        "bytes": 42261,
+        "kind": "reduced_palette_reference_proxy",
+        "palette_colors": 256,
+        "production_asset": false
+      }
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Fantasy Graveyard and Underwater Obstacle Sprite Sheet.png",
+      "graphics_relative_path": "Fantasy Graveyard and Underwater Obstacle Sprite Sheet.png",
+      "bytes": 2264525,
+      "sha256": "ce795b709c0d055fcceeaeb14ef6a0f834ad7e8ef0412b09a22b0ba3d8ea3325",
+      "id": "obstacle-props",
+      "family": "characters-props",
+      "category": "prop",
+      "description": "Upper row: gate, two tombstones, spikes, dead tree, thorns, cross, lantern, gargoyle. Lower row: kelp, purple coral, tube coral, column, spear, anchor, mine, jellyfish, wreck.",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1535,
+        1024
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "User-supplied team asset; individual authorship not independently verified",
+      "license": "Not supplied in this folder",
+      "cloud_reference_status": "prepared",
+      "fal_reference": {
+        "path": "docs/art/audit-2026-11-17/references/obstacle-props.png",
+        "width": 768,
+        "height": 512,
+        "bytes": 62027,
+        "kind": "reduced_palette_reference_proxy",
+        "palette_colors": 64,
+        "production_asset": false
+      }
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/4067x1017/01_ground_grass.png",
+      "graphics_relative_path": "HalloweenGrassGround_Free_v1.0/4067x1017/01_ground_grass.png",
+      "bytes": 1892096,
+      "sha256": "d39d005eae2a23da35a2d68210cf2e488b36645d22cd7289c91df8241be2b931",
+      "id": "halloweengrassground-free-v1.0-4067x1017-01-ground-grass",
+      "family": "graveyard",
+      "category": "environment",
+      "description": "Nearest ground strip with dark soil, grass and orange highlights.",
+      "width": 4067,
+      "height": 1017,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bounds": [
+        0,
+        730,
+        4067,
+        1017
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "KATO, Hallowmoon Graveyard",
+      "license": "Custom local license: game use/edit allowed; standalone redistribution and AI training prohibited",
+      "cloud_reference_status": "local_catalog_only_due_to_standalone_redistribution_restriction"
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/4067x1017/02_graveyard_props.png",
+      "graphics_relative_path": "HalloweenGrassGround_Free_v1.0/4067x1017/02_graveyard_props.png",
+      "bytes": 3354132,
+      "sha256": "bbd4a495c4372ee25a5451119d56105b0e587cb627517de8e1605fe0fee57cad",
+      "id": "halloweengrassground-free-v1.0-4067x1017-02-graveyard-props",
+      "family": "graveyard",
+      "category": "environment",
+      "description": "Graves, fence, pumpkins and large lantern tree; near environmental layer.",
+      "width": 4067,
+      "height": 1017,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        4067,
+        1017
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "KATO, Hallowmoon Graveyard",
+      "license": "Custom local license: game use/edit allowed; standalone redistribution and AI training prohibited",
+      "cloud_reference_status": "local_catalog_only_due_to_standalone_redistribution_restriction"
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/4067x1017/03_lantern_trees.png",
+      "graphics_relative_path": "HalloweenGrassGround_Free_v1.0/4067x1017/03_lantern_trees.png",
+      "bytes": 2628614,
+      "sha256": "713edbfc9578262c8a4f9ae4e74a771bd40934be7e8e9c6221b44fbb1e8599df",
+      "id": "halloweengrassground-free-v1.0-4067x1017-03-lantern-trees",
+      "family": "graveyard",
+      "category": "environment",
+      "description": "Blue midground terrain, bare trees and warm lanterns.",
+      "width": 4067,
+      "height": 1017,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bounds": [
+        0,
+        242,
+        4067,
+        1017
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "KATO, Hallowmoon Graveyard",
+      "license": "Custom local license: game use/edit allowed; standalone redistribution and AI training prohibited",
+      "cloud_reference_status": "local_catalog_only_due_to_standalone_redistribution_restriction"
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/4067x1017/04_hills_chapel.png",
+      "graphics_relative_path": "HalloweenGrassGround_Free_v1.0/4067x1017/04_hills_chapel.png",
+      "bytes": 2169843,
+      "sha256": "ce7fbd24e7cee81ab4d048fe651ab26385ab149479dbdcca800a94c832dc219b",
+      "id": "halloweengrassground-free-v1.0-4067x1017-04-hills-chapel",
+      "family": "graveyard",
+      "category": "environment",
+      "description": "Distant blue hills and chapel silhouette.",
+      "width": 4067,
+      "height": 1017,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        4067,
+        1017
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "KATO, Hallowmoon Graveyard",
+      "license": "Custom local license: game use/edit allowed; standalone redistribution and AI training prohibited",
+      "cloud_reference_status": "local_catalog_only_due_to_standalone_redistribution_restriction"
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/4067x1017/05_sky_moon.png",
+      "graphics_relative_path": "HalloweenGrassGround_Free_v1.0/4067x1017/05_sky_moon.png",
+      "bytes": 2756021,
+      "sha256": "a694082c33163f0260e0eaf25216c3811befb9e59237afb79fa6cbb6d8038bdf",
+      "id": "halloweengrassground-free-v1.0-4067x1017-05-sky-moon",
+      "family": "graveyard",
+      "category": "environment",
+      "description": "Sky backdrop with orange moon; check wrap seams before tiling.",
+      "width": 4067,
+      "height": 1017,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        249,
+        255
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        4067,
+        1017
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "KATO, Hallowmoon Graveyard",
+      "license": "Custom local license: game use/edit allowed; standalone redistribution and AI training prohibited",
+      "cloud_reference_status": "local_catalog_only_due_to_standalone_redistribution_restriction"
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/800x200/01_ground_grass.png",
+      "graphics_relative_path": "HalloweenGrassGround_Free_v1.0/800x200/01_ground_grass.png",
+      "bytes": 105108,
+      "sha256": "6d79c514ee9487c1b698d507b6db3000417763c97f31059b18f03cb3f708dcdd",
+      "id": "halloweengrassground-free-v1.0-800x200-01-ground-grass",
+      "family": "graveyard",
+      "category": "environment",
+      "description": "Nearest ground strip with dark soil, grass and orange highlights.",
+      "width": 800,
+      "height": 200,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bounds": [
+        0,
+        145,
+        800,
+        199
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "KATO, Hallowmoon Graveyard",
+      "license": "Custom local license: game use/edit allowed; standalone redistribution and AI training prohibited",
+      "cloud_reference_status": "local_catalog_only_due_to_standalone_redistribution_restriction"
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/800x200/02_graveyard_props.png",
+      "graphics_relative_path": "HalloweenGrassGround_Free_v1.0/800x200/02_graveyard_props.png",
+      "bytes": 200574,
+      "sha256": "66164e81758ffe3caa95731d11c8c7257a09ad99c39e42261a08bdcb120e2735",
+      "id": "halloweengrassground-free-v1.0-800x200-02-graveyard-props",
+      "family": "graveyard",
+      "category": "environment",
+      "description": "Graves, fence, pumpkins and large lantern tree; near environmental layer.",
+      "width": 800,
+      "height": 200,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        800,
+        200
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "KATO, Hallowmoon Graveyard",
+      "license": "Custom local license: game use/edit allowed; standalone redistribution and AI training prohibited",
+      "cloud_reference_status": "local_catalog_only_due_to_standalone_redistribution_restriction"
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/800x200/03_lantern_trees.png",
+      "graphics_relative_path": "HalloweenGrassGround_Free_v1.0/800x200/03_lantern_trees.png",
+      "bytes": 172069,
+      "sha256": "feea8a2dfd1c11b6540321532a4e10dffa9977a3d7c712571c053f32edf239aa",
+      "id": "halloweengrassground-free-v1.0-800x200-03-lantern-trees",
+      "family": "graveyard",
+      "category": "environment",
+      "description": "Blue midground terrain, bare trees and warm lanterns.",
+      "width": 800,
+      "height": 200,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bounds": [
+        0,
+        48,
+        800,
+        200
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "KATO, Hallowmoon Graveyard",
+      "license": "Custom local license: game use/edit allowed; standalone redistribution and AI training prohibited",
+      "cloud_reference_status": "local_catalog_only_due_to_standalone_redistribution_restriction"
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/800x200/04_hills_chapel.png",
+      "graphics_relative_path": "HalloweenGrassGround_Free_v1.0/800x200/04_hills_chapel.png",
+      "bytes": 155719,
+      "sha256": "f1fd21a41bc30a1072637ffaf3ab3b8257681412b72698ffecdbe4837080ea6f",
+      "id": "halloweengrassground-free-v1.0-800x200-04-hills-chapel",
+      "family": "graveyard",
+      "category": "environment",
+      "description": "Distant blue hills and chapel silhouette.",
+      "width": 800,
+      "height": 200,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        800,
+        200
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "KATO, Hallowmoon Graveyard",
+      "license": "Custom local license: game use/edit allowed; standalone redistribution and AI training prohibited",
+      "cloud_reference_status": "local_catalog_only_due_to_standalone_redistribution_restriction"
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/800x200/05_sky_moon.png",
+      "graphics_relative_path": "HalloweenGrassGround_Free_v1.0/800x200/05_sky_moon.png",
+      "bytes": 191557,
+      "sha256": "0c677d3223bf0c1751516463917e63cd3335fa451d7d05e145dd1cd13c93268f",
+      "id": "halloweengrassground-free-v1.0-800x200-05-sky-moon",
+      "family": "graveyard",
+      "category": "environment",
+      "description": "Sky backdrop with orange moon; check wrap seams before tiling.",
+      "width": 800,
+      "height": 200,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        800,
+        200
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "KATO, Hallowmoon Graveyard",
+      "license": "Custom local license: game use/edit allowed; standalone redistribution and AI training prohibited",
+      "cloud_reference_status": "local_catalog_only_due_to_standalone_redistribution_restriction"
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/halloween_grass_ground_800x200.png",
+      "graphics_relative_path": "HalloweenGrassGround_Free_v1.0/halloween_grass_ground_800x200.png",
+      "bytes": 105108,
+      "sha256": "6d79c514ee9487c1b698d507b6db3000417763c97f31059b18f03cb3f708dcdd",
+      "id": "halloweengrassground-free-v1.0-halloween-grass-ground-800x200",
+      "family": "graveyard",
+      "category": "environment",
+      "description": "Exact duplicate of the 800x200 ground layer; retain source path, avoid a second production copy.",
+      "width": 800,
+      "height": 200,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bounds": [
+        0,
+        145,
+        800,
+        199
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/800x200/01_ground_grass.png",
+      "provenance": "KATO, Hallowmoon Graveyard",
+      "license": "Custom local license: game use/edit allowed; standalone redistribution and AI training prohibited",
+      "cloud_reference_status": "local_catalog_only_due_to_standalone_redistribution_restriction"
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HazardSprite.png",
+      "graphics_relative_path": "HazardSprite.png",
+      "bytes": 186608,
+      "sha256": "d3680fec7ebe365fb77888860c343a64fc76884bce68381a35f793860abff98e",
+      "id": "spectral-hazard",
+      "family": "characters-props",
+      "category": "prop",
+      "description": "Three left-facing cyan spectral skull poses with trailing wisps.",
+      "width": 743,
+      "height": 162,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        743,
+        162
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "User-supplied team asset; individual authorship not independently verified",
+      "license": "Not supplied in this folder",
+      "cloud_reference_status": "prepared",
+      "fal_reference": {
+        "path": "docs/art/audit-2026-11-17/references/spectral-hazard.png",
+        "width": 743,
+        "height": 162,
+        "bytes": 31272,
+        "kind": "reduced_palette_reference_proxy",
+        "palette_colors": 256,
+        "production_asset": false
+      }
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/LifeIcons.png",
+      "graphics_relative_path": "LifeIcons.png",
+      "bytes": 1983273,
+      "sha256": "a3fbb5923e34245dc83d5b6b58b26f34f50d42da320043fe46b7fbd0f26afdc9",
+      "id": "life-icons",
+      "family": "characters-props",
+      "category": "ui",
+      "description": "Six icons: three blood-vial states and three shell/pearl states. The checkerboard is baked into RGB pixels; no alpha channel.",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGB",
+      "has_alpha_channel": false,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "User-supplied team asset; individual authorship not independently verified",
+      "license": "Not supplied in this folder",
+      "cloud_reference_status": "prepared",
+      "fal_reference": {
+        "path": "docs/art/audit-2026-11-17/references/life-icons.png",
+        "width": 768,
+        "height": 384,
+        "bytes": 62199,
+        "kind": "reduced_palette_reference_proxy",
+        "palette_colors": 64,
+        "production_asset": false
+      }
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Mermaid Swimming Animation Sprite Sheet.png",
+      "graphics_relative_path": "Mermaid Swimming Animation Sprite Sheet.png",
+      "bytes": 800447,
+      "sha256": "9e98496b0237baa9da8bb3c890d2fa1cdd210ee32cfa692a3419b24533f1b75d",
+      "id": "mermaid",
+      "family": "characters-props",
+      "category": "character",
+      "description": "Right-facing pale mermaid with long silver hair and teal tail; six swimming poses and a final stars/hurt pose, by visual inspection.",
+      "width": 2120,
+      "height": 742,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bounds": [
+        0,
+        21,
+        2112,
+        718
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "User-supplied team asset; individual authorship not independently verified",
+      "license": "Not supplied in this folder",
+      "cloud_reference_status": "prepared",
+      "fal_reference": {
+        "path": "docs/art/audit-2026-11-17/references/mermaid.png",
+        "width": 1024,
+        "height": 358,
+        "bytes": 45506,
+        "kind": "reduced_palette_reference_proxy",
+        "palette_colors": 256,
+        "production_asset": false
+      }
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Seven-Frame Gothic Bat Sprite Sheet.png",
+      "graphics_relative_path": "Seven-Frame Gothic Bat Sprite Sheet.png",
+      "bytes": 527974,
+      "sha256": "c788c0e6c1c40b39047c5622db5cdcf0a3edee6873d2fa239418ac5de551e208",
+      "id": "gothic-bat",
+      "family": "characters-props",
+      "category": "character",
+      "description": "Right-facing dark bat with rust-brown wing membranes; six flight poses and a final stars/hurt pose, by visual inspection.",
+      "width": 2152,
+      "height": 731,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bounds": [
+        47,
+        58,
+        2096,
+        715
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "User-supplied team asset; individual authorship not independently verified",
+      "license": "Not supplied in this folder",
+      "cloud_reference_status": "prepared",
+      "fal_reference": {
+        "path": "docs/art/audit-2026-11-17/references/gothic-bat.png",
+        "width": 1024,
+        "height": 348,
+        "bytes": 27062,
+        "kind": "reduced_palette_reference_proxy",
+        "palette_colors": 256,
+        "production_asset": false
+      }
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/far.png",
+      "graphics_relative_path": "underwater-fantasy-files/Assets/PNG/layers/far.png",
+      "bytes": 2764,
+      "sha256": "ccee1c4485a955c58618b49ca26185a7bc16dc80b71aaec8047acd9293d2b353",
+      "id": "underwater-fantasy-files-assets-png-layers-far",
+      "family": "underwater",
+      "category": "environment",
+      "description": "Opaque blue underwater backdrop and distant ruined arch; 256x192 pixel art.",
+      "width": 256,
+      "height": 192,
+      "mode": "RGB",
+      "has_alpha_channel": false,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        256,
+        192
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "Luis Zuno / Ansimuz, Underwater Fantasy",
+      "license": "CC0, as declared in the included public-license.pdf",
+      "cloud_reference_status": "prepared",
+      "fal_reference": {
+        "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/far.png",
+        "width": 256,
+        "height": 192,
+        "bytes": 2764,
+        "kind": "original_file",
+        "production_asset": false
+      }
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foregound-merged.png",
+      "graphics_relative_path": "underwater-fantasy-files/Assets/PNG/layers/foregound-merged.png",
+      "bytes": 16401,
+      "sha256": "f3d0bffa5bf5a1b2e4cd5821fb3e0365d91585021f694003a6a0b58165e29e14",
+      "id": "underwater-fantasy-files-assets-png-layers-foregound-merged",
+      "family": "underwater",
+      "category": "environment",
+      "description": "Merged 512x192 foreground arrangement; preserve the source filename typo in provenance.",
+      "width": 512,
+      "height": 192,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bounds": [
+        0,
+        35,
+        512,
+        192
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "Luis Zuno / Ansimuz, Underwater Fantasy",
+      "license": "CC0, as declared in the included public-license.pdf",
+      "cloud_reference_status": "prepared",
+      "fal_reference": {
+        "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foregound-merged.png",
+        "width": 512,
+        "height": 192,
+        "bytes": 16401,
+        "kind": "original_file",
+        "production_asset": false
+      }
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foreground-1.png",
+      "graphics_relative_path": "underwater-fantasy-files/Assets/PNG/layers/foreground-1.png",
+      "bytes": 10971,
+      "sha256": "ac4c7f193fdf8cf65682be7571a0680bcd7df31ca1275a93df6c8dc35c8089ef",
+      "id": "underwater-fantasy-files-assets-png-layers-foreground-1",
+      "family": "underwater",
+      "category": "environment",
+      "description": "Near reef, rock stack and plants; transparent 256x192 layer.",
+      "width": 256,
+      "height": 192,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bounds": [
+        0,
+        35,
+        256,
+        192
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "Luis Zuno / Ansimuz, Underwater Fantasy",
+      "license": "CC0, as declared in the included public-license.pdf",
+      "cloud_reference_status": "prepared",
+      "fal_reference": {
+        "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foreground-1.png",
+        "width": 256,
+        "height": 192,
+        "bytes": 10971,
+        "kind": "original_file",
+        "production_asset": false
+      }
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foreground-2.png",
+      "graphics_relative_path": "underwater-fantasy-files/Assets/PNG/layers/foreground-2.png",
+      "bytes": 6420,
+      "sha256": "785dfd5df0673e520825986352d4d65099cfc633bc0d7b2a3053bb9e5977ffcd",
+      "id": "underwater-fantasy-files-assets-png-layers-foreground-2",
+      "family": "underwater",
+      "category": "environment",
+      "description": "Ruin statue, column, rock and plants; transparent 256x192 layer.",
+      "width": 256,
+      "height": 192,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bounds": [
+        0,
+        92,
+        256,
+        192
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "Luis Zuno / Ansimuz, Underwater Fantasy",
+      "license": "CC0, as declared in the included public-license.pdf",
+      "cloud_reference_status": "prepared",
+      "fal_reference": {
+        "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foreground-2.png",
+        "width": 256,
+        "height": 192,
+        "bytes": 6420,
+        "kind": "original_file",
+        "production_asset": false
+      }
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/sand.png",
+      "graphics_relative_path": "underwater-fantasy-files/Assets/PNG/layers/sand.png",
+      "bytes": 10563,
+      "sha256": "e79d91ad5cf5fafc1758e8fa006fd9c0ed8c6ce3b3dc313fedea1d5252b0311e",
+      "id": "underwater-fantasy-files-assets-png-layers-sand",
+      "family": "underwater",
+      "category": "environment",
+      "description": "Blue seabed/sand layer, rocks and vegetation; transparent 256x192 image.",
+      "width": 256,
+      "height": 192,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "visible_bounds": [
+        0,
+        45,
+        256,
+        192
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "Luis Zuno / Ansimuz, Underwater Fantasy",
+      "license": "CC0, as declared in the included public-license.pdf",
+      "cloud_reference_status": "prepared",
+      "fal_reference": {
+        "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/sand.png",
+        "width": 256,
+        "height": 192,
+        "bytes": 10563,
+        "kind": "original_file",
+        "production_asset": false
+      }
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/underwater-fantasy-preview.png",
+      "graphics_relative_path": "underwater-fantasy-files/Assets/PNG/underwater-fantasy-preview.png",
+      "bytes": 28214,
+      "sha256": "4b214feffa01bc51ee86b9fe4194fcc593653a05d73733d22905ac8a5dbfd9e5",
+      "id": "underwater-fantasy-files-assets-png-underwater-fantasy-preview",
+      "family": "underwater",
+      "category": "environment",
+      "description": "768x192 composite pack preview; reference only, not a separate parallax layer.",
+      "width": 768,
+      "height": 192,
+      "mode": "RGB",
+      "has_alpha_channel": false,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        768,
+        192
+      ],
+      "source_meta_present": true,
+      "exact_duplicate_of": null,
+      "provenance": "Luis Zuno / Ansimuz, Underwater Fantasy",
+      "license": "CC0, as declared in the included public-license.pdf",
+      "cloud_reference_status": "prepared",
+      "fal_reference": {
+        "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/underwater-fantasy-preview.png",
+        "width": 768,
+        "height": 192,
+        "bytes": 28214,
+        "kind": "original_file",
+        "production_asset": false
+      }
+    }
+  ],
+  "auxiliary_files": [
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/hallowmoon_graveyard_800x200.aseprite",
+      "graphics_relative_path": "HalloweenGrassGround_Free_v1.0/hallowmoon_graveyard_800x200.aseprite",
+      "bytes": 980745,
+      "sha256": "69176311817c780e2ee330664b0ba032b19ebd2aecbb60480203399ae63f4ab9",
+      "role": "editable_source",
+      "container": {
+        "width": 800,
+        "height": 200,
+        "frames": 1,
+        "color_depth": 32,
+        "layers": [
+          "Layer Copy",
+          "Layer Copy",
+          "Layer Copy",
+          "Layer Copy",
+          "Layer"
+        ]
+      }
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/License.txt.txt",
+      "graphics_relative_path": "HalloweenGrassGround_Free_v1.0/License.txt.txt",
+      "bytes": 410,
+      "sha256": "68f247ce3ae5d8c4057641b2e6433b90d8a6c65e400c5a2488713c707b4a1380",
+      "role": "license"
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/.DS_Store",
+      "graphics_relative_path": "underwater-fantasy-files/.DS_Store",
+      "bytes": 6148,
+      "sha256": "2951277c0b498446e529c9c603c50a2cfd470a8b377a8d3f80b31cba963d9284",
+      "role": "system_metadata"
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/.DS_Store",
+      "graphics_relative_path": "underwater-fantasy-files/Assets/.DS_Store",
+      "bytes": 6148,
+      "sha256": "12a9f112ccf3dbb0ee57dbd31006cd058df13c2d45fa1fc759f26b7f9eae38e3",
+      "role": "system_metadata"
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/.DS_Store",
+      "graphics_relative_path": "underwater-fantasy-files/Assets/PNG/.DS_Store",
+      "bytes": 6148,
+      "sha256": "727dbc967c66abc93e81d2bf781448a85d304c5b49980704ff26dd693366a62a",
+      "role": "system_metadata"
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PSD/.DS_Store",
+      "graphics_relative_path": "underwater-fantasy-files/Assets/PSD/.DS_Store",
+      "bytes": 6148,
+      "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+      "role": "system_metadata"
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PSD/underwater-fantasy.psd",
+      "graphics_relative_path": "underwater-fantasy-files/Assets/PSD/underwater-fantasy.psd",
+      "bytes": 281711,
+      "sha256": "3b740405ea825546c2fd11d16741ca09350d24dd8087d8035a6a44811b8041f4",
+      "role": "editable_source",
+      "container": {
+        "width": 512,
+        "height": 192,
+        "layers": [
+          "back",
+          "sand",
+          "foreground"
+        ]
+      }
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/looking-for-more.pdf",
+      "graphics_relative_path": "underwater-fantasy-files/looking-for-more.pdf",
+      "bytes": 746991,
+      "sha256": "30bad45318050f41cc465ddde810376d2a132add8e660b3cab3acf90a1710149",
+      "role": "pack_marketing_document"
+    },
+    {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/public-license.pdf",
+      "graphics_relative_path": "underwater-fantasy-files/public-license.pdf",
+      "bytes": 834989,
+      "sha256": "3795df823a2d9ee8f237e682a127d875fcb35c5ab3aac8819e2c98be0235732e",
+      "role": "license"
+    }
+  ]
+}

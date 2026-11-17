@@ -12,6 +12,8 @@ public class CollectibleSpawner : MonoBehaviour
     [SerializeField] private GameplayBounds gameplayBounds;
     [Tooltip("Prefab que se crea para representar el siguiente coleccionable de misión.")]
     [SerializeField] private GameObject collectiblePrefab;
+    [Tooltip("Sprites de los coleccionables de este nivel, en el orden en que se recogen.")]
+    [SerializeField] private Sprite[] collectibleSprites;
     [Tooltip("Cámara cuya vista se usa para calcular la posición de aparición del coleccionable.")]
     [SerializeField] private Camera mainCamera;
 
@@ -48,6 +50,13 @@ public class CollectibleSpawner : MonoBehaviour
         {
             Debug.LogError("CollectibleSpawner necesita sus referencias asignadas.", this);
             enabled = false;
+            return;
+        }
+
+        if (collectibleSprites == null || collectibleSprites.Length < gameSession.RequiredCollectibles)
+        {
+            Debug.LogError("CollectibleSpawner necesita un sprite por cada coleccionable requerido en este nivel.", this);
+            enabled = false;
         }
     }
 
@@ -72,11 +81,7 @@ public class CollectibleSpawner : MonoBehaviour
 
     private bool IsCollectibleMilestone(int patternNumber)
     {
-        if (attackSpawner.IndependentWorldPatterns) { return patternNumber > 0 && patternNumber % 2 == 0; }
-
-        if (patternNumber == 3 || patternNumber == 7 || patternNumber == 10) { return true; }
-
-        return patternNumber > 10 && (patternNumber - 10) % 3 == 0;
+        return patternNumber > 0 && patternNumber % 2 == 0;
     }
 
     private IEnumerator SpawnCollectibleAfterDelay()
@@ -93,6 +98,12 @@ public class CollectibleSpawner : MonoBehaviour
     private void SpawnCollectible()
     {
         int nextCollectibleNumber = gameSession.CollectedCollectibles + 1;
+        if (nextCollectibleNumber > collectibleSprites.Length || collectibleSprites[nextCollectibleNumber - 1] == null)
+        {
+            Debug.LogError($"Falta asignar el sprite del coleccionable {nextCollectibleNumber} en CollectibleSpawner.", this);
+            return;
+        }
+
         bool spawnInUpperWorld = nextCollectibleNumber % 2 == 1;
         float spawnY = spawnInUpperWorld ? gameplayBounds.GetBatLaneY(collectibleLaneRatio) : gameplayBounds.GetMermaidLaneY(collectibleLaneRatio);
         Vector3 cameraRightEdge = mainCamera.ViewportToWorldPoint(new Vector3(1f, 0.5f, Mathf.Abs(mainCamera.transform.position.z - transform.position.z)));
@@ -106,6 +117,19 @@ public class CollectibleSpawner : MonoBehaviour
         Vector3 spawnPosition = new Vector3(spawnX, spawnY, transform.position.z);
 
         activeCollectible = Instantiate(collectiblePrefab, spawnPosition, Quaternion.identity);
+
+        SpriteRenderer spriteRenderer = activeCollectible.GetComponentInChildren<SpriteRenderer>();
+
+        if (spriteRenderer == null)
+        {
+            Debug.LogError("Collectible.prefab necesita un SpriteRenderer en su jerarquía.", activeCollectible);
+            Destroy(activeCollectible);
+            activeCollectible = null;
+            return;
+        }
+
+        spriteRenderer.sprite = collectibleSprites[nextCollectibleNumber - 1];
+        spriteRenderer.color = Color.white;
 
         CollectiblePickup pickup = activeCollectible.GetComponent<CollectiblePickup>();
 

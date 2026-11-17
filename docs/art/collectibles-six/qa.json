@@ -1,0 +1,164 @@
+{
+  "item_count": 6,
+  "all_six_have_real_alpha": true,
+  "items": [
+    {
+      "number": 1,
+      "slug": "moon-pearl-relic",
+      "name": "Moon Pearl Relic",
+      "path": "docs/art/collectibles-six/../concepts/moon-pearl-relic-v1/concept-transparent.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "has_real_alpha": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixel_fraction": 0.6130990982055664,
+      "visible_bounds_alpha_gt_16": [
+        82,
+        131,
+        943,
+        918
+      ],
+      "border_clear": true,
+      "sha256": "c41ebc5138f8f184575c2ca151fb0d7082a61a0a42e6d9ec233e08249429a235",
+      "visual_review": "Original user-approved visual direction; real alpha verified; previously observed thin pale edge remains a cleanup consideration.",
+      "in_engine_readability": "unverified_not_integrated"
+    },
+    {
+      "number": 2,
+      "slug": "tide-lantern",
+      "name": "Tide Lantern",
+      "path": "docs/art/collectibles-six/tide-lantern/transparent.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "has_real_alpha": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixel_fraction": 0.6038761138916016,
+      "visible_bounds_alpha_gt_16": [
+        197,
+        59,
+        853,
+        963
+      ],
+      "border_clear": true,
+      "sha256": "c80b3811a3b12676a0ce3b35ec97c934cae21036a3d0450411ee2a0311ac89ec",
+      "visual_review": "Single distinct object, full silhouette, shared painted navy/silver/teal/ivory style, internal details retained through extraction; thin pale rim may remain. Static comparison only.",
+      "in_engine_readability": "unverified_not_integrated"
+    },
+    {
+      "number": 3,
+      "slug": "abyssal-key",
+      "name": "Abyssal Key",
+      "path": "docs/art/collectibles-six/abyssal-key/transparent.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "has_real_alpha": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixel_fraction": 0.7620782852172852,
+      "visible_bounds_alpha_gt_16": [
+        96,
+        79,
+        922,
+        944
+      ],
+      "border_clear": true,
+      "sha256": "885abf3c8d49585627ded70590bd27b9c444a4e5fa3dd73e59753d31999eafb2",
+      "visual_review": "Single distinct object, full silhouette, shared painted navy/silver/teal/ivory style, internal details retained through extraction; thin pale rim may remain. Static comparison only.",
+      "in_engine_readability": "unverified_not_integrated"
+    },
+    {
+      "number": 4,
+      "slug": "bottled-message",
+      "name": "Bottled Message",
+      "path": "docs/art/collectibles-six/bottled-message/transparent.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "has_real_alpha": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixel_fraction": 0.6066989898681641,
+      "visible_bounds_alpha_gt_16": [
+        172,
+        96,
+        854,
+        930
+      ],
+      "border_clear": true,
+      "sha256": "8699a040bc4e2a686a3f42e3aa2f9a1df9273065e0381a983a2eb18ef9a69220",
+      "visual_review": "Single distinct object, full silhouette, shared painted navy/silver/teal/ivory style, internal details retained through extraction; thin pale rim may remain. Static comparison only.",
+      "in_engine_readability": "unverified_not_integrated"
+    },
+    {
+      "number": 5,
+      "slug": "nautilus-compass",
+      "name": "Nautilus Compass",
+      "path": "docs/art/collectibles-six/nautilus-compass/transparent.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "has_real_alpha": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixel_fraction": 0.5643739700317383,
+      "visible_bounds_alpha_gt_16": [
+        138,
+        55,
+        887,
+        917
+      ],
+      "border_clear": true,
+      "sha256": "ec0542c50326824ffcb8c396ba980f480ca1d18d7057f1e1c70794517a27d16a",
+      "visual_review": "Single distinct object, full silhouette, shared painted navy/silver/teal/ivory style, internal details retained through extraction; thin pale rim may remain. Static comparison only.",
+      "in_engine_readability": "unverified_not_integrated"
+    },
+    {
+      "number": 6,
+      "slug": "tidebound-grimoire",
+      "name": "Tidebound Grimoire",
+      "path": "docs/art/collectibles-six/tidebound-grimoire/transparent.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1024,
+      "has_real_alpha": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixel_fraction": 0.4614696502685547,
+      "visible_bounds_alpha_gt_16": [
+        91,
+        86,
+        927,
+        945
+      ],
+      "border_clear": true,
+      "sha256": "52793879279fffc539c2d8bd48e35619f3c1c860dfa8cd6c77cbe72e39a620e2",
+      "visual_review": "Single distinct object, full silhouette, shared painted navy/silver/teal/ivory style, internal details retained through extraction; thin pale rim may remain. Static comparison only.",
+      "in_engine_readability": "unverified_not_integrated"
+    }
+  ],
+  "evidence": "Pillow decoded actual local PNGs; host inspected rendered original/cutout comparisons.",
+  "sampling_limits": "Static 48/64px previews; no gameplay, animation or collider checks."
+}

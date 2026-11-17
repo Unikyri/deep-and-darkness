@@ -1,0 +1,1638 @@
+fileFormatVersion: 2
+guid: 6198db757b30e214493e8f0d21a6ac63
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2065436689863568528
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_0
+  - first:
+      213: -2641955748512478903
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_1
+  - first:
+      213: -4541560135153975047
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_2
+  - first:
+      213: -2874445697933411087
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_3
+  - first:
+      213: -193162480179719007
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_4
+  - first:
+      213: 8860254394267377867
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_5
+  - first:
+      213: -6783948583292218046
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_6
+  - first:
+      213: -6914286630868314389
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_7
+  - first:
+      213: 7596144411036416544
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_8
+  - first:
+      213: -9000617421973777557
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_9
+  - first:
+      213: -6583338312309179668
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_10
+  - first:
+      213: -1953508029126074205
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_11
+  - first:
+      213: 5117399253871572812
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_12
+  - first:
+      213: -6473006771436020267
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_13
+  - first:
+      213: 4752257575043432698
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_14
+  - first:
+      213: -6542087787263883676
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_15
+  - first:
+      213: -7369016140828354483
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_16
+  - first:
+      213: 3734308086879947978
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_17
+  - first:
+      213: -2381300572210328280
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_18
+  - first:
+      213: -2756938516300330174
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_19
+  - first:
+      213: -234124955652659936
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_20
+  - first:
+      213: -1802911617922661500
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_21
+  - first:
+      213: -5066122694161536302
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_22
+  - first:
+      213: 4191565249148879642
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_23
+  - first:
+      213: 82489578951398999
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_24
+  - first:
+      213: -3264753656521136228
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_25
+  - first:
+      213: 3187947665644791418
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_26
+  - first:
+      213: 5812002457232945275
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_27
+  - first:
+      213: 940180951738270230
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_28
+  - first:
+      213: -5071052261053855190
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_29
+  - first:
+      213: -8652577972897035662
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_30
+  - first:
+      213: 5419606292706392948
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_31
+  - first:
+      213: -8003880811069160881
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_32
+  - first:
+      213: 6197827876489324164
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_33
+  - first:
+      213: -7012968530272972777
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_34
+  - first:
+      213: 8754683248376173434
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_35
+  - first:
+      213: 1260099796199524727
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_36
+  - first:
+      213: -6612631855617333143
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_37
+  - first:
+      213: -7697821254995037807
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_38
+  - first:
+      213: 5747580952430898396
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_39
+  - first:
+      213: -7864187584112080112
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_40
+  - first:
+      213: 7625371741503614736
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_41
+  - first:
+      213: 2402141857055651059
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_42
+  - first:
+      213: 1671670476086477078
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_43
+  - first:
+      213: -7660096791380523243
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_44
+  - first:
+      213: -1934632701694979381
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_45
+  - first:
+      213: 3102569853407069598
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_46
+  - first:
+      213: -6513555201272061572
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_47
+  - first:
+      213: -2806489560707351312
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_48
+  - first:
+      213: 7752603098270380979
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_49
+  - first:
+      213: 4408084942353982350
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_50
+  - first:
+      213: -4572703267645590525
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_51
+  - first:
+      213: -3592706776715979830
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_52
+  - first:
+      213: -3987774243239500854
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_53
+  - first:
+      213: 2516155537883472415
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_54
+  - first:
+      213: 3333144021456683348
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_55
+  - first:
+      213: 5586292236710358985
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_56
+  - first:
+      213: -5327963707017402139
+    second: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 959
+        width: 89
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0739f9216481653e0800000000000000
+      internalID: -2065436689863568528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 961
+        width: 11
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949cc919e33e55bd0800000000000000
+      internalID: -2641955748512478903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 983
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0821a8e1329f0c0800000000000000
+      internalID: -4541560135153975047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1009
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc77800edaeb18d0800000000000000
+      internalID: -2874445697933411087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 999
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a454f86fbfb15df0800000000000000
+      internalID: -193162480179719007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 998
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc0a6ed8d62f5fa70800000000000000
+      internalID: 8860254394267377867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 987
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2455a56d4b29ad1a0800000000000000
+      internalID: -6783948583292218046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 956
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be69cd351f48b00a0800000000000000
+      internalID: -6914286630868314389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 983
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02af462881dea6960800000000000000
+      internalID: 7596144411036416544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 893
+        width: 67
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b639f0c5422671380800000000000000
+      internalID: -9000617421973777557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 963
+        width: 75
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea779a5fa843a4a0800000000000000
+      internalID: -6583338312309179668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 479
+        width: 1357
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a021123cceb3e4e0800000000000000
+      internalID: -1953508029126074205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 979
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c473ddc1287a40740800000000000000
+      internalID: 5117399253871572812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 895
+        width: 49
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd9bd703a24b26a0800000000000000
+      internalID: -6473006771436020267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 959
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af08f91061963f140800000000000000
+      internalID: 4752257575043432698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 959
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46607b6a1d5d535a0800000000000000
+      internalID: -6542087787263883676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 913
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d485ec5dcdefbb990800000000000000
+      internalID: -7369016140828354483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 913
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc09587b6de2d330800000000000000
+      internalID: 3734308086879947978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 925
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d08f90fbbe3fed0800000000000000
+      internalID: -2381300572210328280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 900
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b835cb6036db9d0800000000000000
+      internalID: -2756938516300330174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 884
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025e441e79830ccf0800000000000000
+      internalID: -234124955652659936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 913
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4838b4c8f65caf6e0800000000000000
+      internalID: -1802911617922661500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 910
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dae4f9404481b9b0800000000000000
+      internalID: -5066122694161536302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 873
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a130460e26e6b2a30800000000000000
+      internalID: 4191565249148879642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 897
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756d113c5df052100800000000000000
+      internalID: 82489578951398999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 891
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9766e7c8d341b2d0800000000000000
+      internalID: -3264753656521136228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 869
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a762b4de28ddd3c20800000000000000
+      internalID: 3187947665644791418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 509
+        width: 175
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b703119017168a050800000000000000
+      internalID: 5812002457232945275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 533
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612c2f428913c0d00800000000000000
+      internalID: 940180951738270230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 519
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a817e06d000a9b0800000000000000
+      internalID: -5071052261053855190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 903
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a4a1e4d2edbe780800000000000000
+      internalID: -8652577972897035662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 510
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b7c3b753f463b40800000000000000
+      internalID: 5419606292706392948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 513
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4248a70fc08ce090800000000000000
+      internalID: -8003880811069160881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 497
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486e82dbd9b130650800000000000000
+      internalID: 6197827876489324164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 446
+        width: 71
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710161c274eecae90800000000000000
+      internalID: -7012968530272972777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 453
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a735684b702ee7970800000000000000
+      internalID: 8754683248376173434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 0
+        width: 580
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779c30e9616cc7110800000000000000
+      internalID: 1260099796199524727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 469
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9682f7fcc563b34a0800000000000000
+      internalID: -6612631855617333143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 479
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191b1977a58db2590800000000000000
+      internalID: -7697821254995037807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 415
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdce17b9c6283cf40800000000000000
+      internalID: 5747580952430898396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 47
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b46f9fe0bccd290800000000000000
+      internalID: -7864187584112080112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 61
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01fef9ca233c2d960800000000000000
+      internalID: 7625371741503614736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 47
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f436e9ba4f165120800000000000000
+      internalID: 2402141857055651059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 75
+        width: 199
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61184ace077f23710800000000000000
+      internalID: 1671670476086477078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 52
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51787ac9d8ed1b590800000000000000
+      internalID: -7660096791380523243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 31
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2dd94decdc625e0800000000000000
+      internalID: -1934632701694979381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 49
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e950a23f7da8e0b20800000000000000
+      internalID: 3102569853407069598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 53
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71e7430e043b95a0800000000000000
+      internalID: -6513555201272061572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 45
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc323c2d985d09d0800000000000000
+      internalID: -2806489560707351312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 38
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3bffc5177c69b60800000000000000
+      internalID: 7752603098270380979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 31
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83e1c866e9ac2d30800000000000000
+      internalID: 4408084942353982350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 9
+        width: 9
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30477b4fa9e7a80c0800000000000000
+      internalID: -4572703267645590525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 29
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac394b7b834242ec0800000000000000
+      internalID: -3592706776715979830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 29
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3e143347498a8c0800000000000000
+      internalID: -3987774243239500854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 23
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f122d2b612e2be220800000000000000
+      internalID: 2516155537883472415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 17
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4518428e3d4b14e20800000000000000
+      internalID: 3333144021456683348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 25
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfa4ac113f768d40800000000000000
+      internalID: 5586292236710358985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy Graveyard and Underwater Obstacle Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 18
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8ed0bbc354f06b0800000000000000
+      internalID: -5327963707017402139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_0: -2065436689863568528
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_1: -2641955748512478903
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_10: -6583338312309179668
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_11: -1953508029126074205
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_12: 5117399253871572812
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_13: -6473006771436020267
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_14: 4752257575043432698
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_15: -6542087787263883676
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_16: -7369016140828354483
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_17: 3734308086879947978
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_18: -2381300572210328280
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_19: -2756938516300330174
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_2: -4541560135153975047
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_20: -234124955652659936
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_21: -1802911617922661500
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_22: -5066122694161536302
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_23: 4191565249148879642
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_24: 82489578951398999
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_25: -3264753656521136228
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_26: 3187947665644791418
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_27: 5812002457232945275
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_28: 940180951738270230
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_29: -5071052261053855190
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_3: -2874445697933411087
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_30: -8652577972897035662
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_31: 5419606292706392948
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_32: -8003880811069160881
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_33: 6197827876489324164
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_34: -7012968530272972777
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_35: 8754683248376173434
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_36: 1260099796199524727
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_37: -6612631855617333143
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_38: -7697821254995037807
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_39: 5747580952430898396
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_4: -193162480179719007
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_40: -7864187584112080112
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_41: 7625371741503614736
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_42: 2402141857055651059
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_43: 1671670476086477078
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_44: -7660096791380523243
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_45: -1934632701694979381
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_46: 3102569853407069598
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_47: -6513555201272061572
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_48: -2806489560707351312
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_49: 7752603098270380979
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_5: 8860254394267377867
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_50: 4408084942353982350
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_51: -4572703267645590525
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_52: -3592706776715979830
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_53: -3987774243239500854
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_54: 2516155537883472415
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_55: 3333144021456683348
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_56: 5586292236710358985
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_57: -5327963707017402139
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_6: -6783948583292218046
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_7: -6914286630868314389
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_8: 7596144411036416544
+      Fantasy Graveyard and Underwater Obstacle Sprite Sheet_9: -9000617421973777557
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
