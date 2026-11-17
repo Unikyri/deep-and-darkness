@@ -12,18 +12,32 @@ public class GameSessionManager : MonoBehaviour
     [Tooltip("Nombre de la siguiente escena. Déjalo vacío si este es el último nivel")]
     [SerializeField] private string nextSceneName;
 
+    [Tooltip("Escena que se carga al completar el último nivel")]
+    [SerializeField] private string finalSceneName = "FinalScene";
+
+    [Tooltip("Actívalo al entrar al primer nivel para empezar una partida nueva con la progresión de velocidad reiniciada.")]
+    [SerializeField] private bool resetAttackSpeedProgressionOnLoad;
+
     [Header("Intangibilidad compartida")]
     [Tooltip("Tiempo durante el cual ambos personajes atraviesan ataques y no pueden recoger objetos después de un golpe")]
     [SerializeField, Min(0f)] private float intangibilityDuration = 5f;
 
     private bool isGameOver;
+    private bool isVictory;
     private bool charactersIntangible;
 
     private int collectedCollectibles;
 
+    public static int CarriedCollectiblesForAttackSpeed { get; private set; }
+
     public bool IsGameOver
     {
         get { return isGameOver; }
+    }
+
+    public bool IsVictory
+    {
+        get { return isVictory; }
     }
 
     public int CollectedCollectibles
@@ -43,11 +57,12 @@ public class GameSessionManager : MonoBehaviour
 
     public event Action<int, int> CollectiblesChanged;
     public event Action<string> GameOverTriggered;
-    public event Action VictoryTriggered;
     public event Action IntangibilityEnded;
 
     private void Awake()
     {
+        if (resetAttackSpeedProgressionOnLoad) { CarriedCollectiblesForAttackSpeed = 0; }
+
         // Restauramos el tiempo al entrar al nivel
         Time.timeScale = 1f;
     }
@@ -122,19 +137,15 @@ public class GameSessionManager : MonoBehaviour
         // Esto sirve para comprobar si hay otro nivel (escena) listo
         if (!string.IsNullOrWhiteSpace(nextSceneName))
         {
+            CarriedCollectiblesForAttackSpeed += collectedCollectibles;
             Time.timeScale = 1f;
             SceneManager.LoadScene(nextSceneName, LoadSceneMode.Single);
             return;
         }
 
         // Si no existe otra escena (o nivel) entonces esta es la victoria final
-        Time.timeScale = 0f;
-
-        Debug.Log($"Victoria: se recogieron {requiredCollectibles} coleccionables.");
-
-        if (VictoryTriggered != null)
-        {
-            VictoryTriggered();
-        }
+        isVictory = true;
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(finalSceneName, LoadSceneMode.Single);
     }
 }

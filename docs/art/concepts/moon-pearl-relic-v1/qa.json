@@ -1,0 +1,39 @@
+{
+  "width": 1024,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "has_real_transparency": true,
+  "transparent_pixel_fraction": 0.6130990982055664,
+  "partial_alpha_pixel_fraction": 0.03494071960449219,
+  "visible_bounds_alpha_gt_16": [
+    82,
+    131,
+    943,
+    918
+  ],
+  "normalized_margins": [
+    0.080078125,
+    0.1279296875,
+    0.0791015625,
+    0.103515625
+  ],
+  "requested_minimum_margin": 0.15,
+  "minimum_margin_passed": false,
+  "checks": {
+    "single_item": "passed_host_visual",
+    "full_silhouette_visible": "passed_host_visual",
+    "pearl_crescent_shell_survive_cutout": "passed_host_visual",
+    "dark_background_edge_cleanup": "needs_review_thin_pale_fringe_visible",
+    "source_outline_weight_match": "failed_thicker_outline_than_source",
+    "user_art_direction_approval": "unverified",
+    "animation_alignment": "not_applicable_single_concept",
+    "in_engine_readability": "unverified_not_integrated"
+  },
+  "sha256": "c41ebc5138f8f184575c2ca151fb0d7082a61a0a42e6d9ec233e08249429a235",
+  "sampling_limits": "Local PNG decoder and static composite inspection. No Unity gameplay, animation, or user approval check."
+}

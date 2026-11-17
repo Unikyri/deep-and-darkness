@@ -1,0 +1,1307 @@
+{
+  "project": "Deep and Darkness",
+  "date": "2026-11-17",
+  "report": "docs/art/ART_PIPELINE.md",
+  "counts": {
+    "sourcePngsInspected": 23,
+    "sourceFilesHashed": 32,
+    "falSourceAssets": 19,
+    "falConceptAssets": 22,
+    "falEntities": 17,
+    "approvedProductionAssets": 0,
+    "modelJobsSubmitted": 28
+  },
+  "collections": {
+    "root": "dbtugvsregjan2dtgok0",
+    "sources": "dbtuh5sregjbv6lth420",
+    "concepts": "dbtuh64regjan2dth4b0",
+    "approved": "dbtuh6cregjbvatth4p0",
+    "collectiblesSix": "dbtv05sregjcf3lu496g",
+    "mainMenu4K": "dbtvoqcregj07kdv5bjg",
+    "mainMenuParallax3": "dbu1mm4regj7s4u28if0"
+  },
+  "entities": [
+    {
+      "key": "bat",
+      "id": "dbtullsregjcf3ltmh90",
+      "type": "character",
+      "name": "DAD | Gothic Bat",
+      "handle": "dad-gothic-bat",
+      "referenceImages": [
+        "dbtuiksregjan2ttit2g"
+      ]
+    },
+    {
+      "key": "mermaid",
+      "id": "dbtulmkregjcf3ltmieg",
+      "type": "character",
+      "name": "DAD | Silver-haired Mermaid",
+      "handle": "dad-mermaid",
+      "referenceImages": [
+        "dbtuimkregjbvattiv40"
+      ]
+    },
+    {
+      "key": "hazard",
+      "id": "dbtuln4regjbv6ltmjc0",
+      "type": "prop",
+      "name": "DAD | Spectral Skull Hazard",
+      "handle": "dad-spectral-hazard",
+      "referenceImages": [
+        "dbtuiokregjbvattj0sg"
+      ]
+    },
+    {
+      "key": "legacy-collectible",
+      "id": "dbtulnsregjbtadtmk90",
+      "type": "prop",
+      "name": "DAD | Violet Crystal - Legacy",
+      "handle": "dad-crystal-legacy",
+      "referenceImages": [
+        "dbtujtcregjcf3ltkfv0"
+      ]
+    },
+    {
+      "key": "upper-props",
+      "id": "dbtulocregjce0dtmks0",
+      "type": "prop",
+      "name": "DAD | Graveyard Prop Vocabulary",
+      "handle": "dad-graveyard-props",
+      "referenceImages": [
+        "dbtuiqcregjce0dtj3p0"
+      ]
+    },
+    {
+      "key": "lower-props",
+      "id": "dbtulosregjbv6ltmljg",
+      "type": "prop",
+      "name": "DAD | Underwater Prop Vocabulary",
+      "handle": "dad-underwater-props",
+      "referenceImages": [
+        "dbtuiscregjan2ltj6rg"
+      ]
+    },
+    {
+      "key": "life-icons",
+      "id": "dbtulpcregjbv6ltmmag",
+      "type": "prop",
+      "name": "DAD | Blood and Pearl Life Icons",
+      "handle": "dad-life-icons",
+      "referenceImages": [
+        "dbtuk3sregjcf3ltklbg",
+        "dbu32acregjddae4kjl0"
+      ]
+    },
+    {
+      "key": "underwater",
+      "id": "dbtulpsregjan2ltmmh0",
+      "type": "environment",
+      "name": "DAD | Underwater Ruins",
+      "handle": "dad-underwater-ruins",
+      "referenceImages": [
+        "dbtul3kregjcbbttlsi0",
+        "dbtui8sregjbvattic9g",
+        "dbtuku4regjan2dtllig"
+      ]
+    },
+    {
+      "key": "style",
+      "id": "dbtulq4regjbtadtmmtg",
+      "type": "style",
+      "name": "DAD | Existing Character and Prop Style",
+      "handle": "dad-source-sprite-style",
+      "referenceImages": [
+        "dbtuiksregjan2ttit2g",
+        "dbtuimkregjbvattiv40",
+        "dbtuiokregjbvattj0sg"
+      ]
+    },
+    {
+      "key": "moon-pearl",
+      "id": "dbtum5kregjcbbttn40g",
+      "type": "prop",
+      "name": "DAD | Moon Pearl Relic - Collectible 01",
+      "handle": "dad-moon-pearl-concept-01",
+      "referenceImages": [
+        "dbtul9kregjcbbttm53g"
+      ],
+      "artDirectionApproved": true
+    },
+    {
+      "key": "tide-lantern",
+      "id": "dbtv354regjd3cdu7v80",
+      "name": "DAD | Tide Lantern - Collectible 02",
+      "handle": "dad-tide-lantern",
+      "type": "prop",
+      "referenceImages": [
+        "dbtv34cregjcpltu7ui0"
+      ]
+    },
+    {
+      "key": "abyssal-key",
+      "id": "dbtv36cregjbtadu8110",
+      "name": "DAD | Abyssal Key - Collectible 03",
+      "handle": "dad-abyssal-key",
+      "type": "prop",
+      "referenceImages": [
+        "dbtv35kregjd3cdu8090"
+      ]
+    },
+    {
+      "key": "bottled-message",
+      "id": "dbtv37kregjd3cdu83m0",
+      "name": "DAD | Bottled Message - Collectible 04",
+      "handle": "dad-bottled-message",
+      "type": "prop",
+      "referenceImages": [
+        "dbtv36sregjdd8du826g"
+      ]
+    },
+    {
+      "key": "nautilus-compass",
+      "id": "dbtv394regjd3cdu85a0",
+      "name": "DAD | Nautilus Compass - Collectible 05",
+      "handle": "dad-nautilus-compass",
+      "type": "prop",
+      "referenceImages": [
+        "dbtv38cregjce0du84cg"
+      ]
+    },
+    {
+      "key": "tidebound-grimoire",
+      "id": "dbtv3acregjcbbtu87a0",
+      "name": "DAD | Tidebound Grimoire - Collectible 06",
+      "handle": "dad-tidebound-grimoire",
+      "type": "prop",
+      "referenceImages": [
+        "dbtv39kregjcpltu8630"
+      ]
+    },
+    {
+      "key": "main-menu-4k-study",
+      "id": "dbtvorkregjf30tv5ctg",
+      "type": "scene",
+      "name": "DAD | Main Menu - 4K Static Study",
+      "handle": "dad-main-menu-4k-study",
+      "referenceImages": [
+        "dbtvngcregjf30tv3ibg"
+      ],
+      "associatedGalleryAssets": [
+        "dbu038sregj0e45vm3ig",
+        "dbu0gj4regj22uu09uc0",
+        "dbu0i1kregj1v560c7n0"
+      ]
+    },
+    {
+      "key": "main-menu-three-layer-parallax",
+      "id": "dbu1mlkregj74cm28hug",
+      "type": "scene",
+      "name": "DAD | Main Menu - Three-Layer Parallax",
+      "handle": "dad-main-menu-three-layer-4k",
+      "referenceImages": [
+        "dbu1ausregj68pu1l000"
+      ],
+      "associatedGalleryAssets": [
+        "dbu1gb4regj75oe1ue90",
+        "dbu1husregj388e211jg",
+        "dbu1hukregj68q6210v0"
+      ]
+    }
+  ],
+  "sourceAssets": [
+    {
+      "key": "gothic-bat-anchor",
+      "assetRecordId": "dbtuiksregjan2ttit2g",
+      "sourcePath": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Seven-Frame Gothic Bat Sprite Sheet.png",
+      "sourceSha256": null,
+      "cropBox": [
+        74,
+        200,
+        278,
+        473
+      ],
+      "reference": {
+        "path": "docs/art/audit-2026-11-17/references/gothic-bat-anchor.png",
+        "width": 204,
+        "height": 273,
+        "bytes": 16220,
+        "kind": "reduced_palette_reference_proxy",
+        "palette_colors": 256,
+        "production_asset": false
+      },
+      "role": "anchor",
+      "status": "source_reference_not_user_approval"
+    },
+    {
+      "key": "mermaid-anchor",
+      "assetRecordId": "dbtuimkregjbvattiv40",
+      "sourcePath": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Mermaid Swimming Animation Sprite Sheet.png",
+      "sourceSha256": null,
+      "cropBox": [
+        17,
+        278,
+        340,
+        411
+      ],
+      "reference": {
+        "path": "docs/art/audit-2026-11-17/references/mermaid-anchor.png",
+        "width": 323,
+        "height": 133,
+        "bytes": 22570,
+        "kind": "reduced_palette_reference_proxy",
+        "palette_colors": 256,
+        "production_asset": false
+      },
+      "role": "anchor",
+      "status": "source_reference_not_user_approval"
+    },
+    {
+      "key": "spectral-hazard-anchor",
+      "assetRecordId": "dbtuiokregjbvattj0sg",
+      "sourcePath": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HazardSprite.png",
+      "sourceSha256": null,
+      "cropBox": [
+        19,
+        28,
+        246,
+        141
+      ],
+      "reference": {
+        "path": "docs/art/audit-2026-11-17/references/spectral-hazard-anchor.png",
+        "width": 227,
+        "height": 113,
+        "bytes": 10856,
+        "kind": "reduced_palette_reference_proxy",
+        "palette_colors": 256,
+        "production_asset": false
+      },
+      "role": "anchor",
+      "status": "source_reference_not_user_approval"
+    },
+    {
+      "key": "graveyard-prop-vocabulary",
+      "assetRecordId": "dbtuiqcregjce0dtj3p0",
+      "sourcePath": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Fantasy Graveyard and Underwater Obstacle Sprite Sheet.png",
+      "sourceSha256": null,
+      "cropBox": [
+        0,
+        0,
+        1536,
+        512
+      ],
+      "reference": {
+        "path": "docs/art/audit-2026-11-17/references/graveyard-prop-vocabulary.png",
+        "width": 1024,
+        "height": 341,
+        "bytes": 43439,
+        "kind": "reduced_palette_reference_proxy",
+        "palette_colors": 64,
+        "production_asset": false
+      },
+      "role": "anchor",
+      "status": "source_reference_not_user_approval"
+    },
+    {
+      "key": "underwater-prop-vocabulary",
+      "assetRecordId": "dbtuiscregjan2ltj6rg",
+      "sourcePath": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Fantasy Graveyard and Underwater Obstacle Sprite Sheet.png",
+      "sourceSha256": null,
+      "cropBox": [
+        0,
+        512,
+        1536,
+        1024
+      ],
+      "reference": {
+        "path": "docs/art/audit-2026-11-17/references/underwater-prop-vocabulary.png",
+        "width": 1024,
+        "height": 341,
+        "bytes": 59612,
+        "kind": "reduced_palette_reference_proxy",
+        "palette_colors": 64,
+        "production_asset": false
+      },
+      "role": "anchor",
+      "status": "source_reference_not_user_approval"
+    },
+    {
+      "key": "collectible-legacy",
+      "assetRecordId": "dbtujtcregjcf3ltkfv0",
+      "sourcePath": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Collectible.png",
+      "sourceSha256": "215e3cbe2ec93e7854ed408da973ef09b402d7bac4f313d3fca59f1e6233337f",
+      "cropBox": null,
+      "reference": {
+        "path": "docs/art/audit-2026-11-17/references/collectible-legacy.png",
+        "width": 1024,
+        "height": 341,
+        "bytes": 42261,
+        "kind": "reduced_palette_reference_proxy",
+        "palette_colors": 256,
+        "production_asset": false
+      },
+      "role": "prop",
+      "status": "source_reference_not_user_approval"
+    },
+    {
+      "key": "obstacle-props",
+      "assetRecordId": "dbtujvcregjan2ltkh8g",
+      "sourcePath": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Fantasy Graveyard and Underwater Obstacle Sprite Sheet.png",
+      "sourceSha256": "ce795b709c0d055fcceeaeb14ef6a0f834ad7e8ef0412b09a22b0ba3d8ea3325",
+      "cropBox": null,
+      "reference": {
+        "path": "docs/art/audit-2026-11-17/references/obstacle-props.png",
+        "width": 768,
+        "height": 512,
+        "bytes": 62027,
+        "kind": "reduced_palette_reference_proxy",
+        "palette_colors": 64,
+        "production_asset": false
+      },
+      "role": "prop",
+      "status": "source_reference_not_user_approval"
+    },
+    {
+      "key": "spectral-hazard",
+      "assetRecordId": "dbtuk1kregjaj5ttkj7g",
+      "sourcePath": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HazardSprite.png",
+      "sourceSha256": "d3680fec7ebe365fb77888860c343a64fc76884bce68381a35f793860abff98e",
+      "cropBox": null,
+      "reference": {
+        "path": "docs/art/audit-2026-11-17/references/spectral-hazard.png",
+        "width": 743,
+        "height": 162,
+        "bytes": 31272,
+        "kind": "reduced_palette_reference_proxy",
+        "palette_colors": 256,
+        "production_asset": false
+      },
+      "role": "prop",
+      "status": "source_reference_not_user_approval"
+    },
+    {
+      "key": "life-icons",
+      "assetRecordId": "dbtuk3sregjcf3ltklbg",
+      "sourcePath": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/LifeIcons.png",
+      "sourceSha256": "a3fbb5923e34245dc83d5b6b58b26f34f50d42da320043fe46b7fbd0f26afdc9",
+      "cropBox": null,
+      "reference": {
+        "path": "docs/art/audit-2026-11-17/references/life-icons.png",
+        "width": 768,
+        "height": 384,
+        "bytes": 62199,
+        "kind": "reduced_palette_reference_proxy",
+        "palette_colors": 64,
+        "production_asset": false
+      },
+      "role": "ui",
+      "status": "source_reference_not_user_approval"
+    },
+    {
+      "key": "mermaid",
+      "assetRecordId": "dbtuk5sregjan2ltkngg",
+      "sourcePath": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Mermaid Swimming Animation Sprite Sheet.png",
+      "sourceSha256": "9e98496b0237baa9da8bb3c890d2fa1cdd210ee32cfa692a3419b24533f1b75d",
+      "cropBox": null,
+      "reference": {
+        "path": "docs/art/audit-2026-11-17/references/mermaid.png",
+        "width": 1024,
+        "height": 358,
+        "bytes": 45506,
+        "kind": "reduced_palette_reference_proxy",
+        "palette_colors": 256,
+        "production_asset": false
+      },
+      "role": "character",
+      "status": "source_reference_not_user_approval"
+    },
+    {
+      "key": "gothic-bat",
+      "assetRecordId": "dbtukqcregjan2ltlfm0",
+      "sourcePath": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Seven-Frame Gothic Bat Sprite Sheet.png",
+      "sourceSha256": "c788c0e6c1c40b39047c5622db5cdcf0a3edee6873d2fa239418ac5de551e208",
+      "cropBox": null,
+      "reference": {
+        "path": "docs/art/audit-2026-11-17/references/gothic-bat.png",
+        "width": 1024,
+        "height": 348,
+        "bytes": 27062,
+        "kind": "reduced_palette_reference_proxy",
+        "palette_colors": 256,
+        "production_asset": false
+      },
+      "role": "character",
+      "status": "source_reference_not_user_approval"
+    },
+    {
+      "key": "underwater-fantasy-files-assets-png-layers-far",
+      "assetRecordId": "dbtui8sregjbvattic9g",
+      "sourcePath": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/far.png",
+      "sourceSha256": "ccee1c4485a955c58618b49ca26185a7bc16dc80b71aaec8047acd9293d2b353",
+      "cropBox": null,
+      "reference": {
+        "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/far.png",
+        "width": 256,
+        "height": 192,
+        "bytes": 2764,
+        "kind": "original_file",
+        "production_asset": false
+      },
+      "role": "environment",
+      "status": "source_reference_not_user_approval"
+    },
+    {
+      "key": "underwater-fantasy-files-assets-png-layers-foregound-merged",
+      "assetRecordId": "dbtuks4regjan2ttli90",
+      "sourcePath": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foregound-merged.png",
+      "sourceSha256": "f3d0bffa5bf5a1b2e4cd5821fb3e0365d91585021f694003a6a0b58165e29e14",
+      "cropBox": null,
+      "reference": {
+        "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foregound-merged.png",
+        "width": 512,
+        "height": 192,
+        "bytes": 16401,
+        "kind": "original_file",
+        "production_asset": false
+      },
+      "role": "environment",
+      "status": "source_reference_not_user_approval"
+    },
+    {
+      "key": "underwater-fantasy-files-assets-png-layers-foreground-1",
+      "assetRecordId": "dbtuku4regjan2dtllig",
+      "sourcePath": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foreground-1.png",
+      "sourceSha256": "ac4c7f193fdf8cf65682be7571a0680bcd7df31ca1275a93df6c8dc35c8089ef",
+      "cropBox": null,
+      "reference": {
+        "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foreground-1.png",
+        "width": 256,
+        "height": 192,
+        "bytes": 10971,
+        "kind": "original_file",
+        "production_asset": false
+      },
+      "role": "environment",
+      "status": "source_reference_not_user_approval"
+    },
+    {
+      "key": "underwater-fantasy-files-assets-png-layers-foreground-2",
+      "assetRecordId": "dbtul04regjan2ltloi0",
+      "sourcePath": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foreground-2.png",
+      "sourceSha256": "785dfd5df0673e520825986352d4d65099cfc633bc0d7b2a3053bb9e5977ffcd",
+      "cropBox": null,
+      "reference": {
+        "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foreground-2.png",
+        "width": 256,
+        "height": 192,
+        "bytes": 6420,
+        "kind": "original_file",
+        "production_asset": false
+      },
+      "role": "environment",
+      "status": "source_reference_not_user_approval"
+    },
+    {
+      "key": "underwater-fantasy-files-assets-png-layers-sand",
+      "assetRecordId": "dbtul1sregjcbbttlqhg",
+      "sourcePath": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/sand.png",
+      "sourceSha256": "e79d91ad5cf5fafc1758e8fa006fd9c0ed8c6ce3b3dc313fedea1d5252b0311e",
+      "cropBox": null,
+      "reference": {
+        "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/sand.png",
+        "width": 256,
+        "height": 192,
+        "bytes": 10563,
+        "kind": "original_file",
+        "production_asset": false
+      },
+      "role": "environment",
+      "status": "source_reference_not_user_approval"
+    },
+    {
+      "key": "underwater-fantasy-files-assets-png-underwater-fantasy-preview",
+      "assetRecordId": "dbtul3kregjcbbttlsi0",
+      "sourcePath": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/underwater-fantasy-preview.png",
+      "sourceSha256": "4b214feffa01bc51ee86b9fe4194fcc593653a05d73733d22905ac8a5dbfd9e5",
+      "cropBox": null,
+      "reference": {
+        "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/underwater-fantasy-preview.png",
+        "width": 768,
+        "height": 192,
+        "bytes": 28214,
+        "kind": "original_file",
+        "production_asset": false
+      },
+      "role": "environment",
+      "status": "source_reference_not_user_approval"
+    },
+    {
+      "key": "saved-main-menu-composite-2026-11-17",
+      "assetRecordId": "dbtvop4regj07kdv59h0",
+      "sourcePath": "docs/art/menu-upscale/saved-menu-reference-1920.png",
+      "sourceSha256": "65801e5d540f9634d630556246f0f5d6990b52dcbaaa8ac89dcdc773b76960cd",
+      "cropBox": null,
+      "reference": {
+        "path": "docs/art/menu-upscale/saved-menu-reference-proxy.webp",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 58400,
+        "format": "webp",
+        "quality": 75,
+        "source": "rendered saved-scene reference; lossy proxy for upload",
+        "sha256": "869163efb083205c968ba7f4a85824c98cfd5644ccc125c76fa857e7fd521b60"
+      },
+      "role": "static_scene_composite_proxy",
+      "status": "source_reference_lossy_proxy"
+    },
+    {
+      "key": "current-main-menu-background-parallax",
+      "assetRecordId": "dbu1ausregj68pu1l000",
+      "sourcePath": "DeepAndDarkness/Assets/_Project/Art/UI/MenuParallax/Background 1.jpg",
+      "sourceSha256": "b07e3ea57efb466ccf66d3adab951511c2e9e79f9df2b29ded5f854bf9e77a62",
+      "reference": {
+        "path": "docs/art/menu-parallax-3-layer/source-upload-proxy.webp",
+        "width": 2560,
+        "height": 1440,
+        "bytes": 59052,
+        "format": "webp",
+        "quality": 30,
+        "sha256": "7be27613858809aeec943f0de567ca2f21b964302c3132f8a7779e1cd02af7d0"
+      },
+      "role": "lossy_alignment_reference",
+      "status": "source_reference_lossy_proxy"
+    }
+  ],
+  "generatedAssets": [
+    {
+      "assetRecordId": "dbtul9cregjbtadtm4cg",
+      "localPath": "docs/art/concepts/moon-pearl-relic-v1/concept-original.png",
+      "endpoint": "google/nano-banana-2.1/edit",
+      "outputPath": "/images/0/url",
+      "role": "raw_concept",
+      "status": "user_approved_direction_pending_production_checks",
+      "seed": 947162,
+      "styleSourceAssetRecordIds": [
+        "dbtuiksregjan2ttit2g",
+        "dbtuimkregjbvattiv40"
+      ],
+      "approvalEvidence": "User likes the first version and explicitly requested five more object icons."
+    },
+    {
+      "assetRecordId": "dbtul9kregjcbbttm53g",
+      "localPath": "docs/art/concepts/moon-pearl-relic-v1/concept-transparent.png",
+      "endpoint": "bria/extract-object",
+      "outputPath": "/image/url",
+      "role": "transparent_concept",
+      "status": "user_approved_direction_pending_production_checks",
+      "submittedSourceAssetRecordId": "dbtul9cregjbtadtm4cg",
+      "observedQa": {
+        "width": 1024,
+        "height": 1024,
+        "format": "PNG",
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "has_real_transparency": true,
+        "transparent_pixel_fraction": 0.6130990982055664,
+        "partial_alpha_pixel_fraction": 0.03494071960449219,
+        "visible_bounds_alpha_gt_16": [
+          82,
+          131,
+          943,
+          918
+        ],
+        "normalized_margins": [
+          0.080078125,
+          0.1279296875,
+          0.0791015625,
+          0.103515625
+        ],
+        "requested_minimum_margin": 0.15,
+        "minimum_margin_passed": false,
+        "checks": {
+          "single_item": "passed_host_visual",
+          "full_silhouette_visible": "passed_host_visual",
+          "pearl_crescent_shell_survive_cutout": "passed_host_visual",
+          "dark_background_edge_cleanup": "needs_review_thin_pale_fringe_visible",
+          "source_outline_weight_match": "failed_thicker_outline_than_source",
+          "user_art_direction_approval": "unverified",
+          "animation_alignment": "not_applicable_single_concept",
+          "in_engine_readability": "unverified_not_integrated"
+        },
+        "sha256": "c41ebc5138f8f184575c2ca151fb0d7082a61a0a42e6d9ec233e08249429a235",
+        "sampling_limits": "Local PNG decoder and static composite inspection. No Unity gameplay, animation, or user approval check."
+      },
+      "approvalEvidence": "User likes the first version and explicitly requested five more object icons."
+    },
+    {
+      "assetRecordId": "dbtv21cregjce0du6jbg",
+      "localPath": "docs/art/collectibles-six/tide-lantern/original.png",
+      "endpoint": "google/nano-banana-2.1/edit",
+      "outputPath": "/images/0/url",
+      "role": "raw_concept",
+      "status": "generated_awaiting_user_review",
+      "seed": 947163,
+      "styleSourceAssetRecordIds": [
+        "dbtul9kregjcbbttm53g"
+      ]
+    },
+    {
+      "assetRecordId": "dbtv34cregjcpltu7ui0",
+      "localPath": "docs/art/collectibles-six/tide-lantern/transparent.png",
+      "endpoint": "bria/extract-object",
+      "outputPath": "/image/url",
+      "role": "transparent_concept",
+      "status": "generated_awaiting_user_review",
+      "submittedSourceAssetRecordId": "dbtv21cregjce0du6jbg",
+      "observedQa": {
+        "number": 2,
+        "slug": "tide-lantern",
+        "name": "Tide Lantern",
+        "path": "docs/art/collectibles-six/tide-lantern/transparent.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1024,
+        "has_real_alpha": true,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixel_fraction": 0.6038761138916016,
+        "visible_bounds_alpha_gt_16": [
+          197,
+          59,
+          853,
+          963
+        ],
+        "border_clear": true,
+        "sha256": "c80b3811a3b12676a0ce3b35ec97c934cae21036a3d0450411ee2a0311ac89ec",
+        "visual_review": "pending",
+        "in_engine_readability": "unverified_not_integrated"
+      }
+    },
+    {
+      "assetRecordId": "dbtv21sregjcpltu6k50",
+      "localPath": "docs/art/collectibles-six/abyssal-key/original.png",
+      "endpoint": "google/nano-banana-2.1/edit",
+      "outputPath": "/images/0/url",
+      "role": "raw_concept",
+      "status": "generated_awaiting_user_review",
+      "seed": 947164,
+      "styleSourceAssetRecordIds": [
+        "dbtul9kregjcbbttm53g"
+      ]
+    },
+    {
+      "assetRecordId": "dbtv35kregjd3cdu8090",
+      "localPath": "docs/art/collectibles-six/abyssal-key/transparent.png",
+      "endpoint": "bria/extract-object",
+      "outputPath": "/image/url",
+      "role": "transparent_concept",
+      "status": "generated_awaiting_user_review",
+      "submittedSourceAssetRecordId": "dbtv21sregjcpltu6k50",
+      "observedQa": {
+        "number": 3,
+        "slug": "abyssal-key",
+        "name": "Abyssal Key",
+        "path": "docs/art/collectibles-six/abyssal-key/transparent.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1024,
+        "has_real_alpha": true,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixel_fraction": 0.7620782852172852,
+        "visible_bounds_alpha_gt_16": [
+          96,
+          79,
+          922,
+          944
+        ],
+        "border_clear": true,
+        "sha256": "885abf3c8d49585627ded70590bd27b9c444a4e5fa3dd73e59753d31999eafb2",
+        "visual_review": "pending",
+        "in_engine_readability": "unverified_not_integrated"
+      }
+    },
+    {
+      "assetRecordId": "dbtv22cregjbv6lu6km0",
+      "localPath": "docs/art/collectibles-six/bottled-message/original.png",
+      "endpoint": "google/nano-banana-2.1/edit",
+      "outputPath": "/images/0/url",
+      "role": "raw_concept",
+      "status": "generated_awaiting_user_review",
+      "seed": 947165,
+      "styleSourceAssetRecordIds": [
+        "dbtul9kregjcbbttm53g"
+      ]
+    },
+    {
+      "assetRecordId": "dbtv36sregjdd8du826g",
+      "localPath": "docs/art/collectibles-six/bottled-message/transparent.png",
+      "endpoint": "bria/extract-object",
+      "outputPath": "/image/url",
+      "role": "transparent_concept",
+      "status": "generated_awaiting_user_review",
+      "submittedSourceAssetRecordId": "dbtv22cregjbv6lu6km0",
+      "observedQa": {
+        "number": 4,
+        "slug": "bottled-message",
+        "name": "Bottled Message",
+        "path": "docs/art/collectibles-six/bottled-message/transparent.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1024,
+        "has_real_alpha": true,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixel_fraction": 0.6066989898681641,
+        "visible_bounds_alpha_gt_16": [
+          172,
+          96,
+          854,
+          930
+        ],
+        "border_clear": true,
+        "sha256": "8699a040bc4e2a686a3f42e3aa2f9a1df9273065e0381a983a2eb18ef9a69220",
+        "visual_review": "pending",
+        "in_engine_readability": "unverified_not_integrated"
+      }
+    },
+    {
+      "assetRecordId": "dbtv22sregjd69lu6lc0",
+      "localPath": "docs/art/collectibles-six/nautilus-compass/original.png",
+      "endpoint": "google/nano-banana-2.1/edit",
+      "outputPath": "/images/0/url",
+      "role": "raw_concept",
+      "status": "generated_awaiting_user_review",
+      "seed": 947166,
+      "styleSourceAssetRecordIds": [
+        "dbtul9kregjcbbttm53g"
+      ]
+    },
+    {
+      "assetRecordId": "dbtv38cregjce0du84cg",
+      "localPath": "docs/art/collectibles-six/nautilus-compass/transparent.png",
+      "endpoint": "bria/extract-object",
+      "outputPath": "/image/url",
+      "role": "transparent_concept",
+      "status": "generated_awaiting_user_review",
+      "submittedSourceAssetRecordId": "dbtv22sregjd69lu6lc0",
+      "observedQa": {
+        "number": 5,
+        "slug": "nautilus-compass",
+        "name": "Nautilus Compass",
+        "path": "docs/art/collectibles-six/nautilus-compass/transparent.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1024,
+        "has_real_alpha": true,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixel_fraction": 0.5643739700317383,
+        "visible_bounds_alpha_gt_16": [
+          138,
+          55,
+          887,
+          917
+        ],
+        "border_clear": true,
+        "sha256": "ec0542c50326824ffcb8c396ba980f480ca1d18d7057f1e1c70794517a27d16a",
+        "visual_review": "pending",
+        "in_engine_readability": "unverified_not_integrated"
+      }
+    },
+    {
+      "assetRecordId": "dbtv23kregjbv6lu6m1g",
+      "localPath": "docs/art/collectibles-six/tidebound-grimoire/original.png",
+      "endpoint": "google/nano-banana-2.1/edit",
+      "outputPath": "/images/0/url",
+      "role": "raw_concept",
+      "status": "generated_awaiting_user_review",
+      "seed": 947167,
+      "styleSourceAssetRecordIds": [
+        "dbtul9kregjcbbttm53g"
+      ]
+    },
+    {
+      "assetRecordId": "dbtv39kregjcpltu8630",
+      "localPath": "docs/art/collectibles-six/tidebound-grimoire/transparent.png",
+      "endpoint": "bria/extract-object",
+      "outputPath": "/image/url",
+      "role": "transparent_concept",
+      "status": "generated_awaiting_user_review",
+      "submittedSourceAssetRecordId": "dbtv23kregjbv6lu6m1g",
+      "observedQa": {
+        "number": 6,
+        "slug": "tidebound-grimoire",
+        "name": "Tidebound Grimoire",
+        "path": "docs/art/collectibles-six/tidebound-grimoire/transparent.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1024,
+        "has_real_alpha": true,
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixel_fraction": 0.4614696502685547,
+        "visible_bounds_alpha_gt_16": [
+          91,
+          86,
+          927,
+          945
+        ],
+        "border_clear": true,
+        "sha256": "52793879279fffc539c2d8bd48e35619f3c1c860dfa8cd6c77cbe72e39a620e2",
+        "visual_review": "pending",
+        "in_engine_readability": "unverified_not_integrated"
+      }
+    },
+    {
+      "assetRecordId": "dbtvngcregjf30tv3ibg",
+      "localPath": "docs/art/menu-upscale/menu-fal-upscaled-4k.png",
+      "endpoint": "topaz/upscale/image/precision",
+      "outputPath": "/image/url",
+      "role": "main_menu_4k_candidate",
+      "status": "candidate_not_approved",
+      "submittedSourceAssetRecordId": "dbtvop4regj07kdv59h0",
+      "observedQa": {
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "format": "PNG",
+        "mode": "RGB",
+        "bytes": 8141034,
+        "sha256": "a12ea7d14b4c6af4ead0d050925755e972f3c1d2f377c74382f47afffd924c7d"
+      }
+    },
+    {
+      "assetRecordId": "dbtvoosregj07ktv58tg",
+      "localPath": "docs/art/menu-upscale/menu-fal-cgi-4k.png",
+      "endpoint": "topaz/upscale/image/precision",
+      "outputPath": "/image/url",
+      "role": "main_menu_4k_repair_comparison",
+      "status": "candidate_not_approved",
+      "submittedSourceAssetRecordId": "dbtvop4regj07kdv59h0",
+      "observedQa": {
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "format": "PNG",
+        "mode": "RGB",
+        "bytes": 5667500,
+        "sha256": "4f2fe289c12d40b1c79397ff90b15f908d7765995d5d2bf1b52075de2758ff98"
+      }
+    },
+    {
+      "assetRecordId": "dbu038sregj0e45vm3ig",
+      "localPath": "docs/art/menu-upscale/menu-fal-clean-landscape-original.png",
+      "endpoint": "google/nano-banana-2.1/edit",
+      "outputPath": "/images/0/url",
+      "role": "main_menu_landscape_clean_redraw",
+      "status": "candidate_not_approved",
+      "submittedSourceAssetRecordId": "dbtvop4regj07kdv59h0",
+      "observedQa": {
+        "dimensions": [
+          5504,
+          3072
+        ],
+        "format": "PNG",
+        "mode": "RGB",
+        "bytes": 15997279,
+        "sha256": "97423627c2d5044ef38393636800b7bbacd6dc07c9234422638945da816d6119",
+        "requestedAspectRatio": "16:9",
+        "actualAspectRatio": "43:24"
+      },
+      "derived16x9": {
+        "masterPath": "docs/art/menu-upscale/menu-fal-clean-16x9-master.png",
+        "masterDimensions": [
+          5504,
+          3096
+        ],
+        "method": "12px mirrored extensions at top and bottom; original content preserved without cropping or distortion",
+        "unityPreviewPath": "DeepAndDarkness/Assets/_Project/Art/UI/Generated/FAL_MainMenu_Landscape_4K_Preview.png",
+        "unityPreviewDimensions": [
+          3840,
+          2160
+        ],
+        "unityPreviewSha256": "494e52dae3c61e995fc3c06d9553624a92a849bb34bd557c2fa1d6ba0972aca7"
+      }
+    },
+    {
+      "assetRecordId": "dbu0gj4regj22uu09uc0",
+      "localPath": "docs/art/menu-upscale/seedance-menu/main-menu-seedance-original.mp4",
+      "endpoint": "fal-ai/bytedance/seedance/v1/pro/image-to-video",
+      "outputPath": "/video/url",
+      "role": "main_menu_seedance_video_initial",
+      "status": "review_candidate_with_oversized_bats",
+      "submittedSourceAssetRecordId": "dbu038sregj0e45vm3ig",
+      "observedQa": {
+        "mediaType": "video/mp4",
+        "codec": "h264",
+        "dimensions": [
+          1920,
+          1088
+        ],
+        "durationSeconds": 6.041667,
+        "fps": 24,
+        "audioPresent": false,
+        "sha256": "a27d8f97670c832b3fb6c68b5cfc3b1a734db66f3759bd63c6f624c72dddf42c"
+      }
+    },
+    {
+      "assetRecordId": "dbu0i1kregj1v560c7n0",
+      "localPath": "docs/art/menu-upscale/seedance-menu/main-menu-seedance-refined-original.mp4",
+      "endpoint": "fal-ai/bytedance/seedance/v1/pro/image-to-video",
+      "outputPath": "/video/url",
+      "role": "main_menu_seedance_video_refined",
+      "status": "review_candidate_with_oversized_bat",
+      "submittedSourceAssetRecordId": "dbu038sregj0e45vm3ig",
+      "observedQa": {
+        "mediaType": "video/mp4",
+        "codec": "h264",
+        "dimensions": [
+          1920,
+          1088
+        ],
+        "durationSeconds": 6.041667,
+        "fps": 24,
+        "audioPresent": false,
+        "sha256": "ceaf506b056920a4c5cdd4ea9d0b24f9d256fcc68b941687b0cceef0690a9d5a"
+      }
+    },
+    {
+      "assetRecordId": "dbu1b5sregj438e1lllg",
+      "localPath": "docs/art/menu-parallax-3-layer/gpt26-mid-original.png",
+      "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+      "outputPath": "/images/0/url",
+      "role": "main_menu_parallax_middle_initial_rejected_misalignment",
+      "status": "raw_intermediate_not_final_sprite",
+      "submittedSourceAssetRecordIds": [
+        "dbu1ausregj68pu1l000",
+        "dbu038sregj0e45vm3ig"
+      ],
+      "observedQa": {
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "format": "PNG",
+        "mode": "RGBA",
+        "bytes": 3739570,
+        "sha256": "a7734af3284a82c0dc30be3d17e425996aca086b0d05272e723e0c978966e3a6"
+      }
+    },
+    {
+      "assetRecordId": "dbu1gb4regj75oe1ue90",
+      "localPath": "docs/art/menu-parallax-3-layer/gpt26-far-original.png",
+      "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+      "outputPath": "/images/0/url",
+      "role": "main_menu_parallax_far_hidden_background_reconstruction",
+      "status": "raw_intermediate_not_final_sprite",
+      "submittedSourceAssetRecordIds": [
+        "dbu1ausregj68pu1l000",
+        "dbu038sregj0e45vm3ig"
+      ],
+      "observedQa": {
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "format": "PNG",
+        "mode": "RGB",
+        "bytes": 6804630,
+        "sha256": "926af10c78e65404350aae508fa92c86363052e890d7c873e939c3cd9a4dce4c"
+      }
+    },
+    {
+      "assetRecordId": "dbu1husregj388e211jg",
+      "localPath": "docs/art/menu-parallax-3-layer/gpt26-mid-repaired-original.png",
+      "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+      "outputPath": "/images/0/url",
+      "role": "main_menu_parallax_middle_mask_guided_intermediate",
+      "status": "raw_intermediate_not_final_sprite",
+      "submittedSourceAssetRecordIds": [
+        "dbu1ausregj68pu1l000",
+        "dbu038sregj0e45vm3ig"
+      ],
+      "observedQa": {
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "format": "PNG",
+        "mode": "RGBA",
+        "bytes": 2529682,
+        "sha256": "d2f0a6ba4a5c41bd78429cb2b70272cb0eaedc65f5126151a29e96590b2c850b"
+      }
+    },
+    {
+      "assetRecordId": "dbu1hukregj68q6210v0",
+      "localPath": "docs/art/menu-parallax-3-layer/gpt26-front-original.png",
+      "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+      "outputPath": "/images/0/url",
+      "role": "main_menu_parallax_foreground_mask_guided_intermediate",
+      "status": "raw_intermediate_not_final_sprite",
+      "submittedSourceAssetRecordIds": [
+        "dbu1ausregj68pu1l000",
+        "dbu038sregj0e45vm3ig"
+      ],
+      "observedQa": {
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "format": "PNG",
+        "mode": "RGBA",
+        "bytes": 3343872,
+        "sha256": "bd53ba34849d2ede328369f9cdd028a3d0911edbe63696759a2c5b1a88ca20ee"
+      }
+    },
+    {
+      "assetRecordId": "dbu32acregjddae4kjl0",
+      "localPath": "DeepAndDarkness/Assets/_Project/Art/UI/Generated/LifeIcons_GPT26_3K.png",
+      "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+      "outputPath": "/images/0/url",
+      "role": "ui_life_icon_candidate_with_progressive_shell_closure",
+      "status": "generated_candidate_awaiting_user_approval",
+      "submittedSourceAssetRecordIds": [
+        "dbtuk3sregjcf3ltklbg"
+      ],
+      "observedQa": {
+        "dimensions": [
+          3072,
+          1536
+        ],
+        "format": "PNG",
+        "mode": "RGBA",
+        "bytes": 4901461,
+        "sha256": "784acfa79ba52847382d0d98d0030f60de9154bf74accdeb5edeeee212d9981e",
+        "hasRealTransparency": true,
+        "checks": {
+          "transparentBackground": "confirmed_from_alpha_channel_and_sampled_transparent_pixels",
+          "sixIconOrder": "three_vial_states_then_three_shell_states",
+          "shellProgression": "host_visual_inspection_open_half_closed_closed",
+          "unityImport": "six_named_sprites_at_3072x1536_with_4096_max_texture_size",
+          "hudAssignment": "not_performed",
+          "userApproval": "awaiting"
+        },
+        "spriteNames": [
+          "Potion_Full",
+          "Potion_Half",
+          "Potion_Empty",
+          "Shell_Open",
+          "Shell_HalfClosed",
+          "Shell_Closed"
+        ]
+      }
+    }
+  ],
+  "lineage": {
+    "falCaptured": "Only extraction request and its output were returned; no parent-asset edge was returned.",
+    "localSubmittedRelationships": "Character style anchors -> new concept -> extraction. These relationships are recorded from actual submitted inputs, not represented as captured FAL ancestry."
+  },
+  "localOnlyFamily": {
+    "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0",
+    "pngCount": 11,
+    "reason": "Supplied license restricts standalone asset redistribution and AI training; pixels were not uploaded."
+  },
+  "delivery": {
+    "technicalAlphaCheck": "passed_all_six",
+    "artDirection": "first_icon_approved_five_new_designs_delivered_for_review",
+    "outlineWeightMatch": "new_icons_follow_user_approved_collectible_baseline",
+    "darkEdgeFringe": "needs_cleanup",
+    "minimumMargin": "failed_requested_15_percent",
+    "unityIntegration": "not_performed",
+    "animation": "not_created",
+    "staticIconDelivery": "six_complete"
+  },
+  "privacy": "Original-account job handles, private media URLs and full executable recipes are kept outside the repository in the private Codex journal.",
+  "collectibleSet": {
+    "size": 6,
+    "collectionId": "dbtv05sregjcf3lu496g",
+    "manifest": "docs/art/collectibles-six/set.json",
+    "preview": "docs/art/collectibles-six/collection-preview.png",
+    "download": "docs/art/collectibles-six/deep-and-darkness-collectibles-six.zip",
+    "approvedStyleAssetRecordId": "dbtul9kregjcbbttm53g",
+    "newIconsUserApproved": false,
+    "allPngsHaveVerifiedAlpha": true
+  },
+  "mainMenu4K": {
+    "status": "partial_review_candidate",
+    "collectionId": "dbtvoqcregj07kdv5bjg",
+    "sceneEntityId": "dbtvorkregjf30tv5ctg",
+    "manifest": "docs/art/menu-upscale/fal-menu-manifest.json",
+    "selectedAssetRecordId": "dbtvngcregjf30tv3ibg",
+    "selectedFile": "docs/art/menu-upscale/menu-fal-upscaled-4k.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "textPreservation": "visually_passed",
+    "pixelArtRemoval": "not_achieved",
+    "sceneRepresentation": "static_approximation",
+    "unityIntegration": "not_performed",
+    "repairCount": 1
+  },
+  "mainMenuLandscapeClean": {
+    "status": "candidate_not_approved",
+    "userDirection": "horizontal_16_9_full_bleed_clean_illustration",
+    "collectionId": "dbtvoqcregj07kdv5bjg",
+    "sceneEntityId": "dbtvorkregjf30tv5ctg",
+    "originalFalAssetRecordId": "dbu038sregj0e45vm3ig",
+    "readme": "docs/art/menu-upscale/README.md",
+    "unityPreview": "DeepAndDarkness/Assets/_Project/Art/UI/Generated/FAL_MainMenu_Landscape_4K_Preview.png",
+    "unityPreviewDimensions": [
+      3840,
+      2160
+    ],
+    "unityImport": "sprite_max4096_bilinear_uncompressed_no_mipmaps",
+    "originalFalAspectRatio": "43:24",
+    "derivedAspectRatio": "16:9",
+    "originalPreserved": "all pixels retained in master; 12px reflected edge extensions above and below",
+    "textAndComposition": "visually_close_not_pixel_identical",
+    "unitySceneAssignment": "not_performed_preserves_existing_parallax",
+    "parallax": "flattened_preview_only",
+    "widerAspectRatios": "need_adaptation_or_crop"
+  },
+  "mainMenuAnimation": {
+    "status": "review_candidate_with_known_defects",
+    "userRequestedModel": "Seedance",
+    "endpoint": "fal-ai/bytedance/seedance/v1/pro/image-to-video",
+    "sourceAssetRecordId": "dbu038sregj0e45vm3ig",
+    "collectionId": "dbtvoqcregj07kdv5bjg",
+    "sceneEntityId": "dbtvorkregjf30tv5ctg",
+    "initialAssetRecordId": "dbu0gj4regj22uu09uc0",
+    "selectedAssetRecordId": "dbu0i1kregj1v560c7n0",
+    "file": "docs/art/menu-upscale/seedance-menu/main-menu-seedance-refined-original.mp4",
+    "qa": "docs/art/menu-upscale/seedance-menu/qa.json",
+    "durationSeconds": 6.041667,
+    "dimensions": [
+      1920,
+      1088
+    ],
+    "fps": 24,
+    "audioPresent": false,
+    "visualLimitation": "large foreground bat obscures title during part of the clip",
+    "loop": "not_verified_seamless",
+    "repairsUsed": 1,
+    "unitySceneAssignment": "not_performed"
+  },
+  "mainMenuParallax3": {
+    "status": "prefab_prepared_scene_not_modified",
+    "sourceAssetRecordId": "dbu1ausregj68pu1l000",
+    "collectionId": "dbu1mm4regj7s4u28if0",
+    "sceneEntityId": "dbu1mlkregj74cm28hug",
+    "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+    "canvas": [
+      3840,
+      2160
+    ],
+    "sourcePixels": "original JPEG preserved in visible cutouts",
+    "gptContribution": "far hidden reconstruction and depth underlays",
+    "maskResolution": [
+      2560,
+      1440
+    ],
+    "layers": [
+      {
+        "file": "docs/art/menu-parallax-3-layer/final/01-Far.png",
+        "size": [
+          3840,
+          2160
+        ],
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "alpha_bbox": [
+          0,
+          0,
+          3840,
+          2160
+        ],
+        "sha256": "fa093caa05408eda1a93e52f4e34ff4992735a4e9ca7855347788ee2ec833bf8"
+      },
+      {
+        "file": "docs/art/menu-parallax-3-layer/final/02-Middle.png",
+        "size": [
+          3840,
+          2160
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_bbox": [
+          425,
+          1417,
+          3058,
+          2016
+        ],
+        "sha256": "251e942b62077212bc119e6a944731e0abc5a4811d7c17254e1adede84447852"
+      },
+      {
+        "file": "docs/art/menu-parallax-3-layer/final/03-Foreground.png",
+        "size": [
+          3840,
+          2160
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_bbox": [
+          0,
+          1286,
+          3840,
+          2160
+        ],
+        "sha256": "b5222a7c5fe61c35f81592acec1c48815d2a8df0c9e72cebf56feb729badd303"
+      }
+    ],
+    "unityFolder": "DeepAndDarkness/Assets/_Project/Art/UI/MenuParallax/Parallax3",
+    "prefab": "DeepAndDarkness/Assets/_Project/Art/UI/MenuParallax/Parallax3/MenuParallax3.prefab",
+    "compositeMeanAbsoluteRGBDifference": 0.1666,
+    "sceneAssignment": "not_performed_editor_in_play_mode",
+    "runtimePlayback": "not_verified"
+  },
+  "lifeIcons": {
+    "status": "candidate_imported_unassigned",
+    "sourceAssetRecordId": "dbtuk3sregjcf3ltklbg",
+    "candidateAssetRecordId": "dbu32acregjddae4kjl0",
+    "entityId": "dbtulpcregjbv6ltmmag",
+    "collectionId": "dbtuh64regjan2dth4b0",
+    "endpoint": "openai/gpt-image-2.6/sunburst/edit",
+    "resolution": [
+      3072,
+      1536
+    ],
+    "sourcePreserved": true,
+    "spriteNames": [
+      "Potion_Full",
+      "Potion_Half",
+      "Potion_Empty",
+      "Shell_Open",
+      "Shell_HalfClosed",
+      "Shell_Closed"
+    ],
+    "hudAssignment": "not_performed",
+    "userApproval": "awaiting"
+  }
+}

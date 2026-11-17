@@ -1,0 +1,92 @@
+{
+  "project": "Deep and Darkness",
+  "size": 6,
+  "styleApproval": {
+    "entityId": "dbtum5kregjcbbttn40g",
+    "assetRecordId": "dbtul9kregjcbbttm53g",
+    "evidence": "User likes the first version and requests five additional distinct object icons."
+  },
+  "collectionId": "dbtv05sregjcf3lu496g",
+  "items": [
+    {
+      "number": 1,
+      "slug": "moon-pearl-relic",
+      "name": "Moon Pearl Relic",
+      "raw": "../concepts/moon-pearl-relic-v1/concept-original.png",
+      "transparent": "../concepts/moon-pearl-relic-v1/concept-transparent.png",
+      "assetRecordId": "dbtul9kregjcbbttm53g",
+      "entityId": "dbtum5kregjcbbttn40g",
+      "designStatus": "user_approved_direction",
+      "visualReview": "Original user-approved visual direction; real alpha verified; previously observed thin pale edge remains a cleanup consideration."
+    },
+    {
+      "number": 2,
+      "slug": "tide-lantern",
+      "name": "Tide Lantern",
+      "raw": "tide-lantern/original.png",
+      "transparent": "tide-lantern/transparent.png",
+      "designStatus": "generated_awaiting_user_review",
+      "assetRecordId": "dbtv34cregjcpltu7ui0",
+      "rawAssetRecordId": "dbtv21cregjce0du6jbg",
+      "entityId": "dbtv354regjd3cdu7v80",
+      "visualReview": "Single distinct object, full silhouette, shared painted navy/silver/teal/ivory style, internal details retained through extraction; thin pale rim may remain. Static comparison only."
+    },
+    {
+      "number": 3,
+      "slug": "abyssal-key",
+      "name": "Abyssal Key",
+      "raw": "abyssal-key/original.png",
+      "transparent": "abyssal-key/transparent.png",
+      "designStatus": "generated_awaiting_user_review",
+      "assetRecordId": "dbtv35kregjd3cdu8090",
+      "rawAssetRecordId": "dbtv21sregjcpltu6k50",
+      "entityId": "dbtv36cregjbtadu8110",
+      "visualReview": "Single distinct object, full silhouette, shared painted navy/silver/teal/ivory style, internal details retained through extraction; thin pale rim may remain. Static comparison only."
+    },
+    {
+      "number": 4,
+      "slug": "bottled-message",
+      "name": "Bottled Message",
+      "raw": "bottled-message/original.png",
+      "transparent": "bottled-message/transparent.png",
+      "designStatus": "generated_awaiting_user_review",
+      "assetRecordId": "dbtv36sregjdd8du826g",
+      "rawAssetRecordId": "dbtv22cregjbv6lu6km0",
+      "entityId": "dbtv37kregjd3cdu83m0",
+      "visualReview": "Single distinct object, full silhouette, shared painted navy/silver/teal/ivory style, internal details retained through extraction; thin pale rim may remain. Static comparison only."
+    },
+    {
+      "number": 5,
+      "slug": "nautilus-compass",
+      "name": "Nautilus Compass",
+      "raw": "nautilus-compass/original.png",
+      "transparent": "nautilus-compass/transparent.png",
+      "designStatus": "generated_awaiting_user_review",
+      "assetRecordId": "dbtv38cregjce0du84cg",
+      "rawAssetRecordId": "dbtv22sregjd69lu6lc0",
+      "entityId": "dbtv394regjd3cdu85a0",
+      "visualReview": "Single distinct object, full silhouette, shared painted navy/silver/teal/ivory style, internal details retained through extraction; thin pale rim may remain. Static comparison only."
+    },
+    {
+      "number": 6,
+      "slug": "tidebound-grimoire",
+      "name": "Tidebound Grimoire",
+      "raw": "tidebound-grimoire/original.png",
+      "transparent": "tidebound-grimoire/transparent.png",
+      "designStatus": "generated_awaiting_user_review",
+      "assetRecordId": "dbtv39kregjcpltu8630",
+      "rawAssetRecordId": "dbtv23kregjbv6lu6m1g",
+      "entityId": "dbtv3acregjcbbtu87a0",
+      "visualReview": "Single distinct object, full silhouette, shared painted navy/silver/teal/ivory style, internal details retained through extraction; thin pale rim may remain. Static comparison only."
+    }
+  ],
+  "provider": "FAL",
+  "preview": "collection-preview.png",
+  "download": "deep-and-darkness-collectibles-six.zip",
+  "pngSize": [
+    1024,
+    1024
+  ],
+  "staticIcons": true,
+  "runtimeIntegration": "not_performed"
+}

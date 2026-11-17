@@ -47,14 +47,11 @@ TagManager:
   - name: BackgroundNear
     uniqueID: 1790883323
     locked: 0
-  - name: Gameplay
-    uniqueID: 186969973
-    locked: 0
-  - name: ForegroundNear
+  - name: BackgroundClosest
     uniqueID: 3613886471
     locked: 0
-  - name: ForegroundFront
-    uniqueID: 4032005977
+  - name: Gameplay
+    uniqueID: 186969973
     locked: 0
   m_RenderingLayers:
   - Default

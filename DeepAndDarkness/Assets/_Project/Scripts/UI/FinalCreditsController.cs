@@ -8,6 +8,7 @@ public class FinalCreditsController : MonoBehaviour
     [SerializeField] private CanvasGroup storyPanel;
     [SerializeField] private CanvasGroup creditsPanel;
     [SerializeField] private CanvasGroup fadeToBlack;
+    [SerializeField] private CanvasGroup finalOptionsPanel;
 
     [Header("Settings")]
     [SerializeField] private float transitionDuration = 1.5f;
@@ -25,6 +26,12 @@ public class FinalCreditsController : MonoBehaviour
 
         // Keeps credits panel hidden
         creditsPanel.alpha = 0f;
+        creditsPanel.interactable = false;
+        creditsPanel.blocksRaycasts = false;
+
+        finalOptionsPanel.alpha = 0f;
+        finalOptionsPanel.interactable = false;
+        finalOptionsPanel.blocksRaycasts = false;
 
         // Shows the balck panel
         fadeToBlack.alpha = 1f;
@@ -78,7 +85,7 @@ public class FinalCreditsController : MonoBehaviour
         // Fade out story and fade in credits.
         while (elapsed < transitionDuration)
         {
-            elapsed += Time.deltaTime;
+            elapsed += Time.unscaledDeltaTime;
             float progress = Mathf.Clamp01(elapsed / transitionDuration);
 
             storyPanel.alpha = 1f - progress;
@@ -97,14 +104,14 @@ public class FinalCreditsController : MonoBehaviour
         creditsPanel.interactable = true;
 
         // Keep credits visible.
-        yield return new WaitForSeconds(creditsDuration);
+        yield return new WaitForSecondsRealtime(creditsDuration);
 
         // Fade the entire screen to black.
         elapsed = 0f;
 
         while (elapsed < transitionDuration)
         {
-            elapsed += Time.deltaTime;
+            elapsed += Time.unscaledDeltaTime;
             float progress = Mathf.Clamp01(elapsed / transitionDuration);
 
             fadeToBlack.alpha = progress;
@@ -112,10 +119,40 @@ public class FinalCreditsController : MonoBehaviour
             yield return null;
         }
 
-        // Screen is fully black before transitioning to Main menu
+        // Screen is fully black before showing the final options.
         fadeToBlack.alpha = 1f;
+        creditsPanel.alpha = 0f;
+        creditsPanel.interactable = false;
+        creditsPanel.blocksRaycasts = false;
 
-        // Return to the main menu.
-        SceneManager.LoadScene(mainMenuSceneName);
+        elapsed = 0f;
+
+        while (elapsed < transitionDuration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+            float progress = Mathf.Clamp01(elapsed / transitionDuration);
+
+            fadeToBlack.alpha = 1f - progress;
+            finalOptionsPanel.alpha = progress;
+
+            yield return null;
+        }
+
+        fadeToBlack.alpha = 0f;
+        finalOptionsPanel.alpha = 1f;
+        finalOptionsPanel.interactable = true;
+        finalOptionsPanel.blocksRaycasts = true;
+    }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Gameplay", LoadSceneMode.Single);
+    }
+
+    public void ReturnToMainMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(mainMenuSceneName, LoadSceneMode.Single);
     }
 }

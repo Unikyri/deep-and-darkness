@@ -1,0 +1,66 @@
+{
+  "source": "DeepAndDarkness/Assets/_Project/Art/UI/MenuParallax/Background 1.jpg",
+  "source_sha256": "b07e3ea57efb466ccf66d3adab951511c2e9e79f9df2b29ded5f854bf9e77a62",
+  "canvas": [
+    3840,
+    2160
+  ],
+  "layers": [
+    {
+      "file": "docs/art/menu-parallax-3-layer/final/01-Far.png",
+      "size": [
+        3840,
+        2160
+      ],
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        3840,
+        2160
+      ],
+      "sha256": "fa093caa05408eda1a93e52f4e34ff4992735a4e9ca7855347788ee2ec833bf8"
+    },
+    {
+      "file": "docs/art/menu-parallax-3-layer/final/02-Middle.png",
+      "size": [
+        3840,
+        2160
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        425,
+        1417,
+        3058,
+        2016
+      ],
+      "sha256": "251e942b62077212bc119e6a944731e0abc5a4811d7c17254e1adede84447852"
+    },
+    {
+      "file": "docs/art/menu-parallax-3-layer/final/03-Foreground.png",
+      "size": [
+        3840,
+        2160
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        1286,
+        3840,
+        2160
+      ],
+      "sha256": "b5222a7c5fe61c35f81592acec1c48815d2a8df0c9e72cebf56feb729badd303"
+    }
+  ],
+  "composite_mean_absolute_rgb_difference_0_255": 0.1666,
+  "notes": "Visible cutout colors come from the user's source; GPT Image 2.6 supplies the masked far reconstruction and hidden depth details. Masks were generated and inspected at 2560x1440 and resampled to 4K."
+}

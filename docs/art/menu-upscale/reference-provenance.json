@@ -1,0 +1,286 @@
+{
+  "source_scene": "DeepAndDarkness/Assets/_Project/Scenes/MainMenu.unity",
+  "source_scene_sha256": "f82d325d26bd105817aa1a56808a18c5df5503874594edf56116ad8bcb93a76c",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "canvas_assumption": "1920 x 1080 reference resolution and 16:9 viewport",
+  "sampling_limits": "Static serialized anchored positions and sibling order, without runtime parallax movement or interactive controls. Pillow interpolation/tint may differ from Unity rendering.",
+  "base_image": "DeepAndDarkness/Assets/_Project/Art/UI/MenuParallax/Background 1.jpg",
+  "base_sha256": "be0d0034d8f91840ba31815710818988b125a5b9ad5a92953895bd25eea046d7",
+  "layers": [
+    {
+      "name": "FarBats",
+      "unity_guid": "5671e36a206e89b44893b72da7c4688c",
+      "source": "DeepAndDarkness/Assets/_Project/Art/UI/MenuParallax/FarBats.png",
+      "source_sha256": "a5e37d3ed07d5190d89747f3a7c4aefceda04bfa50cfefedf0adf5f520a4f9fa",
+      "center_anchored_position": {
+        "x": 0.0,
+        "y": 312.0
+      },
+      "declared_rect": {
+        "x": 1550.0,
+        "y": 350.0
+      },
+      "drawn_size": [
+        1167,
+        350
+      ],
+      "drawn_top_left": [
+        376,
+        53
+      ],
+      "preserve_aspect": true,
+      "tint": {
+        "r": 0.98490566,
+        "g": 0.7482536,
+        "b": 0.42183694,
+        "a": 1.0
+      }
+    },
+    {
+      "name": "Moon",
+      "unity_guid": "1883b341c94c15f41ac590167860590c",
+      "source": "DeepAndDarkness/Assets/_Project/Art/UI/MenuParallax/Moon.png",
+      "source_sha256": "1fa2a8cf8c1802355a91edd94699e2fdf0e59189309e5652d44f004421aadae5",
+      "center_anchored_position": {
+        "x": 0.0,
+        "y": 28.0
+      },
+      "declared_rect": {
+        "x": 760.0,
+        "y": 760.0
+      },
+      "drawn_size": [
+        760,
+        752
+      ],
+      "drawn_top_left": [
+        580,
+        136
+      ],
+      "preserve_aspect": true,
+      "tint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    {
+      "name": "Ruins",
+      "unity_guid": "6d6a77657dfc87347a3536f5a0fefceb",
+      "source": "DeepAndDarkness/Assets/_Project/Art/UI/MenuParallax/Ruins.png",
+      "source_sha256": "bc700e5909d28a9f15f694f08d624a0533a33bbebaaf0eafeaffcb81494a062a",
+      "center_anchored_position": {
+        "x": 0.0,
+        "y": -334.0
+      },
+      "declared_rect": {
+        "x": 1920.0,
+        "y": 380.0
+      },
+      "drawn_size": [
+        1662,
+        380
+      ],
+      "drawn_top_left": [
+        129,
+        684
+      ],
+      "preserve_aspect": true,
+      "tint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    {
+      "name": "SeaFloor",
+      "unity_guid": "8f749889186def3459ec4d6fdee5cf6f",
+      "source": "DeepAndDarkness/Assets/_Project/Art/UI/MenuParallax/SeaFloor.png",
+      "source_sha256": "de6ccb952e4ca0ac3eace2afaad49557c66903c9a3c44e64aa0c33178f968fea",
+      "center_anchored_position": {
+        "x": 0.0,
+        "y": -316.0
+      },
+      "declared_rect": {
+        "x": 1920.0,
+        "y": 480.0
+      },
+      "drawn_size": [
+        1920,
+        441
+      ],
+      "drawn_top_left": [
+        0,
+        636
+      ],
+      "preserve_aspect": true,
+      "tint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    {
+      "name": "CloseBats",
+      "unity_guid": "4168de6ac7929c748b612b2651897c8c",
+      "source": "DeepAndDarkness/Assets/_Project/Art/UI/MenuParallax/MurcielagosCercanos1.png",
+      "source_sha256": "004c7cbff2ce1afe1bd920790c3de1b30e92a60542dbea53f4460e4b86be63d6",
+      "center_anchored_position": {
+        "x": -456.0,
+        "y": 144.0
+      },
+      "declared_rect": {
+        "x": 600.0,
+        "y": 100.0
+      },
+      "drawn_size": [
+        343,
+        100
+      ],
+      "drawn_top_left": [
+        332,
+        346
+      ],
+      "preserve_aspect": true,
+      "tint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    {
+      "name": "CloseBats (1)",
+      "unity_guid": "1a695d3ab53dc134498705e000aa584c",
+      "source": "DeepAndDarkness/Assets/_Project/Art/UI/MenuParallax/MurcielagosCercanos2.png",
+      "source_sha256": "604dcb2f629c5ee986689d9b2ccbc655261f90ee8c209ce833492de2ff7eb94f",
+      "center_anchored_position": {
+        "x": 339.0,
+        "y": 47.0
+      },
+      "declared_rect": {
+        "x": 600.0,
+        "y": 100.0
+      },
+      "drawn_size": [
+        112,
+        100
+      ],
+      "drawn_top_left": [
+        1243,
+        443
+      ],
+      "preserve_aspect": true,
+      "tint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    {
+      "name": "Corals",
+      "unity_guid": "c9172da3d57f2c24caba6dc3e42a36f1",
+      "source": "DeepAndDarkness/Assets/_Project/Art/UI/MenuParallax/Corals.png",
+      "source_sha256": "99a337eb7e069139d66fc3e63a4dd12b6a31b25256e405d1d8dc4126e6c95269",
+      "center_anchored_position": {
+        "x": -678.0,
+        "y": -316.0
+      },
+      "declared_rect": {
+        "x": 250.0,
+        "y": 1020.0
+      },
+      "drawn_size": [
+        250,
+        304
+      ],
+      "drawn_top_left": [
+        157,
+        704
+      ],
+      "preserve_aspect": true,
+      "tint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    {
+      "name": "Corals2",
+      "unity_guid": "5fb995c581cb8ef40a868dc602952795",
+      "source": "DeepAndDarkness/Assets/_Project/Art/UI/MenuParallax/Corals1.png",
+      "source_sha256": "b258f4a46f60e173c203fb53e92e7cb3e1aff7af5ec3f417c9280c900f692149",
+      "center_anchored_position": {
+        "x": 643.0,
+        "y": -282.0
+      },
+      "declared_rect": {
+        "x": 250.0,
+        "y": 1020.0
+      },
+      "drawn_size": [
+        250,
+        266
+      ],
+      "drawn_top_left": [
+        1478,
+        689
+      ],
+      "preserve_aspect": true,
+      "tint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    {
+      "name": "Logo",
+      "unity_guid": "ea913a10ed71a4547b24115760646f6a",
+      "source": "DeepAndDarkness/Assets/_Project/Art/UI/MenuParallax/Logo2.png",
+      "source_sha256": "6b086f7348fd54f8a8a4c9c9943e32fa0bfa7b704ddd1126e38f738ed13e48ff",
+      "center_anchored_position": {
+        "x": 20.0,
+        "y": 0.0
+      },
+      "declared_rect": {
+        "x": 1070.0,
+        "y": 1000.0
+      },
+      "drawn_size": [
+        1070,
+        782
+      ],
+      "drawn_top_left": [
+        445,
+        149
+      ],
+      "preserve_aspect": true,
+      "tint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    }
+  ],
+  "full_reference": "docs/art/menu-upscale/saved-menu-reference-1920.png",
+  "upload_proxy": {
+    "path": "docs/art/menu-upscale/saved-menu-reference-proxy.webp",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 58400,
+    "format": "webp",
+    "quality": 75,
+    "source": "rendered saved-scene reference; lossy proxy for upload",
+    "sha256": "869163efb083205c968ba7f4a85824c98cfd5644ccc125c76fa857e7fd521b60"
+  }
+}

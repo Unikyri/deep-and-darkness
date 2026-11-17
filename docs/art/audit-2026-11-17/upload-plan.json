@@ -1,0 +1,293 @@
+[
+  {
+    "key": "collectible-legacy",
+    "source_path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Collectible.png",
+    "source_sha256": "215e3cbe2ec93e7854ed408da973ef09b402d7bac4f313d3fca59f1e6233337f",
+    "description": "Four violet crystal rotation poses; existing visual reference, redesign candidate.",
+    "category": "prop",
+    "reference": {
+      "path": "docs/art/audit-2026-11-17/references/collectible-legacy.png",
+      "width": 1024,
+      "height": 341,
+      "bytes": 42261,
+      "kind": "reduced_palette_reference_proxy",
+      "palette_colors": 256,
+      "production_asset": false
+    }
+  },
+  {
+    "key": "obstacle-props",
+    "source_path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Fantasy Graveyard and Underwater Obstacle Sprite Sheet.png",
+    "source_sha256": "ce795b709c0d055fcceeaeb14ef6a0f834ad7e8ef0412b09a22b0ba3d8ea3325",
+    "description": "Upper row: gate, two tombstones, spikes, dead tree, thorns, cross, lantern, gargoyle. Lower row: kelp, purple coral, tube coral, column, spear, anchor, mine, jellyfish, wreck.",
+    "category": "prop",
+    "reference": {
+      "path": "docs/art/audit-2026-11-17/references/obstacle-props.png",
+      "width": 768,
+      "height": 512,
+      "bytes": 62027,
+      "kind": "reduced_palette_reference_proxy",
+      "palette_colors": 64,
+      "production_asset": false
+    }
+  },
+  {
+    "key": "spectral-hazard",
+    "source_path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HazardSprite.png",
+    "source_sha256": "d3680fec7ebe365fb77888860c343a64fc76884bce68381a35f793860abff98e",
+    "description": "Three left-facing cyan spectral skull poses with trailing wisps.",
+    "category": "prop",
+    "reference": {
+      "path": "docs/art/audit-2026-11-17/references/spectral-hazard.png",
+      "width": 743,
+      "height": 162,
+      "bytes": 31272,
+      "kind": "reduced_palette_reference_proxy",
+      "palette_colors": 256,
+      "production_asset": false
+    }
+  },
+  {
+    "key": "life-icons",
+    "source_path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/LifeIcons.png",
+    "source_sha256": "a3fbb5923e34245dc83d5b6b58b26f34f50d42da320043fe46b7fbd0f26afdc9",
+    "description": "Six icons: three blood-vial states and three shell/pearl states. The checkerboard is baked into RGB pixels; no alpha channel.",
+    "category": "ui",
+    "reference": {
+      "path": "docs/art/audit-2026-11-17/references/life-icons.png",
+      "width": 768,
+      "height": 384,
+      "bytes": 62199,
+      "kind": "reduced_palette_reference_proxy",
+      "palette_colors": 64,
+      "production_asset": false
+    }
+  },
+  {
+    "key": "mermaid",
+    "source_path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Mermaid Swimming Animation Sprite Sheet.png",
+    "source_sha256": "9e98496b0237baa9da8bb3c890d2fa1cdd210ee32cfa692a3419b24533f1b75d",
+    "description": "Right-facing pale mermaid with long silver hair and teal tail; six swimming poses and a final stars/hurt pose, by visual inspection.",
+    "category": "character",
+    "reference": {
+      "path": "docs/art/audit-2026-11-17/references/mermaid.png",
+      "width": 1024,
+      "height": 358,
+      "bytes": 45506,
+      "kind": "reduced_palette_reference_proxy",
+      "palette_colors": 256,
+      "production_asset": false
+    }
+  },
+  {
+    "key": "gothic-bat",
+    "source_path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Seven-Frame Gothic Bat Sprite Sheet.png",
+    "source_sha256": "c788c0e6c1c40b39047c5622db5cdcf0a3edee6873d2fa239418ac5de551e208",
+    "description": "Right-facing dark bat with rust-brown wing membranes; six flight poses and a final stars/hurt pose, by visual inspection.",
+    "category": "character",
+    "reference": {
+      "path": "docs/art/audit-2026-11-17/references/gothic-bat.png",
+      "width": 1024,
+      "height": 348,
+      "bytes": 27062,
+      "kind": "reduced_palette_reference_proxy",
+      "palette_colors": 256,
+      "production_asset": false
+    }
+  },
+  {
+    "key": "underwater-fantasy-files-assets-png-layers-far",
+    "source_path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/far.png",
+    "source_sha256": "ccee1c4485a955c58618b49ca26185a7bc16dc80b71aaec8047acd9293d2b353",
+    "description": "Opaque blue underwater backdrop and distant ruined arch; 256x192 pixel art.",
+    "category": "environment",
+    "reference": {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/far.png",
+      "width": 256,
+      "height": 192,
+      "bytes": 2764,
+      "kind": "original_file",
+      "production_asset": false
+    }
+  },
+  {
+    "key": "underwater-fantasy-files-assets-png-layers-foregound-merged",
+    "source_path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foregound-merged.png",
+    "source_sha256": "f3d0bffa5bf5a1b2e4cd5821fb3e0365d91585021f694003a6a0b58165e29e14",
+    "description": "Merged 512x192 foreground arrangement; preserve the source filename typo in provenance.",
+    "category": "environment",
+    "reference": {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foregound-merged.png",
+      "width": 512,
+      "height": 192,
+      "bytes": 16401,
+      "kind": "original_file",
+      "production_asset": false
+    }
+  },
+  {
+    "key": "underwater-fantasy-files-assets-png-layers-foreground-1",
+    "source_path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foreground-1.png",
+    "source_sha256": "ac4c7f193fdf8cf65682be7571a0680bcd7df31ca1275a93df6c8dc35c8089ef",
+    "description": "Near reef, rock stack and plants; transparent 256x192 layer.",
+    "category": "environment",
+    "reference": {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foreground-1.png",
+      "width": 256,
+      "height": 192,
+      "bytes": 10971,
+      "kind": "original_file",
+      "production_asset": false
+    }
+  },
+  {
+    "key": "underwater-fantasy-files-assets-png-layers-foreground-2",
+    "source_path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foreground-2.png",
+    "source_sha256": "785dfd5df0673e520825986352d4d65099cfc633bc0d7b2a3053bb9e5977ffcd",
+    "description": "Ruin statue, column, rock and plants; transparent 256x192 layer.",
+    "category": "environment",
+    "reference": {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foreground-2.png",
+      "width": 256,
+      "height": 192,
+      "bytes": 6420,
+      "kind": "original_file",
+      "production_asset": false
+    }
+  },
+  {
+    "key": "underwater-fantasy-files-assets-png-layers-sand",
+    "source_path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/sand.png",
+    "source_sha256": "e79d91ad5cf5fafc1758e8fa006fd9c0ed8c6ce3b3dc313fedea1d5252b0311e",
+    "description": "Blue seabed/sand layer, rocks and vegetation; transparent 256x192 image.",
+    "category": "environment",
+    "reference": {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/sand.png",
+      "width": 256,
+      "height": 192,
+      "bytes": 10563,
+      "kind": "original_file",
+      "production_asset": false
+    }
+  },
+  {
+    "key": "underwater-fantasy-files-assets-png-underwater-fantasy-preview",
+    "source_path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/underwater-fantasy-preview.png",
+    "source_sha256": "4b214feffa01bc51ee86b9fe4194fcc593653a05d73733d22905ac8a5dbfd9e5",
+    "description": "768x192 composite pack preview; reference only, not a separate parallax layer.",
+    "category": "environment",
+    "reference": {
+      "path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/underwater-fantasy-preview.png",
+      "width": 768,
+      "height": 192,
+      "bytes": 28214,
+      "kind": "original_file",
+      "production_asset": false
+    }
+  },
+  {
+    "key": "gothic-bat-anchor",
+    "source_path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Seven-Frame Gothic Bat Sprite Sheet.png",
+    "description": "First visible source pose, cropped as an entity anchor; not an approved redesign.",
+    "category": "anchor",
+    "crop_box": [
+      74,
+      200,
+      278,
+      473
+    ],
+    "reference": {
+      "path": "docs/art/audit-2026-11-17/references/gothic-bat-anchor.png",
+      "width": 204,
+      "height": 273,
+      "bytes": 16220,
+      "kind": "reduced_palette_reference_proxy",
+      "palette_colors": 256,
+      "production_asset": false
+    }
+  },
+  {
+    "key": "mermaid-anchor",
+    "source_path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Mermaid Swimming Animation Sprite Sheet.png",
+    "description": "First visible source pose, cropped as an entity anchor; not an approved redesign.",
+    "category": "anchor",
+    "crop_box": [
+      17,
+      278,
+      340,
+      411
+    ],
+    "reference": {
+      "path": "docs/art/audit-2026-11-17/references/mermaid-anchor.png",
+      "width": 323,
+      "height": 133,
+      "bytes": 22570,
+      "kind": "reduced_palette_reference_proxy",
+      "palette_colors": 256,
+      "production_asset": false
+    }
+  },
+  {
+    "key": "spectral-hazard-anchor",
+    "source_path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/HazardSprite.png",
+    "description": "First visible source pose, cropped as an entity anchor; not an approved redesign.",
+    "category": "anchor",
+    "crop_box": [
+      19,
+      28,
+      246,
+      141
+    ],
+    "reference": {
+      "path": "docs/art/audit-2026-11-17/references/spectral-hazard-anchor.png",
+      "width": 227,
+      "height": 113,
+      "bytes": 10856,
+      "kind": "reduced_palette_reference_proxy",
+      "palette_colors": 256,
+      "production_asset": false
+    }
+  },
+  {
+    "key": "graveyard-prop-vocabulary",
+    "source_path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Fantasy Graveyard and Underwater Obstacle Sprite Sheet.png",
+    "description": "User-supplied obstacle sheet row cropped as prop vocabulary; the separate KATO background pack is not included.",
+    "category": "anchor",
+    "crop_box": [
+      0,
+      0,
+      1536,
+      512
+    ],
+    "reference": {
+      "path": "docs/art/audit-2026-11-17/references/graveyard-prop-vocabulary.png",
+      "width": 1024,
+      "height": 341,
+      "bytes": 43439,
+      "kind": "reduced_palette_reference_proxy",
+      "palette_colors": 64,
+      "production_asset": false
+    }
+  },
+  {
+    "key": "underwater-prop-vocabulary",
+    "source_path": "DeepAndDarkness/Assets/_Project/ThirdParty/AssetsBase/Graphics/Fantasy Graveyard and Underwater Obstacle Sprite Sheet.png",
+    "description": "User-supplied obstacle sheet row cropped as prop vocabulary; the separate KATO background pack is not included.",
+    "category": "anchor",
+    "crop_box": [
+      0,
+      512,
+      1536,
+      1024
+    ],
+    "reference": {
+      "path": "docs/art/audit-2026-11-17/references/underwater-prop-vocabulary.png",
+      "width": 1024,
+      "height": 341,
+      "bytes": 59612,
+      "kind": "reduced_palette_reference_proxy",
+      "palette_colors": 64,
+      "production_asset": false
+    }
+  }
+]

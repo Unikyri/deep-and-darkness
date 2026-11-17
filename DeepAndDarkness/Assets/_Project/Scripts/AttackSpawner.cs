@@ -503,7 +503,7 @@ public class AttackSpawner : MonoBehaviour
 
     private float GetSelectedSpeed()
     {
-        int collectedCount = gameSession.CollectedCollectibles;
+        int collectedCount = GameSessionManager.CarriedCollectiblesForAttackSpeed + gameSession.CollectedCollectibles;
         float currentNormalSpeed = normalSpeed + collectedCount * speedIncreasePerCollectible;
         float currentFastSpeed = fastSpeed + collectedCount * speedIncreasePerCollectible;
 

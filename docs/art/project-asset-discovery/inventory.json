@@ -1,0 +1,3321 @@
+{
+  "project": "Deep and Darkness",
+  "scope": "Assets/_Project excluding prior Graphics pack and TMP package from the new-art image count",
+  "scene_dependency_evidence": "UnityEditor.AssetDatabase.GetDependencies(scene, recursive: true), saved scene assets; excludes unobserved dynamic loads and unsaved runtime state.",
+  "limitations": [
+    "Scene dependency results describe saved assets, include transitive and inactive references, and do not prove on-screen visibility or dynamic loading.",
+    "A missing serialized reference does not establish that an asset is unused.",
+    "FAL presence matches the previous local catalog by original SHA256; external library records lacking this provenance are not ruled out.",
+    "AssetDatabase query returned zero AudioClip assets in Assets/_Project; file scan covers common audio extensions.",
+    "Editor may contain unsaved scene changes; this inventory does not modify or save them."
+  ],
+  "counts": {
+    "new_art_images": 41,
+    "ui_images": 35,
+    "background_images": 6,
+    "unique_image_contents": 36,
+    "exact_duplicate_groups": 5,
+    "project_font_files": 4,
+    "ui_controllers": 9,
+    "embedded_ui_animation_clips": 45,
+    "prefabs": 7,
+    "build_scenes": 4,
+    "audio_mixers": 1,
+    "source_audio_files": 0,
+    "unity_audio_clip_assets_at_inspection": 0,
+    "previous_graphics_pngs": 23,
+    "tmp_support_files": 37,
+    "generated_collectibles_outside_assets": 6,
+    "archive_files": 32,
+    "archive_files_identical_to_unpacked": 32,
+    "asset_files_under_project_excluding_meta_and_os_metadata": 157
+  },
+  "images": [
+    {
+      "unity_path": "Assets/_Project/Art/Backgrounds/LowerWorldBGFar.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/Backgrounds/LowerWorldBGFar.png",
+      "bytes": 80345,
+      "sha256": "a52d4c7c8326f14768a98a67f592048ebcb3919ab751f80b5aaed4a72f34ddd0",
+      "unity_metadata": {
+        "present": true,
+        "guid": "eb08e66313a543744a7300894dd661ad",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 1800,
+      "height": 505,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "family": "background",
+      "description": "Opaque blue underwater distance with tiled ruined arches and plants.",
+      "provenance_observation": "Visually matches the previously inventoried Ansimuz underwater source family; composition/export is not byte-identical, so exact derivation was not independently verified."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/Backgrounds/LowerWorldBGNear.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/Backgrounds/LowerWorldBGNear.png",
+      "bytes": 637020,
+      "sha256": "c4c3d712b2249ae1f1cbb8762f299cc6c2e5e7e049a2dca2b305672fa42e6551",
+      "unity_metadata": {
+        "present": true,
+        "guid": "e38b9b6fd09d235499020b702bdeab11",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 1800,
+      "height": 505,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "background",
+      "description": "Blue seabed, reef shapes and sea plants; underwater middle layer.",
+      "provenance_observation": "Visually matches the previously inventoried Ansimuz underwater source family; composition/export is not byte-identical, so exact derivation was not independently verified."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/Backgrounds/LowerWorldFG.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/Backgrounds/LowerWorldFG.png",
+      "bytes": 455914,
+      "sha256": "95ce2f08dabf7c78a9b0bc8850130d7ac12ce3f10f1a373844deb9b5297a7a45",
+      "unity_metadata": {
+        "present": true,
+        "guid": "3597beea7f6f65d4993d788d3fbc465e",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 1800,
+      "height": 505,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "background",
+      "description": "Underwater rock formation, vegetation, statue and broken column; foreground.",
+      "provenance_observation": "Visually matches the previously inventoried Ansimuz underwater source family; composition/export is not byte-identical, so exact derivation was not independently verified."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/Backgrounds/UpperWorldBGFar.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/Backgrounds/UpperWorldBGFar.png",
+      "bytes": 831025,
+      "sha256": "7c5055ad22bf6263b88022f5cf0cf6982d611c08df7ef0e505bacd960f32096b",
+      "unity_metadata": {
+        "present": true,
+        "guid": "5c7f6ff099fa5c147bb0b05a661c4ef3",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 1800,
+      "height": 505,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        254,
+        255
+      ],
+      "family": "background",
+      "description": "Night sky and large orange moon; graveyard far layer.",
+      "provenance_observation": "Visually matches the previously inventoried KATO graveyard source family; composition/export is not byte-identical, so exact derivation was not independently verified."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/Backgrounds/UpperWorldBGNear.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/Backgrounds/UpperWorldBGNear.png",
+      "bytes": 827067,
+      "sha256": "ec01454642a0a1e6e18e126afdc8670c45f5ea9804801e59fee992585f38f571",
+      "unity_metadata": {
+        "present": true,
+        "guid": "2cfde8baa76044d4ebf32da88b97114c",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 1800,
+      "height": 505,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "background",
+      "description": "Blue hills, ruined chapel, bare trees and hanging lanterns; graveyard middle layer.",
+      "provenance_observation": "Visually matches the previously inventoried KATO graveyard source family; composition/export is not byte-identical, so exact derivation was not independently verified."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/Backgrounds/UpperWorldFG.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/Backgrounds/UpperWorldFG.png",
+      "bytes": 1128324,
+      "sha256": "abdb248cf22e09fd5da080acf0010eb9e11ff83a52b4d0bdffc02976431ad52a",
+      "unity_metadata": {
+        "present": true,
+        "guid": "f85065120d954d04c888ee8744888f68",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 1800,
+      "height": 505,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "background",
+      "description": "Graveyard fence, tombstones, pumpkins, trees and orange ground; foreground.",
+      "provenance_observation": "Visually matches the previously inventoried KATO graveyard source family; composition/export is not byte-identical, so exact derivation was not independently verified."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/AnimationSprites/BannerExp.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/AnimationSprites/BannerExp.png",
+      "bytes": 1092,
+      "sha256": "ac6deab05d9864a58a120f5dde29407ab91daf950eec28566d9e0e656bd31215",
+      "unity_metadata": {
+        "present": true,
+        "guid": "d618867a308e32745a6ca206c90ce26c",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 993,
+      "height": 150,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "family": "ui",
+      "description": "Wide rectangular dark banner with a fine border."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/AnimationSprites/ESC.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/AnimationSprites/ESC.png",
+      "bytes": 371,
+      "sha256": "5ce272b700a230d95855ba29d19681c215518c8248044135569c912a452361f7",
+      "unity_metadata": {
+        "present": true,
+        "guid": "cb48c9037e0fd3841a939198760af087",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 82,
+      "height": 82,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "family": "ui",
+      "description": "Dark square key or button backing with a purple border."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/AnimationSprites/Espace.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/AnimationSprites/Espace.png",
+      "bytes": 327,
+      "sha256": "902a5ce234e78f50acf3c3872a87dc0b280d436e968b0b109456ea9a7a82facd",
+      "unity_metadata": {
+        "present": true,
+        "guid": "92f827929cef84342818aac10af530ee",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 207,
+      "height": 50,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "family": "ui",
+      "description": "Wide dark key or button backing with a purple border."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/AnimationSprites/Group 1.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/AnimationSprites/Group 1.png",
+      "bytes": 495,
+      "sha256": "8e98fb32a7be608d5933bf1bb65ac54ba0992c18f3988227e044b0c9f4c8e236",
+      "unity_metadata": {
+        "present": true,
+        "guid": "f3df967e853609b48a3f24f018a69aba",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 207,
+      "height": 96,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "Six square UI accents arranged around a horizontal orange line."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/AnimationSprites/Panel.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/AnimationSprites/Panel.png",
+      "bytes": 11035,
+      "sha256": "4b5018db3ffa1206de4be94bf937f44f291389c3fe20754f2d6aabb8cdf56e02",
+      "unity_metadata": {
+        "present": true,
+        "guid": "1b034ee8185923543948d3e2b3c41155",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 1483,
+      "height": 742,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "Dark rectangular interface panel with a colored ornamental border."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/arrow_left_normal.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/arrow_left_normal.png",
+      "bytes": 329,
+      "sha256": "48c653f58d6661d355a4eddde9596d09e25adb12cdd9eb3f8d028f315288f57f",
+      "unity_metadata": {
+        "present": true,
+        "guid": "7e2e1de185ae0a34b969cab94b349446",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "32 x 32 pixel-art left arrow button, normal state."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/arrow_left_pressed.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/arrow_left_pressed.png",
+      "bytes": 321,
+      "sha256": "404bab40ab88cd4c73b5eb43ff53f77a640cb0ecde60929d2f92719024cbda8f",
+      "unity_metadata": {
+        "present": true,
+        "guid": "a0ecea5fe45baff4682512b255d15b82",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "32 x 32 pixel-art left arrow button, pressed state."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/arrow_right_normal.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/arrow_right_normal.png",
+      "bytes": 333,
+      "sha256": "5c63727a48636c3b80f20fdadd214007f1f76448a3a10fa795184c5a0835b0dd",
+      "unity_metadata": {
+        "present": true,
+        "guid": "9736ee903afba364797159eb94240bc2",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "32 x 32 pixel-art right arrow button, normal state."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/arrow_right_pressed.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/arrow_right_pressed.png",
+      "bytes": 323,
+      "sha256": "f3d02add9d64dea78ff4733b52cb60d0fc623d8ab879d28acd05a78c5f32f2c3",
+      "unity_metadata": {
+        "present": true,
+        "guid": "b5cf2a4f4c2a4494e918d08a1e65c8c0",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "32 x 32 pixel-art right arrow button, pressed state."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/BackgtoundMenu.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/BackgtoundMenu.png",
+      "bytes": 978499,
+      "sha256": "2e88c09caaed2018aba62e5f62820c512bd2283b7a19bf8d27d7a7aadc01ca01",
+      "unity_metadata": {
+        "present": true,
+        "guid": "0488d9ab6198bcd46b65f27fba40f353",
+        "sprite_mode": "1",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 1376,
+      "height": 768,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "family": "ui",
+      "description": "Composite menu artwork with the Deep & Darkness logo on an orange moon."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/BannerExp.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/BannerExp.png",
+      "bytes": 1092,
+      "sha256": "ac6deab05d9864a58a120f5dde29407ab91daf950eec28566d9e0e656bd31215",
+      "unity_metadata": {
+        "present": true,
+        "guid": "0d2d7dec8f8858e41864b8ff8f004192",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 993,
+      "height": 150,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "family": "ui",
+      "description": "Wide rectangular dark banner with a fine border."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/ESC.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/ESC.png",
+      "bytes": 371,
+      "sha256": "5ce272b700a230d95855ba29d19681c215518c8248044135569c912a452361f7",
+      "unity_metadata": {
+        "present": true,
+        "guid": "4a32ef4a7acc816469b10773da60185a",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 82,
+      "height": 82,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "family": "ui",
+      "description": "Dark square key or button backing with a purple border."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/FondoNoTitle.jpg",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/FondoNoTitle.jpg",
+      "bytes": 429916,
+      "sha256": "2e9b5f4d329793ec199ac56e7d2ac85ba70b43ef136a7e2509dd5b35e42b002b",
+      "unity_metadata": {
+        "present": true,
+        "guid": "30e47ae80139ccd41872e768bf8b4740",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 1376,
+      "height": 768,
+      "mode": "RGB",
+      "has_alpha_channel": false,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "family": "ui",
+      "description": "Menu background with orange moon, bats and aquatic details, without the title."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/Group 1.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/Group 1.png",
+      "bytes": 495,
+      "sha256": "8e98fb32a7be608d5933bf1bb65ac54ba0992c18f3988227e044b0c9f4c8e236",
+      "unity_metadata": {
+        "present": true,
+        "guid": "f6fbe3f2d9364a947a366c51954b4d7e",
+        "sprite_mode": "1",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 207,
+      "height": 96,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "Six square UI accents arranged around a horizontal orange line."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/home_normal.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/home_normal.png",
+      "bytes": 323,
+      "sha256": "cc0bd3aed8203e6b91c6bfa0c5621b5ee9162432758802f4cfd5e03202e2d71e",
+      "unity_metadata": {
+        "present": true,
+        "guid": "53a2e89dbe25d0e40b4834cee55bffd4",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "32 x 32 pixel-art home button, normal state."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/home_pressed.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/home_pressed.png",
+      "bytes": 316,
+      "sha256": "3cfcbe69773f523422c88a172e5a2039580e65b83eb382862f3a14cee99bcf82",
+      "unity_metadata": {
+        "present": true,
+        "guid": "12a658ead3ac272418e473d851746165",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "32 x 32 pixel-art home button, pressed state."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/HR_Castle of Lost Shadows.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/HR_Castle of Lost Shadows.png",
+      "bytes": 37081,
+      "sha256": "d314538f8346ceb12ba69ca4030690eafc0d6320243e389875cbbe0d5da94f4a",
+      "unity_metadata": {
+        "present": true,
+        "guid": "6a75c200c6570c845ae68a23091530e2",
+        "sprite_mode": "1",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "family": "ui",
+      "description": "Blue pixel-art castle under a moonlit sky."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/Logo1.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/Logo1.png",
+      "bytes": 245467,
+      "sha256": "2612353cc64ca75bb5a03475d88fafeafea9e3b2b3379a192d363beedf22fe09",
+      "unity_metadata": {
+        "present": true,
+        "guid": "71c3eff266df2174598e5fe9c996246b",
+        "sprite_mode": "1",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 488,
+      "height": 404,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "Standalone Deep & Darkness logo with moon, bats and ocean details."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/Panel.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/Panel.png",
+      "bytes": 11035,
+      "sha256": "4b5018db3ffa1206de4be94bf937f44f291389c3fe20754f2d6aabb8cdf56e02",
+      "unity_metadata": {
+        "present": true,
+        "guid": "1b92590e76689534c8ed63703c6eef8a",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 1483,
+      "height": 742,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "Dark rectangular interface panel with a colored ornamental border."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/play1_normal.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/play1_normal.png",
+      "bytes": 315,
+      "sha256": "3847ec9d4e49255b6ede81185fcf8ab9bd7f470724489146ee77ec3bc3e37d39",
+      "unity_metadata": {
+        "present": true,
+        "guid": "579d4d85c74d0a945b85cfecfb010e1b",
+        "sprite_mode": "1",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "32 x 32 pixel-art play button, normal state."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/play1_pressed.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/play1_pressed.png",
+      "bytes": 306,
+      "sha256": "45c7e2b8c8ebcf0540c375df98e729a1423c5d6764a85fa0c9e60acd295006a9",
+      "unity_metadata": {
+        "present": true,
+        "guid": "2d005883c2ed1064195990a553d285a9",
+        "sprite_mode": "1",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "32 x 32 pixel-art play button, pressed state."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/reset_normal.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/reset_normal.png",
+      "bytes": 376,
+      "sha256": "a51502d74876df304d16f8376bdc4239c414fcec89cfe0adfd3198168ee11e51",
+      "unity_metadata": {
+        "present": true,
+        "guid": "cf20f3a56a163c6489f0e7dd4d714a14",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "32 x 32 pixel-art reset button, normal state."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/reset_pressed.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/reset_pressed.png",
+      "bytes": 376,
+      "sha256": "e9eb3e3d3e65a244243621a07f2399a8d2b520771118b16a3308f10ea68b7f3a",
+      "unity_metadata": {
+        "present": true,
+        "guid": "9b5a0e533f39ce0459aa427185edb029",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "32 x 32 pixel-art reset button, pressed state."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/Role2Image.jpeg",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/Role2Image.jpeg",
+      "bytes": 132142,
+      "sha256": "9eae56d1f4f695e24adde1b9f9c492a9859858823a862e4c706aede6d6139b0b",
+      "unity_metadata": {
+        "present": true,
+        "guid": "4a50ee8485b05234fa299f11eb7bc408",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 672,
+      "height": 871,
+      "mode": "RGB",
+      "has_alpha_channel": false,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "family": "ui",
+      "description": "Photograph of a black dog wearing a bow tie."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/Role3Image.jpeg",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/Role3Image.jpeg",
+      "bytes": 128212,
+      "sha256": "956857106feb9035e74a7effcf5b0af6cc4e494ee458dea72e6c52d39aa2445a",
+      "unity_metadata": {
+        "present": true,
+        "guid": "d88e09095c1d7584db3d72deaa06758d",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 1200,
+      "height": 1600,
+      "mode": "RGB",
+      "has_alpha_channel": false,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "family": "ui",
+      "description": "Photograph of a white-and-brown cat wearing a collar."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/Role4Image.jpeg",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/Role4Image.jpeg",
+      "bytes": 110113,
+      "sha256": "b0311fe7296ac8b6e0fd502d405d4b54b48287fd6839d771f9dce411a966da61",
+      "unity_metadata": {
+        "present": true,
+        "guid": "47ad7dd78543e9642b5502c551f2b50a",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 756,
+      "height": 967,
+      "mode": "RGB",
+      "has_alpha_channel": false,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "family": "ui",
+      "description": "Photograph of a cat lying on its back."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/settings1_normal.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/settings1_normal.png",
+      "bytes": 279,
+      "sha256": "fa09d16f0fa3b527df0a135d38be1ddbe38c99cd023688d8d36952086a73bf45",
+      "unity_metadata": {
+        "present": true,
+        "guid": "a508b287ac668f3469d2de8bd08a0a2e",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "32 x 32 pixel-art settings button, normal state."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/settings1_pressed.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/settings1_pressed.png",
+      "bytes": 272,
+      "sha256": "7ac80ddb323442de061c8181aaf8b9e561cbdd59879f55a89cfd71c3ee8d54b5",
+      "unity_metadata": {
+        "present": true,
+        "guid": "b95c9c71c4b0a1247ae3bf03d8ba4678",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "32 x 32 pixel-art settings button, pressed state."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/Space.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/Space.png",
+      "bytes": 327,
+      "sha256": "902a5ce234e78f50acf3c3872a87dc0b280d436e968b0b109456ea9a7a82facd",
+      "unity_metadata": {
+        "present": true,
+        "guid": "b89cba21824524446aeb13085d44152f",
+        "sprite_mode": "1",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 207,
+      "height": 50,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "family": "ui",
+      "description": "Wide dark key or button backing with a purple border."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/StoryImage1.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/StoryImage1.png",
+      "bytes": 1980928,
+      "sha256": "423554de7ccccd45a79cbfa0dfd8f95b3de48b62a6503b1f41b6fb127a0e7eb7",
+      "unity_metadata": {
+        "present": true,
+        "guid": "9f1551bd51e10174c95ce9162000ab48",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 1836,
+      "height": 856,
+      "mode": "RGB",
+      "has_alpha_channel": false,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "family": "ui",
+      "description": "Story artwork showing a vampire above water and a mermaid below a moonlit landscape."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/StoryImage2.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/StoryImage2.png",
+      "bytes": 2153598,
+      "sha256": "91ab69fea0382ddf51b18f3bf70f06d6b95996105c444cb3b8832d589808d825",
+      "unity_metadata": {
+        "present": true,
+        "guid": "b2932112d3abeb64c90ecc7aae2c20e3",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 1836,
+      "height": 856,
+      "mode": "RGB",
+      "has_alpha_channel": false,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "family": "ui",
+      "description": "Story artwork showing the vampire and mermaid linked by glowing objects across the water."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/trophy_normal.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/trophy_normal.png",
+      "bytes": 376,
+      "sha256": "5fcb527eeced7f23c57fdd4713d82ea41a90bd9ea41a75ad3a4570f9b5760bee",
+      "unity_metadata": {
+        "present": true,
+        "guid": "ef086047cf279a140a7ec4b617157132",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "32 x 32 pixel-art trophy button, normal state."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/trophy_pressed.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/trophy_pressed.png",
+      "bytes": 367,
+      "sha256": "cf3dd5b73d3cbed24bc1baadc09a98c39f2e834c4c9044125a60a09604742705",
+      "unity_metadata": {
+        "present": true,
+        "guid": "a9404a816ba3c06489b6f7d937d79318",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "32 x 32 pixel-art trophy button, pressed state."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/volume_normal.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/volume_normal.png",
+      "bytes": 371,
+      "sha256": "723e4252de493a9ff26a7414de7fa482c78cf55d7b8eb2b961cb2e073c1fe07b",
+      "unity_metadata": {
+        "present": true,
+        "guid": "854cd7e327e1e414c8b7c8b901ad0865",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "32 x 32 pixel-art volume button, normal state."
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/volume_pressed.png",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/UI/volume_pressed.png",
+      "bytes": 362,
+      "sha256": "085de8d2e54ecb8443f64a66f610b759d1a6aa63bea6aa65867dbae52c4f07bc",
+      "unity_metadata": {
+        "present": true,
+        "guid": "62440464c22c02940a6f59cc9a371987",
+        "sprite_mode": "2",
+        "pixels_per_unit": "100",
+        "filter_mode": "1",
+        "alpha_is_transparency": "1"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "family": "ui",
+      "description": "32 x 32 pixel-art volume button, pressed state."
+    }
+  ],
+  "duplicate_image_groups": [
+    {
+      "sha256": "ac6deab05d9864a58a120f5dde29407ab91daf950eec28566d9e0e656bd31215",
+      "members": [
+        {
+          "unity_path": "Assets/_Project/Art/UI/AnimationSprites/BannerExp.png",
+          "guid": "d618867a308e32745a6ca206c90ce26c",
+          "referenced_by_saved_scenes": []
+        },
+        {
+          "unity_path": "Assets/_Project/Art/UI/BannerExp.png",
+          "guid": "0d2d7dec8f8858e41864b8ff8f004192",
+          "referenced_by_saved_scenes": [
+            "MainMenu",
+            "PausaScene"
+          ]
+        }
+      ]
+    },
+    {
+      "sha256": "5ce272b700a230d95855ba29d19681c215518c8248044135569c912a452361f7",
+      "members": [
+        {
+          "unity_path": "Assets/_Project/Art/UI/AnimationSprites/ESC.png",
+          "guid": "cb48c9037e0fd3841a939198760af087",
+          "referenced_by_saved_scenes": []
+        },
+        {
+          "unity_path": "Assets/_Project/Art/UI/ESC.png",
+          "guid": "4a32ef4a7acc816469b10773da60185a",
+          "referenced_by_saved_scenes": [
+            "MainMenu",
+            "PausaScene"
+          ]
+        }
+      ]
+    },
+    {
+      "sha256": "902a5ce234e78f50acf3c3872a87dc0b280d436e968b0b109456ea9a7a82facd",
+      "members": [
+        {
+          "unity_path": "Assets/_Project/Art/UI/AnimationSprites/Espace.png",
+          "guid": "92f827929cef84342818aac10af530ee",
+          "referenced_by_saved_scenes": []
+        },
+        {
+          "unity_path": "Assets/_Project/Art/UI/Space.png",
+          "guid": "b89cba21824524446aeb13085d44152f",
+          "referenced_by_saved_scenes": [
+            "MainMenu",
+            "PausaScene"
+          ]
+        }
+      ]
+    },
+    {
+      "sha256": "8e98fb32a7be608d5933bf1bb65ac54ba0992c18f3988227e044b0c9f4c8e236",
+      "members": [
+        {
+          "unity_path": "Assets/_Project/Art/UI/AnimationSprites/Group 1.png",
+          "guid": "f3df967e853609b48a3f24f018a69aba",
+          "referenced_by_saved_scenes": []
+        },
+        {
+          "unity_path": "Assets/_Project/Art/UI/Group 1.png",
+          "guid": "f6fbe3f2d9364a947a366c51954b4d7e",
+          "referenced_by_saved_scenes": [
+            "MainMenu",
+            "PausaScene"
+          ]
+        }
+      ]
+    },
+    {
+      "sha256": "4b5018db3ffa1206de4be94bf937f44f291389c3fe20754f2d6aabb8cdf56e02",
+      "members": [
+        {
+          "unity_path": "Assets/_Project/Art/UI/AnimationSprites/Panel.png",
+          "guid": "1b034ee8185923543948d3e2b3c41155",
+          "referenced_by_saved_scenes": []
+        },
+        {
+          "unity_path": "Assets/_Project/Art/UI/Panel.png",
+          "guid": "1b92590e76689534c8ed63703c6eef8a",
+          "referenced_by_saved_scenes": [
+            "MainMenu",
+            "PausaScene"
+          ]
+        }
+      ]
+    }
+  ],
+  "fonts": [
+    {
+      "unity_path": "Assets/_Project/Art/Fonts/DotGothic16-Regular SDF.asset",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/Fonts/DotGothic16-Regular SDF.asset",
+      "bytes": 2141288,
+      "sha256": "401bfcabb8597b1d110c38d3b1d9cc7a94c2e5837e5a0186756eca6ca5f53c5c",
+      "unity_metadata": {
+        "present": true,
+        "guid": "34b03fd02456b7240a9e6508906c23e0"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": []
+    },
+    {
+      "unity_path": "Assets/_Project/Art/Fonts/DotGothic16-Regular.ttf",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/Fonts/DotGothic16-Regular.ttf",
+      "bytes": 2027048,
+      "sha256": "ff706ab702fd4446207c70af564f68b62205c9972f1917f68ba739c61bb6aa18",
+      "unity_metadata": {
+        "present": true,
+        "guid": "dc93c190a4a3d4144adde8b3858dcaf4"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": []
+    },
+    {
+      "unity_path": "Assets/_Project/Art/Fonts/PixelifySans-VariableFont_wght SDF.asset",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/Fonts/PixelifySans-VariableFont_wght SDF.asset",
+      "bytes": 57845,
+      "sha256": "a45f27daf12a403498c58acc8f2d69ad7404eca8c3228b4c5afad0af2aa222f3",
+      "unity_metadata": {
+        "present": true,
+        "guid": "7f99fa8471a871d4297b672cedfff2a2"
+      },
+      "referenced_by_saved_scenes": [],
+      "fal_asset_records_with_identical_original_sha256": []
+    },
+    {
+      "unity_path": "Assets/_Project/Art/Fonts/PixelifySans-VariableFont_wght.ttf",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Art/Fonts/PixelifySans-VariableFont_wght.ttf",
+      "bytes": 78372,
+      "sha256": "3b672324ddba058f20875081e1134197462f547557114809d94839caff99b7f8",
+      "unity_metadata": {
+        "present": true,
+        "guid": "97bd0f3e866a32a47bab94a9181dfbea"
+      },
+      "referenced_by_saved_scenes": [],
+      "fal_asset_records_with_identical_original_sha256": []
+    }
+  ],
+  "controllers": [
+    {
+      "unity_path": "Assets/_Project/Animations/UI/Continue.controller",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Animations/UI/Continue.controller",
+      "bytes": 33439,
+      "sha256": "403c90b930316a2b4ac4065cdcee5daeb110b68d7d6cba4b8699a7dc52f4107d",
+      "unity_metadata": {
+        "present": true,
+        "guid": "320b12f285469da4d89ebc1b4ce2246c"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "embedded_animation_clip_count": 5,
+      "animator_state_count": 5
+    },
+    {
+      "unity_path": "Assets/_Project/Animations/UI/ContinueGame.controller",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Animations/UI/ContinueGame.controller",
+      "bytes": 61823,
+      "sha256": "23b8e8481c3e79061c80d62230135699b23993173f3c490aac5af7de30bbaebe",
+      "unity_metadata": {
+        "present": true,
+        "guid": "0450097dbe720284893cc229ff390353"
+      },
+      "referenced_by_saved_scenes": [
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "embedded_animation_clip_count": 5,
+      "animator_state_count": 5
+    },
+    {
+      "unity_path": "Assets/_Project/Animations/UI/Controls.controller",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Animations/UI/Controls.controller",
+      "bytes": 76555,
+      "sha256": "af57e90e44237f796ea552eea100a703dff80706ef2c8d6888919faa162fe4c2",
+      "unity_metadata": {
+        "present": true,
+        "guid": "4d73bbeee0e5ef94cad24a828d29fc56"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "embedded_animation_clip_count": 5,
+      "animator_state_count": 5
+    },
+    {
+      "unity_path": "Assets/_Project/Animations/UI/Credicts.controller",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Animations/UI/Credicts.controller",
+      "bytes": 61209,
+      "sha256": "96babc6e0d23cef061fbc26526b8bb311a364c2019aa07c548d8c39a65130740",
+      "unity_metadata": {
+        "present": true,
+        "guid": "f8d557c56f5055140898b088430c5637"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "embedded_animation_clip_count": 5,
+      "animator_state_count": 5
+    },
+    {
+      "unity_path": "Assets/_Project/Animations/UI/MainMenu.controller",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Animations/UI/MainMenu.controller",
+      "bytes": 61863,
+      "sha256": "2e25283488de24bf5d97d0f63b507e69c5b9c97ef40cbaa54b02e52f225f72ae",
+      "unity_metadata": {
+        "present": true,
+        "guid": "a86d19dbda07d9c47a6f38e4c717d52c"
+      },
+      "referenced_by_saved_scenes": [
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "embedded_animation_clip_count": 5,
+      "animator_state_count": 5
+    },
+    {
+      "unity_path": "Assets/_Project/Animations/UI/Play.controller",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Animations/UI/Play.controller",
+      "bytes": 79965,
+      "sha256": "a728f6bd3ef1edce763c9927c12bb00fcbd8496cb1b1c8e37eed6c78c4f68841",
+      "unity_metadata": {
+        "present": true,
+        "guid": "287d7a0a3dcc1054f8d9c9171192e4e5"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "embedded_animation_clip_count": 5,
+      "animator_state_count": 5
+    },
+    {
+      "unity_path": "Assets/_Project/Animations/UI/Restart.controller",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Animations/UI/Restart.controller",
+      "bytes": 61812,
+      "sha256": "a937d68520340f00237ca05b73e1b645080d5da8d6ae8edee8f722b200d55fa5",
+      "unity_metadata": {
+        "present": true,
+        "guid": "f866f49107a5d874e895ad1b507590bc"
+      },
+      "referenced_by_saved_scenes": [
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "embedded_animation_clip_count": 5,
+      "animator_state_count": 5
+    },
+    {
+      "unity_path": "Assets/_Project/Animations/UI/Sound.controller",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Animations/UI/Sound.controller",
+      "bytes": 61002,
+      "sha256": "c942430eb3bd9135af9f172dc2a09b33be211e14d843ec99169c9db17215d9db",
+      "unity_metadata": {
+        "present": true,
+        "guid": "ecdb3356b7ce8f24da6a97555ae7e255"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "embedded_animation_clip_count": 5,
+      "animator_state_count": 5
+    },
+    {
+      "unity_path": "Assets/_Project/Animations/UI/Volver.controller",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Animations/UI/Volver.controller",
+      "bytes": 32780,
+      "sha256": "5729b4075415c9acf5da4eed323af9aaffd0c2ca45e9a650f2ac98900f0f438f",
+      "unity_metadata": {
+        "present": true,
+        "guid": "2f1a619ff44e8bc438924f64244747e3"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": [],
+      "embedded_animation_clip_count": 5,
+      "animator_state_count": 5
+    }
+  ],
+  "prefabs": [
+    {
+      "unity_path": "Assets/_Project/Prefabs/Collectible.prefab",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Prefabs/Collectible.prefab",
+      "bytes": 6296,
+      "sha256": "33815124d8fd310edff64e8f2e47bdf3f462fb69436fbd2fa26c8ab796827c42",
+      "unity_metadata": {
+        "present": true,
+        "guid": "47619dbcaf0c6314e8e20987a948b5ee"
+      },
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ],
+      "fal_asset_records_with_identical_original_sha256": []
+    },
+    {
+      "unity_path": "Assets/_Project/Prefabs/Hazard.prefab",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Prefabs/Hazard.prefab",
+      "bytes": 6301,
+      "sha256": "d8ad1910cd7b6bd1fa698e2724f6a6b87005e39975fb16ed5f9ad8da94bda604",
+      "unity_metadata": {
+        "present": true,
+        "guid": "4773586e50e2cae45a25bee6ce5fa7e3"
+      },
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ],
+      "fal_asset_records_with_identical_original_sha256": []
+    },
+    {
+      "unity_path": "Assets/_Project/Prefabs/UI/Controls.prefab",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Prefabs/UI/Controls.prefab",
+      "bytes": 11658,
+      "sha256": "7d413a9f6a83512a66e4febdc6d1ce24acf4ef038d92b37f4b4fe5caca08becb",
+      "unity_metadata": {
+        "present": true,
+        "guid": "8b4ac4f045fecf3479c999f6ff943762"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": []
+    },
+    {
+      "unity_path": "Assets/_Project/Prefabs/UI/Credits.prefab",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Prefabs/UI/Credits.prefab",
+      "bytes": 11654,
+      "sha256": "30566cddf763ffbe714491718ba1dc3b076d9cdb0dc86f8f86dc503dae97b8bf",
+      "unity_metadata": {
+        "present": true,
+        "guid": "06b3588ba884a73418acf986947ee876"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ],
+      "fal_asset_records_with_identical_original_sha256": []
+    },
+    {
+      "unity_path": "Assets/_Project/Prefabs/UI/Play.prefab",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Prefabs/UI/Play.prefab",
+      "bytes": 11596,
+      "sha256": "5e80f0d9ca76743b3f0dd3e5d5511d47593aa61dbefa3333e6da2de699a06e3c",
+      "unity_metadata": {
+        "present": true,
+        "guid": "367151de0da77984585a2f2e84990c8c"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ],
+      "fal_asset_records_with_identical_original_sha256": []
+    },
+    {
+      "unity_path": "Assets/_Project/Prefabs/UI/Sound.prefab",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Prefabs/UI/Sound.prefab",
+      "bytes": 11645,
+      "sha256": "1114a61b32a25c24d7b20f1993d5461b587a1992679722b65a8883dfdd353c5c",
+      "unity_metadata": {
+        "present": true,
+        "guid": "0992c9db0c8a130479a1a593bd1d9eee"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ],
+      "fal_asset_records_with_identical_original_sha256": []
+    },
+    {
+      "unity_path": "Assets/_Project/Prefabs/UI/Volver.prefab",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Prefabs/UI/Volver.prefab",
+      "bytes": 9254,
+      "sha256": "e4f0ef5d762f71421ba0f28e44cbb1255450fb81a0696ef4534b3d73e9d5960f",
+      "unity_metadata": {
+        "present": true,
+        "guid": "e11670ab2bfe84e49b7690bc3c7268a9"
+      },
+      "referenced_by_saved_scenes": [
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": []
+    }
+  ],
+  "scenes": [
+    {
+      "unity_path": "Assets/_Project/Scenes/MainMenu.unity",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Scenes/MainMenu.unity",
+      "bytes": 254800,
+      "sha256": "bf835a2821f1b6e31800f180e8aa8c3b0d322e3230a37106c6d825c0a9977362",
+      "unity_metadata": {
+        "present": true,
+        "guid": "ddae69e9c04841b45995f2c7998e766c"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ],
+      "fal_asset_records_with_identical_original_sha256": []
+    },
+    {
+      "unity_path": "Assets/_Project/Scenes/Gameplay.unity",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Scenes/Gameplay.unity",
+      "bytes": 52254,
+      "sha256": "13a83ebe9b3bb8ae67cb4821fe2f7de840f1b5f3706bd453baee351c965135c7",
+      "unity_metadata": {
+        "present": true,
+        "guid": "1d3a761c6625e914ca8056e5d8c3c437"
+      },
+      "referenced_by_saved_scenes": [
+        "Gameplay"
+      ],
+      "fal_asset_records_with_identical_original_sha256": []
+    },
+    {
+      "unity_path": "Assets/_Project/Scenes/PausaScene.unity",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Scenes/PausaScene.unity",
+      "bytes": 247018,
+      "sha256": "d71fbcaa7850f7db35a1b1901211d39ecd024227ff6ccf630e0a645deec52bcf",
+      "unity_metadata": {
+        "present": true,
+        "guid": "64967d8017d859c4dbb0ce20b3800d00"
+      },
+      "referenced_by_saved_scenes": [
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": []
+    },
+    {
+      "unity_path": "Assets/_Project/Scenes/GameplayLevel2.unity",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Scenes/GameplayLevel2.unity",
+      "bytes": 52219,
+      "sha256": "933dad0532ce7b2eafdee086aba7acd6668a195d2f4cff4c19289b31990820a4",
+      "unity_metadata": {
+        "present": true,
+        "guid": "4d312604e1462864fb997b4002b0a10d"
+      },
+      "referenced_by_saved_scenes": [
+        "GameplayLevel2"
+      ],
+      "fal_asset_records_with_identical_original_sha256": []
+    }
+  ],
+  "audio": {
+    "mixer": {
+      "unity_path": "Assets/_Project/Audio/GameAudioMixer.mixer",
+      "repository_path": "DeepAndDarkness/Assets/_Project/Audio/GameAudioMixer.mixer",
+      "bytes": 4178,
+      "sha256": "6181a01a8d1039d8c8a0a50fefeb1e2e77c3665b67776c621e50efea15b04674",
+      "unity_metadata": {
+        "present": true,
+        "guid": "c67ff3bdcc7f5c94b8c2010e16625caa"
+      },
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ],
+      "fal_asset_records_with_identical_original_sha256": []
+    },
+    "source_files": [],
+    "unity_audio_clip_snapshot": {
+      "scope": "Assets/_Project",
+      "count": 0,
+      "evidence": "UnityEditor.AssetDatabase.FindAssets(\"t:AudioClip\", new[] {\"Assets/_Project\"}).Length returned 0 during this audit; this is a point-in-time observation."
+    }
+  },
+  "tmp_support": {
+    "directory": "Assets/_Project/ThirdParty/TextMesh Pro",
+    "files_by_extension": {
+      ".txt": 4,
+      ".ttf": 1,
+      ".asset": 5,
+      ".hlsl": 1,
+      ".cginc": 4,
+      ".shader": 14,
+      ".shadergraph": 4,
+      ".json": 1,
+      ".png": 1,
+      ".mat": 2
+    },
+    "note": "Support package includes a LiberationSans font, EmojiOne texture, shaders, materials and TMP configuration; not extra game-specific art."
+  },
+  "archive": {
+    "path": "Assets/_Project/ThirdParty/AssetsBase/Graphics-20261117T052917Z-1-001.zip",
+    "members": [
+      {
+        "name": "Graphics/underwater-fantasy-files/Assets/.DS_Store",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/HazardSprite.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/LifeIcons.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/underwater-fantasy-files/.DS_Store",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/Mermaid Swimming Animation Sprite Sheet.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/underwater-fantasy-files/Assets/PNG/underwater-fantasy-preview.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/HalloweenGrassGround_Free_v1.0/License.txt.txt",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/HalloweenGrassGround_Free_v1.0/800x200/04_hills_chapel.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/HalloweenGrassGround_Free_v1.0/800x200/02_graveyard_props.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/underwater-fantasy-files/Assets/PNG/.DS_Store",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/HalloweenGrassGround_Free_v1.0/800x200/01_ground_grass.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/HalloweenGrassGround_Free_v1.0/halloween_grass_ground_800x200.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/HalloweenGrassGround_Free_v1.0/800x200/05_sky_moon.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/HalloweenGrassGround_Free_v1.0/hallowmoon_graveyard_800x200.aseprite",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/HalloweenGrassGround_Free_v1.0/800x200/03_lantern_trees.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/Fantasy Graveyard and Underwater Obstacle Sprite Sheet.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/underwater-fantasy-files/Assets/PNG/layers/far.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/Collectible.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/underwater-fantasy-files/Assets/PNG/layers/foreground-1.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/underwater-fantasy-files/Assets/PNG/layers/foregound-merged.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/HalloweenGrassGround_Free_v1.0/4067x1017/05_sky_moon.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/underwater-fantasy-files/Assets/PNG/layers/foreground-2.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/HalloweenGrassGround_Free_v1.0/4067x1017/04_hills_chapel.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/HalloweenGrassGround_Free_v1.0/4067x1017/03_lantern_trees.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/HalloweenGrassGround_Free_v1.0/4067x1017/02_graveyard_props.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/underwater-fantasy-files/Assets/PSD/.DS_Store",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/HalloweenGrassGround_Free_v1.0/4067x1017/01_ground_grass.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/underwater-fantasy-files/looking-for-more.pdf",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/underwater-fantasy-files/Assets/PNG/layers/sand.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/underwater-fantasy-files/Assets/PSD/underwater-fantasy.psd",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/underwater-fantasy-files/public-license.pdf",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      },
+      {
+        "name": "Graphics/Seven-Frame Gothic Bat Sprite Sheet.png",
+        "unpacked_exists": true,
+        "sha256_equal": true
+      }
+    ]
+  },
+  "previous_catalog": "docs/art/audit-2026-11-17/inventory.json",
+  "generated_collectibles": "docs/art/collectibles-six/set.json",
+  "project_asset_files": [
+    {
+      "unity_path": "Assets/_Project/Animations/UI/Continue.controller",
+      "family": "Animations",
+      "extension": ".controller",
+      "bytes": 33439,
+      "guid": "320b12f285469da4d89ebc1b4ce2246c",
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Animations/UI/ContinueGame.controller",
+      "family": "Animations",
+      "extension": ".controller",
+      "bytes": 61823,
+      "guid": "0450097dbe720284893cc229ff390353",
+      "referenced_by_saved_scenes": [
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Animations/UI/Controls.controller",
+      "family": "Animations",
+      "extension": ".controller",
+      "bytes": 76555,
+      "guid": "4d73bbeee0e5ef94cad24a828d29fc56",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Animations/UI/Credicts.controller",
+      "family": "Animations",
+      "extension": ".controller",
+      "bytes": 61209,
+      "guid": "f8d557c56f5055140898b088430c5637",
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Animations/UI/MainMenu.controller",
+      "family": "Animations",
+      "extension": ".controller",
+      "bytes": 61863,
+      "guid": "a86d19dbda07d9c47a6f38e4c717d52c",
+      "referenced_by_saved_scenes": [
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Animations/UI/Play.controller",
+      "family": "Animations",
+      "extension": ".controller",
+      "bytes": 79965,
+      "guid": "287d7a0a3dcc1054f8d9c9171192e4e5",
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Animations/UI/Restart.controller",
+      "family": "Animations",
+      "extension": ".controller",
+      "bytes": 61812,
+      "guid": "f866f49107a5d874e895ad1b507590bc",
+      "referenced_by_saved_scenes": [
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Animations/UI/Sound.controller",
+      "family": "Animations",
+      "extension": ".controller",
+      "bytes": 61002,
+      "guid": "ecdb3356b7ce8f24da6a97555ae7e255",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Animations/UI/Volver.controller",
+      "family": "Animations",
+      "extension": ".controller",
+      "bytes": 32780,
+      "guid": "2f1a619ff44e8bc438924f64244747e3",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/Backgrounds/LowerWorldBGFar.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 80345,
+      "guid": "eb08e66313a543744a7300894dd661ad",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/Backgrounds/LowerWorldBGNear.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 637020,
+      "guid": "e38b9b6fd09d235499020b702bdeab11",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/Backgrounds/LowerWorldFG.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 455914,
+      "guid": "3597beea7f6f65d4993d788d3fbc465e",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/Backgrounds/UpperWorldBGFar.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 831025,
+      "guid": "5c7f6ff099fa5c147bb0b05a661c4ef3",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/Backgrounds/UpperWorldBGNear.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 827067,
+      "guid": "2cfde8baa76044d4ebf32da88b97114c",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/Backgrounds/UpperWorldFG.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 1128324,
+      "guid": "f85065120d954d04c888ee8744888f68",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/Fonts/DotGothic16-Regular SDF.asset",
+      "family": "project_art",
+      "extension": ".asset",
+      "bytes": 2141288,
+      "guid": "34b03fd02456b7240a9e6508906c23e0",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/Fonts/DotGothic16-Regular.ttf",
+      "family": "project_art",
+      "extension": ".ttf",
+      "bytes": 2027048,
+      "guid": "dc93c190a4a3d4144adde8b3858dcaf4",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/Fonts/PixelifySans-VariableFont_wght SDF.asset",
+      "family": "project_art",
+      "extension": ".asset",
+      "bytes": 57845,
+      "guid": "7f99fa8471a871d4297b672cedfff2a2",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/Art/Fonts/PixelifySans-VariableFont_wght.ttf",
+      "family": "project_art",
+      "extension": ".ttf",
+      "bytes": 78372,
+      "guid": "97bd0f3e866a32a47bab94a9181dfbea",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/AnimationSprites/BannerExp.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 1092,
+      "guid": "d618867a308e32745a6ca206c90ce26c",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/AnimationSprites/ESC.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 371,
+      "guid": "cb48c9037e0fd3841a939198760af087",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/AnimationSprites/Espace.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 327,
+      "guid": "92f827929cef84342818aac10af530ee",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/AnimationSprites/Group 1.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 495,
+      "guid": "f3df967e853609b48a3f24f018a69aba",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/AnimationSprites/Panel.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 11035,
+      "guid": "1b034ee8185923543948d3e2b3c41155",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/arrow_left_normal.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 329,
+      "guid": "7e2e1de185ae0a34b969cab94b349446",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/arrow_left_pressed.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 321,
+      "guid": "a0ecea5fe45baff4682512b255d15b82",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/arrow_right_normal.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 333,
+      "guid": "9736ee903afba364797159eb94240bc2",
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/arrow_right_pressed.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 323,
+      "guid": "b5cf2a4f4c2a4494e918d08a1e65c8c0",
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/BackgtoundMenu.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 978499,
+      "guid": "0488d9ab6198bcd46b65f27fba40f353",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/BannerExp.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 1092,
+      "guid": "0d2d7dec8f8858e41864b8ff8f004192",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/ESC.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 371,
+      "guid": "4a32ef4a7acc816469b10773da60185a",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/FondoNoTitle.jpg",
+      "family": "project_art",
+      "extension": ".jpg",
+      "bytes": 429916,
+      "guid": "30e47ae80139ccd41872e768bf8b4740",
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/Group 1.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 495,
+      "guid": "f6fbe3f2d9364a947a366c51954b4d7e",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/home_normal.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 323,
+      "guid": "53a2e89dbe25d0e40b4834cee55bffd4",
+      "referenced_by_saved_scenes": [
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/home_pressed.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 316,
+      "guid": "12a658ead3ac272418e473d851746165",
+      "referenced_by_saved_scenes": [
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/HR_Castle of Lost Shadows.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 37081,
+      "guid": "6a75c200c6570c845ae68a23091530e2",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/Logo1.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 245467,
+      "guid": "71c3eff266df2174598e5fe9c996246b",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/Panel.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 11035,
+      "guid": "1b92590e76689534c8ed63703c6eef8a",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/play1_normal.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 315,
+      "guid": "579d4d85c74d0a945b85cfecfb010e1b",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/play1_pressed.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 306,
+      "guid": "2d005883c2ed1064195990a553d285a9",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/reset_normal.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 376,
+      "guid": "cf20f3a56a163c6489f0e7dd4d714a14",
+      "referenced_by_saved_scenes": [
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/reset_pressed.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 376,
+      "guid": "9b5a0e533f39ce0459aa427185edb029",
+      "referenced_by_saved_scenes": [
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/Role2Image.jpeg",
+      "family": "project_art",
+      "extension": ".jpeg",
+      "bytes": 132142,
+      "guid": "4a50ee8485b05234fa299f11eb7bc408",
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/Role3Image.jpeg",
+      "family": "project_art",
+      "extension": ".jpeg",
+      "bytes": 128212,
+      "guid": "d88e09095c1d7584db3d72deaa06758d",
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/Role4Image.jpeg",
+      "family": "project_art",
+      "extension": ".jpeg",
+      "bytes": 110113,
+      "guid": "47ad7dd78543e9642b5502c551f2b50a",
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/settings1_normal.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 279,
+      "guid": "a508b287ac668f3469d2de8bd08a0a2e",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/settings1_pressed.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 272,
+      "guid": "b95c9c71c4b0a1247ae3bf03d8ba4678",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/Space.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 327,
+      "guid": "b89cba21824524446aeb13085d44152f",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/StoryImage1.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 1980928,
+      "guid": "9f1551bd51e10174c95ce9162000ab48",
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/StoryImage2.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 2153598,
+      "guid": "b2932112d3abeb64c90ecc7aae2c20e3",
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/trophy_normal.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 376,
+      "guid": "ef086047cf279a140a7ec4b617157132",
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/trophy_pressed.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 367,
+      "guid": "a9404a816ba3c06489b6f7d937d79318",
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/volume_normal.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 371,
+      "guid": "854cd7e327e1e414c8b7c8b901ad0865",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Art/UI/volume_pressed.png",
+      "family": "project_art",
+      "extension": ".png",
+      "bytes": 362,
+      "guid": "62440464c22c02940a6f59cc9a371987",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Audio/GameAudioMixer.mixer",
+      "family": "Audio",
+      "extension": ".mixer",
+      "bytes": 4178,
+      "guid": "c67ff3bdcc7f5c94b8c2010e16625caa",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Prefabs/Collectible.prefab",
+      "family": "Prefabs",
+      "extension": ".prefab",
+      "bytes": 6296,
+      "guid": "47619dbcaf0c6314e8e20987a948b5ee",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Prefabs/Hazard.prefab",
+      "family": "Prefabs",
+      "extension": ".prefab",
+      "bytes": 6301,
+      "guid": "4773586e50e2cae45a25bee6ce5fa7e3",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Prefabs/UI/Controls.prefab",
+      "family": "Prefabs",
+      "extension": ".prefab",
+      "bytes": 11658,
+      "guid": "8b4ac4f045fecf3479c999f6ff943762",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Prefabs/UI/Credits.prefab",
+      "family": "Prefabs",
+      "extension": ".prefab",
+      "bytes": 11654,
+      "guid": "06b3588ba884a73418acf986947ee876",
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Prefabs/UI/Play.prefab",
+      "family": "Prefabs",
+      "extension": ".prefab",
+      "bytes": 11596,
+      "guid": "367151de0da77984585a2f2e84990c8c",
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Prefabs/UI/Sound.prefab",
+      "family": "Prefabs",
+      "extension": ".prefab",
+      "bytes": 11645,
+      "guid": "0992c9db0c8a130479a1a593bd1d9eee",
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Prefabs/UI/Volver.prefab",
+      "family": "Prefabs",
+      "extension": ".prefab",
+      "bytes": 9254,
+      "guid": "e11670ab2bfe84e49b7690bc3c7268a9",
+      "referenced_by_saved_scenes": [
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scenes/Gameplay.unity",
+      "family": "Scenes",
+      "extension": ".unity",
+      "bytes": 52254,
+      "guid": "1d3a761c6625e914ca8056e5d8c3c437",
+      "referenced_by_saved_scenes": [
+        "Gameplay"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scenes/GameplayLevel2.unity",
+      "family": "Scenes",
+      "extension": ".unity",
+      "bytes": 52219,
+      "guid": "4d312604e1462864fb997b4002b0a10d",
+      "referenced_by_saved_scenes": [
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scenes/MainMenu.unity",
+      "family": "Scenes",
+      "extension": ".unity",
+      "bytes": 254800,
+      "guid": "ddae69e9c04841b45995f2c7998e766c",
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scenes/PausaScene.unity",
+      "family": "Scenes",
+      "extension": ".unity",
+      "bytes": 247018,
+      "guid": "64967d8017d859c4dbb0ce20b3800d00",
+      "referenced_by_saved_scenes": [
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scripts/AttackSpawner.cs",
+      "family": "project_scripts",
+      "extension": ".cs",
+      "bytes": 20694,
+      "guid": "e8e87a06ecd64db47a7909d0593dc471",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scripts/CharacterIdleBob.cs",
+      "family": "project_scripts",
+      "extension": ".cs",
+      "bytes": 2686,
+      "guid": "932cb7a12dabadc408ca77f4766a5840",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scripts/CharacterLives.cs",
+      "family": "project_scripts",
+      "extension": ".cs",
+      "bytes": 1811,
+      "guid": "ecd58901b0623f3428feeea3a012690a",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scripts/CollectiblePickup.cs",
+      "family": "project_scripts",
+      "extension": ".cs",
+      "bytes": 2210,
+      "guid": "24e85df3356d7c440ace3e01a864a9f3",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scripts/CollectibleSpawner.cs",
+      "family": "project_scripts",
+      "extension": ".cs",
+      "bytes": 7747,
+      "guid": "6d219572fe0b41340858f67b096557ef",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scripts/CollectibleTrajectory.cs",
+      "family": "project_scripts",
+      "extension": ".cs",
+      "bytes": 4627,
+      "guid": "c0317b5715a02ed4497d9c09ae9c3eb9",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/Scripts/GameplayBounds.cs",
+      "family": "project_scripts",
+      "extension": ".cs",
+      "bytes": 2594,
+      "guid": "54fd3836747ddac4c888dde3eb7e206a",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scripts/GameplayUIBootstrap.cs",
+      "family": "project_scripts",
+      "extension": ".cs",
+      "bytes": 510,
+      "guid": "e676e49708b25f744ab3e21c26112234",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scripts/GameSessionManager.cs",
+      "family": "project_scripts",
+      "extension": ".cs",
+      "bytes": 4445,
+      "guid": "5d32143a12173a744b5bdb706a16c2ac",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scripts/HazardDamage.cs",
+      "family": "project_scripts",
+      "extension": ".cs",
+      "bytes": 469,
+      "guid": "96a702404bcd8194e86945a66d13d77a",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scripts/HazardMovement.cs",
+      "family": "project_scripts",
+      "extension": ".cs",
+      "bytes": 2051,
+      "guid": "527db648c2fc55d4e8ece5b960377213",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scripts/LinkedMovementController.cs",
+      "family": "project_scripts",
+      "extension": ".cs",
+      "bytes": 2799,
+      "guid": "454e73d839a3fc641a8762a2a5646413",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scripts/ParallaxLayer.cs",
+      "family": "project_scripts",
+      "extension": ".cs",
+      "bytes": 5833,
+      "guid": "8253729f110dfbd40a96fb06ce82abf5",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scripts/UI/AudioSettingsUI.cs",
+      "family": "project_scripts",
+      "extension": ".cs",
+      "bytes": 2346,
+      "guid": "a857f6b0f89fb924890c2c4df861e37d",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scripts/UI/MenuManager.cs",
+      "family": "project_scripts",
+      "extension": ".cs",
+      "bytes": 3119,
+      "guid": "505c7bae6d037db40ba8ed87abd2b6f3",
+      "referenced_by_saved_scenes": [
+        "MainMenu"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scripts/UI/PauseMenuUI.cs",
+      "family": "project_scripts",
+      "extension": ".cs",
+      "bytes": 12081,
+      "guid": "785ba80b9e3713c4ba4081b0c857d124",
+      "referenced_by_saved_scenes": [
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Scripts/VisibleBounds2D.cs",
+      "family": "project_scripts",
+      "extension": ".cs",
+      "bytes": 2626,
+      "guid": "f9c83c6b5e970634fbb5fc3cedb4ecb0",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/Settings/DeepAndDarknessControls.inputactions",
+      "family": "project_configuration",
+      "extension": ".inputactions",
+      "bytes": 1099,
+      "guid": "2b11562f892109a47892069a394c1333",
+      "referenced_by_saved_scenes": [
+        "Gameplay",
+        "GameplayLevel2"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/Settings/Unity/DefaultVolumeProfile.asset",
+      "family": "project_configuration",
+      "extension": ".asset",
+      "bytes": 19524,
+      "guid": "3f9215ea0144899419cfbc0957140d3f",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/Settings/Unity/InputSystem_Actions.inputactions",
+      "family": "project_configuration",
+      "extension": ".inputactions",
+      "bytes": 42061,
+      "guid": "2bcd2660ca9b64942af0de543d8d7100",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/Settings/Unity/Lit2DSceneTemplate.scenetemplate",
+      "family": "project_configuration",
+      "extension": ".scenetemplate",
+      "bytes": 3942880,
+      "guid": "d03ed43fc9d8a4f2e9fa70c1c7916eb9",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/Settings/Unity/Renderer2D.asset",
+      "family": "project_configuration",
+      "extension": ".asset",
+      "bytes": 3698,
+      "guid": "424799608f7334c24bf367e4bbfa7f9a",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/Settings/Unity/Scenes/URP2DSceneTemplate.unity",
+      "family": "project_configuration",
+      "extension": ".unity",
+      "bytes": 10231,
+      "guid": "2cda990e2423bbf4892e6590ba056729",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/Settings/Unity/UniversalRenderPipelineGlobalSettings.asset",
+      "family": "project_configuration",
+      "extension": ".asset",
+      "bytes": 25727,
+      "guid": "93b439a37f63240aca3dd4e01d978a9f",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/Settings/Unity/UniversalRP.asset",
+      "family": "project_configuration",
+      "extension": ".asset",
+      "bytes": 4733,
+      "guid": "681886c5eb7344803b6206f758bf0b1c",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/Collectible.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 687644,
+      "guid": "84a3207f12eadfa4981d104cc15ab34a",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/Fantasy Graveyard and Underwater Obstacle Sprite Sheet.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 2264525,
+      "guid": "6198db757b30e214493e8f0d21a6ac63",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/4067x1017/01_ground_grass.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 1892096,
+      "guid": "c2a96a9799aed934fbdb2b5860beb6cb",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/4067x1017/02_graveyard_props.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 3354132,
+      "guid": "6df71e81bd8eb1e4890730b2931c23e8",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/4067x1017/03_lantern_trees.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 2628614,
+      "guid": "f68a60ddc610f654da0ba743cdcda121",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/4067x1017/04_hills_chapel.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 2169843,
+      "guid": "5501bc28252393848aaa92725b69fcfc",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/4067x1017/05_sky_moon.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 2756021,
+      "guid": "224b3f331b2d72946906c8d8cc930ced",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/800x200/01_ground_grass.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 105108,
+      "guid": "3e1b87105fae4a847ab2eccaa4b2a466",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/800x200/02_graveyard_props.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 200574,
+      "guid": "a928ec1ad01c1d04ba975864e8cf0a54",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/800x200/03_lantern_trees.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 172069,
+      "guid": "5bf3b8f12cbed7b4296a420cf86e6dd0",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/800x200/04_hills_chapel.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 155719,
+      "guid": "98c1f71d2c8b06e45af37a7539d2e6f9",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/800x200/05_sky_moon.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 191557,
+      "guid": "901d66c2ca99af24bb82600cd54e9422",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/halloween_grass_ground_800x200.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 105108,
+      "guid": "9096375f2d3c7934191cbc46e74504b1",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/hallowmoon_graveyard_800x200.aseprite",
+      "family": "previously_audited_graphics",
+      "extension": ".aseprite",
+      "bytes": 980745,
+      "guid": "8a7dadb442b625e4eb6b82ec2375da89",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/HalloweenGrassGround_Free_v1.0/License.txt.txt",
+      "family": "previously_audited_graphics",
+      "extension": ".txt",
+      "bytes": 410,
+      "guid": "6c4ccd367478ba24f98838d5d407fd2d",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/HazardSprite.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 186608,
+      "guid": "7e0e255d442a15e40ad992105804a359",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/LifeIcons.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 1983273,
+      "guid": "373c2516ccdb8e34d84d90055d56c0bf",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/Mermaid Swimming Animation Sprite Sheet.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 800447,
+      "guid": "149c5f79aa613aa49a54bb4c7bd0b7e6",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/Seven-Frame Gothic Bat Sprite Sheet.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 527974,
+      "guid": "29cbfca0fa46a624c90b7d22d4c7e2cb",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/far.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 2764,
+      "guid": "9f76d7c2c0df5c94996b2762ae23847d",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foregound-merged.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 16401,
+      "guid": "b4d32df3dfc21fb4e9b9f9999fd41732",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foreground-1.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 10971,
+      "guid": "02d2feaa0c8ceaa4e82a952933a7b194",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/foreground-2.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 6420,
+      "guid": "5aa96436b77ba16478a438d10336f110",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/layers/sand.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 10563,
+      "guid": "b637a398c71248549a2b7dc0965f0fbc",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PNG/underwater-fantasy-preview.png",
+      "family": "previously_audited_graphics",
+      "extension": ".png",
+      "bytes": 28214,
+      "guid": "09b10df32f54e5a40800425c9963f4d7",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/Assets/PSD/underwater-fantasy.psd",
+      "family": "previously_audited_graphics",
+      "extension": ".psd",
+      "bytes": 281711,
+      "guid": "9b751b0217cf6344db4f8a2af15e2088",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/looking-for-more.pdf",
+      "family": "previously_audited_graphics",
+      "extension": ".pdf",
+      "bytes": 746991,
+      "guid": "cf332465e2e7a294e9d017626ef90033",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics/underwater-fantasy-files/public-license.pdf",
+      "family": "previously_audited_graphics",
+      "extension": ".pdf",
+      "bytes": 834989,
+      "guid": "b78c5906c583de64ca404b74bacebe3e",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/AssetsBase/Graphics-20261117T052917Z-1-001.zip",
+      "family": "ThirdParty",
+      "extension": ".zip",
+      "bytes": 22908352,
+      "guid": "4782b097988801d4499b38bc729ef770",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Fonts/LiberationSans - OFL.txt",
+      "family": "textmesh_pro_support",
+      "extension": ".txt",
+      "bytes": 4514,
+      "guid": "6e59c59b81ab47f9b6ec5781fa725d2c",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Fonts/LiberationSans.ttf",
+      "family": "textmesh_pro_support",
+      "extension": ".ttf",
+      "bytes": 350200,
+      "guid": "e3265ab4bf004d28a9537516768c1c75",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat",
+      "family": "textmesh_pro_support",
+      "extension": ".mat",
+      "bytes": 3081,
+      "guid": "e73a58f6e2794ae7b1b7e50b7fb811b0",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+      "family": "textmesh_pro_support",
+      "extension": ".asset",
+      "bytes": 9713,
+      "guid": "2e498d1c8094910479dc3e1b768306a4",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat",
+      "family": "textmesh_pro_support",
+      "extension": ".mat",
+      "bytes": 2993,
+      "guid": "79459efec17a4d00a321bdcc27bbc385",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+      "family": "textmesh_pro_support",
+      "extension": ".asset",
+      "bytes": 2264683,
+      "guid": "8f586378b4e144a9851e7b34d9b748ee",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Resources/LineBreaking Following Characters.txt",
+      "family": "textmesh_pro_support",
+      "extension": ".txt",
+      "bytes": 269,
+      "guid": "fade42e8bc714b018fac513c043d323b",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Resources/LineBreaking Leading Characters.txt",
+      "family": "textmesh_pro_support",
+      "extension": ".txt",
+      "bytes": 95,
+      "guid": "d82c1b31c7e74239bff1220585707d2b",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset",
+      "family": "textmesh_pro_support",
+      "extension": ".asset",
+      "bytes": 14100,
+      "guid": "c41005c129ba4d66911b75229fd70b45",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset",
+      "family": "textmesh_pro_support",
+      "extension": ".asset",
+      "bytes": 5620,
+      "guid": "f952c082cb03451daed3ee968ac6c63e",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Resources/TMP Settings.asset",
+      "family": "textmesh_pro_support",
+      "extension": ".asset",
+      "bytes": 1904,
+      "guid": "3f5b5dff67a942289a9defa416b206f3",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/SDFFunctions.hlsl",
+      "family": "textmesh_pro_support",
+      "extension": ".hlsl",
+      "bytes": 6199,
+      "guid": "96de908384869cd409c75efa351d5edf",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader",
+      "family": "textmesh_pro_support",
+      "extension": ".shader",
+      "bytes": 3981,
+      "guid": "48bb5f55d8670e349b6e614913f9d910",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader",
+      "family": "textmesh_pro_support",
+      "extension": ".shader",
+      "bytes": 4226,
+      "guid": "1e3b057af24249748ff873be7fafee47",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMP_Bitmap.shader",
+      "family": "textmesh_pro_support",
+      "extension": ".shader",
+      "bytes": 3984,
+      "guid": "128e987d567d4e2c824d754223b3f3b0",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMP_SDF Overlay.shader",
+      "family": "textmesh_pro_support",
+      "extension": ".shader",
+      "bytes": 11380,
+      "guid": "dd89cf5b9246416f84610a006f916af7",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMP_SDF SSD.shader",
+      "family": "textmesh_pro_support",
+      "extension": ".shader",
+      "bytes": 12759,
+      "guid": "14eb328de4b8eb245bb7cea29e4ac00b",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph",
+      "family": "textmesh_pro_support",
+      "extension": ".shadergraph",
+      "bytes": 299501,
+      "guid": "ca2ed216f98028c4dae6c5224a952b3c",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph",
+      "family": "textmesh_pro_support",
+      "extension": ".shadergraph",
+      "bytes": 291668,
+      "guid": "f63d574838ccfb44f84acc05fed0af48",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader",
+      "family": "textmesh_pro_support",
+      "extension": ".shader",
+      "bytes": 8531,
+      "guid": "bc1ede39bf3643ee8e493720e4259791",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader",
+      "family": "textmesh_pro_support",
+      "extension": ".shader",
+      "bytes": 8333,
+      "guid": "a02a7d8c237544f1962732b55a9aebf1",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader",
+      "family": "textmesh_pro_support",
+      "extension": ".shader",
+      "bytes": 3170,
+      "guid": "c8d12adcee749c344b8117cf7c7eb912",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader",
+      "family": "textmesh_pro_support",
+      "extension": ".shader",
+      "bytes": 12184,
+      "guid": "0178fcb869bafef4690d177d31d17db8",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader",
+      "family": "textmesh_pro_support",
+      "extension": ".shader",
+      "bytes": 8324,
+      "guid": "fe393ace9b354375a9cb14cdbbc28be4",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader",
+      "family": "textmesh_pro_support",
+      "extension": ".shader",
+      "bytes": 3662,
+      "guid": "85187c2149c549c5b33f0cdb02836b17",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMP_SDF-Surface.shader",
+      "family": "textmesh_pro_support",
+      "extension": ".shader",
+      "bytes": 4512,
+      "guid": "f7ada0af4f174f0694ca6a487b8f543d",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph",
+      "family": "textmesh_pro_support",
+      "extension": ".shadergraph",
+      "bytes": 295798,
+      "guid": "a3d800b099a06e0478fb790c5e79057a",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph",
+      "family": "textmesh_pro_support",
+      "extension": ".shadergraph",
+      "bytes": 288641,
+      "guid": "124c112a6e8f1a54e8b0870e881b56d8",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMP_SDF.shader",
+      "family": "textmesh_pro_support",
+      "extension": ".shader",
+      "bytes": 11353,
+      "guid": "68e6db2ebdc24f95958faec2be5558d6",
+      "referenced_by_saved_scenes": [
+        "MainMenu",
+        "PausaScene"
+      ]
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMP_Sprite.shader",
+      "family": "textmesh_pro_support",
+      "extension": ".shader",
+      "bytes": 3577,
+      "guid": "cf81c85f95fe47e1a27f6ae460cf182c",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMPro.cginc",
+      "family": "textmesh_pro_support",
+      "extension": ".cginc",
+      "bytes": 2361,
+      "guid": "407bc68d299748449bbf7f48ee690f8d",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMPro_Mobile.cginc",
+      "family": "textmesh_pro_support",
+      "extension": ".cginc",
+      "bytes": 5618,
+      "guid": "c334973cef89a9840b0b0c507e0377ab",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMPro_Properties.cginc",
+      "family": "textmesh_pro_support",
+      "extension": ".cginc",
+      "bytes": 2787,
+      "guid": "3997e2241185407d80309a82f9148466",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Shaders/TMPro_Surface.cginc",
+      "family": "textmesh_pro_support",
+      "extension": ".cginc",
+      "bytes": 3614,
+      "guid": "d930090c0cd643c7b55f19a38538c162",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Sprites/EmojiOne Attribution.txt",
+      "family": "textmesh_pro_support",
+      "extension": ".txt",
+      "bytes": 187,
+      "guid": "381dcb09d5029d14897e55f98031fca5",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Sprites/EmojiOne.json",
+      "family": "textmesh_pro_support",
+      "extension": ".json",
+      "bytes": 4122,
+      "guid": "8f05276190cf498a8153f6cbe761d4e6",
+      "referenced_by_saved_scenes": []
+    },
+    {
+      "unity_path": "Assets/_Project/ThirdParty/TextMesh Pro/Sprites/EmojiOne.png",
+      "family": "textmesh_pro_support",
+      "extension": ".png",
+      "bytes": 112319,
+      "guid": "dffef66376be4fa480fb02b19edbe903",
+      "referenced_by_saved_scenes": []
+    }
+  ]
+}

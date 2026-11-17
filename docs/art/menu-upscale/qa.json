@@ -1,0 +1,40 @@
+{
+  "input_reference_dimensions": [
+    1920,
+    1080
+  ],
+  "input_reference_role": "Static reconstruction of saved nine-layer Unity menu artwork at reference resolution, no UI buttons; WebP upload proxy is lossy.",
+  "selected": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 8141034,
+    "sha256": "a12ea7d14b4c6af4ead0d050925755e972f3c1d2f377c74382f47afffd924c7d"
+  },
+  "alternative": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 5667500,
+    "sha256": "4f2fe289c12d40b1c79397ff90b15f908d7765995d5d2bf1b52075de2758ff98"
+  },
+  "selected_method": "Topaz Precision / Text Refine / 2x",
+  "repair_method": "Topaz Precision / CGI / 2x",
+  "repairs_used": 1,
+  "checks": {
+    "native_4k_png": "passed_pillow_decoder",
+    "title_spelling": "passed_host_visual_DEEP_&_DARKNESS",
+    "overall_layout": "passed_host_visual_approximate",
+    "pixel_identical_preservation": "not_met_source_proxy_and_upscaling_are_lossy",
+    "eliminate_pixel_art_appearance": "not_met_original_style_remains",
+    "parallax_animation": "not_preserved_static_image",
+    "unity_integration": "not_performed"
+  },
+  "notes": "The reference is a static approximation from saved serialized scene data; it is not a verified render of the latest saved scene. The input sent to FAL was a full-resolution WebP quality-75 proxy. Original underlying art includes pixel-style detail; increasing pixel dimensions does not eliminate that style."
+}

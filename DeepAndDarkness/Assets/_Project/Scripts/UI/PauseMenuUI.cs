@@ -29,8 +29,26 @@ public class PauseMenuUI : MonoBehaviour
     [SerializeField, Min(0f)] private float clickDelay = 0.12f;
 
     [Header("Gameplay HUD")]
-    [Tooltip("Texto que muestra las vidas de ambos personajes y el progreso de los objetos de misión.")]
+    [Tooltip("Texto que muestra el progreso de los objetos de misión.")]
     [SerializeField] private TMPro.TMP_Text gameplayStatusText;
+
+    [Tooltip("Imagen que muestra el estado de vida del vampiro.")]
+    [SerializeField] private UnityEngine.UI.Image vampireLifeIcon;
+    [Tooltip("Sprite del vial con sangre completa.")]
+    [SerializeField] private Sprite vampireLifeFullSprite;
+    [Tooltip("Sprite del vial con la mitad de la sangre.")]
+    [SerializeField] private Sprite vampireLifeHalfSprite;
+    [Tooltip("Sprite del vial vacío.")]
+    [SerializeField] private Sprite vampireLifeEmptySprite;
+
+    [Tooltip("Imagen que muestra el estado de vida de la sirena.")]
+    [SerializeField] private UnityEngine.UI.Image mermaidLifeIcon;
+    [Tooltip("Sprite de la concha abierta.")]
+    [SerializeField] private Sprite mermaidLifeFullSprite;
+    [Tooltip("Sprite de la concha semiabierta.")]
+    [SerializeField] private Sprite mermaidLifeHalfSprite;
+    [Tooltip("Sprite de la concha cerrada.")]
+    [SerializeField] private Sprite mermaidLifeEmptySprite;
 
     [Tooltip("Texto que comunica el resultado final de la partida.")]
     [SerializeField] private TMPro.TMP_Text gameResultText;
@@ -72,7 +90,6 @@ public class PauseMenuUI : MonoBehaviour
         {
             gameSession.CollectiblesChanged += HandleCollectiblesChanged;
             gameSession.GameOverTriggered += HandleGameOver;
-            gameSession.VictoryTriggered += HandleVictory;
 
             HandleCollectiblesChanged(gameSession.CollectedCollectibles, gameSession.RequiredCollectibles);
         }
@@ -98,7 +115,6 @@ public class PauseMenuUI : MonoBehaviour
         {
             gameSession.CollectiblesChanged -= HandleCollectiblesChanged;
             gameSession.GameOverTriggered -= HandleGameOver;
-            gameSession.VictoryTriggered -= HandleVictory;
         }
 
         if (characters == null) { return; }
@@ -190,10 +206,11 @@ public class PauseMenuUI : MonoBehaviour
         }
 
         string currentLevelName = gameSession.gameObject.scene.name;
+        string sceneToLoad = gameSession.IsVictory ? "Gameplay" : currentLevelName;
 
-        // Restauramos el tiempo y volvemos a cargar el nivel actual.
+        // Tras ganar empezamos desde el primer nivel; tras perder reiniciamos el nivel actual.
         Time.timeScale = 1f;
-        SceneManager.LoadScene(currentLevelName, LoadSceneMode.Single);
+        SceneManager.LoadScene(sceneToLoad, LoadSceneMode.Single);
     }
 
     public void ReturnToMainMenu()
@@ -325,38 +342,48 @@ public class PauseMenuUI : MonoBehaviour
 
     private void UpdateGameplayStatus()
     {
-        if (gameplayStatusText == null) { return; }
+        UpdateLifeIconVisibility();
 
-        string vampireStatus = GetCharacterStatus("Vampiro");
-        string mermaidStatus = GetCharacterStatus("Sirena");
+        if (gameplayStatusText != null) { gameplayStatusText.text = $"Objetos: {collectedCollectibles}/{requiredCollectibles}"; }
 
-        gameplayStatusText.text = $"{vampireStatus}     {mermaidStatus}     Objetos: {collectedCollectibles}/{requiredCollectibles}";
+        UpdateLifeIcon(vampireLifeIcon, GetCharacterLives("Vampiro"), vampireLifeFullSprite, vampireLifeHalfSprite, vampireLifeEmptySprite);
+        UpdateLifeIcon(mermaidLifeIcon, GetCharacterLives("Sirena"), mermaidLifeFullSprite, mermaidLifeHalfSprite, mermaidLifeEmptySprite);
     }
 
-    private string GetCharacterStatus(string characterName)
+    private void UpdateLifeIconVisibility()
+    {
+        Scene activeScene = SceneManager.GetActiveScene();
+        bool isGameplayScene = gameSession != null && activeScene == gameSession.gameObject.scene && (activeScene.name == "Gameplay" || activeScene.name == "GameplayLevel2");
+
+        if (vampireLifeIcon != null) { vampireLifeIcon.gameObject.SetActive(isGameplayScene); }
+        if (mermaidLifeIcon != null) { mermaidLifeIcon.gameObject.SetActive(isGameplayScene); }
+    }
+
+    private CharacterLives GetCharacterLives(string characterName)
     {
         if (characters != null)
         {
             foreach (CharacterLives character in characters)
             {
-                if (character != null && character.CharacterName == characterName)
-                {
-                    return $"{characterName}: {character.CurrentLives}/{character.StartingLives}";
-                }
+                if (character != null && character.CharacterName == characterName) { return character; }
             }
         }
 
-        return $"{characterName}: --";
+        return null;
+    }
+
+    private void UpdateLifeIcon(UnityEngine.UI.Image lifeIcon, CharacterLives character, Sprite fullSprite, Sprite halfSprite, Sprite emptySprite)
+    {
+        if (lifeIcon == null || character == null) { return; }
+
+        if (character.CurrentLives >= 3) { lifeIcon.sprite = fullSprite; }
+        else if (character.CurrentLives == 2) { lifeIcon.sprite = halfSprite; }
+        else { lifeIcon.sprite = emptySprite; }
     }
 
     private void HandleGameOver(string defeatedCharacterName)
     {
         ShowGameResult($"DERROTA\n{defeatedCharacterName} se quedó sin vidas");
-    }
-
-    private void HandleVictory()
-    {
-        ShowGameResult("¡VICTORIA!\nEncontraron los objetos mágicos");
     }
 
     private void ShowGameResult(string message)
