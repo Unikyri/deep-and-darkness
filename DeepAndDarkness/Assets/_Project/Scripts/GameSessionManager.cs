@@ -12,6 +12,9 @@ public class GameSessionManager : MonoBehaviour
     [Tooltip("Nombre de la siguiente escena. Déjalo vacío si este es el último nivel")]
     [SerializeField] private string nextSceneName;
 
+    [Tooltip("Escena que se carga al completar el último nivel")]
+    [SerializeField] private string finalSceneName = "FinalScene";
+
     [Header("Intangibilidad compartida")]
     [Tooltip("Tiempo durante el cual ambos personajes atraviesan ataques y no pueden recoger objetos después de un golpe")]
     [SerializeField, Min(0f)] private float intangibilityDuration = 5f;
@@ -43,7 +46,6 @@ public class GameSessionManager : MonoBehaviour
 
     public event Action<int, int> CollectiblesChanged;
     public event Action<string> GameOverTriggered;
-    public event Action VictoryTriggered;
     public event Action IntangibilityEnded;
 
     private void Awake()
@@ -127,14 +129,8 @@ public class GameSessionManager : MonoBehaviour
             return;
         }
 
-        // Si no existe otra escena (o nivel) entonces esta es la victoria final
-        Time.timeScale = 0f;
-
-        Debug.Log($"Victoria: se recogieron {requiredCollectibles} coleccionables.");
-
-        if (VictoryTriggered != null)
-        {
-            VictoryTriggered();
-        }
+        // Si no existe otra escena (o nivel), cargamos la escena final.
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(finalSceneName, LoadSceneMode.Single);
     }
 }

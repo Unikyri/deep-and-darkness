@@ -1496,6 +1496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameSessionManager
   requiredCollectibles: 3
   nextSceneName: 
+  finalSceneName: FinalScene
   intangibilityDuration: 5
 --- !u!4 &1230694989
 Transform:

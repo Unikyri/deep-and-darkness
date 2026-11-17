@@ -72,7 +72,6 @@ public class PauseMenuUI : MonoBehaviour
         {
             gameSession.CollectiblesChanged += HandleCollectiblesChanged;
             gameSession.GameOverTriggered += HandleGameOver;
-            gameSession.VictoryTriggered += HandleVictory;
 
             HandleCollectiblesChanged(gameSession.CollectedCollectibles, gameSession.RequiredCollectibles);
         }
@@ -98,7 +97,6 @@ public class PauseMenuUI : MonoBehaviour
         {
             gameSession.CollectiblesChanged -= HandleCollectiblesChanged;
             gameSession.GameOverTriggered -= HandleGameOver;
-            gameSession.VictoryTriggered -= HandleVictory;
         }
 
         if (characters == null) { return; }
@@ -352,11 +350,6 @@ public class PauseMenuUI : MonoBehaviour
     private void HandleGameOver(string defeatedCharacterName)
     {
         ShowGameResult($"DERROTA\n{defeatedCharacterName} se quedó sin vidas");
-    }
-
-    private void HandleVictory()
-    {
-        ShowGameResult("¡VICTORIA!\nEncontraron los objetos mágicos");
     }
 
     private void ShowGameResult(string message)
